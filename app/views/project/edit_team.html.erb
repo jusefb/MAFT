@@ -1,0 +1,17 @@
+<h3 class="title-pane">Project Team</h3>
+<div id="add-users-container">
+    <%= form_tag({controller: "project", action: "add_users", id: @project.id},  method: "post", name: 'link_users') do |f| %>
+    <ul>
+      <% @users.each do |u| %>
+          <li>
+            <label>
+              <%= check_box 'users_to_link', u.id, {checked: @project.users.include?(u)} %>
+              <%= u.name %>
+            </label>
+              </li>
+      <% end %>
+    </ul>
+    <button id="save-users">Save</button>
+    <button class="cancel">Cancel</button>
+  <% end %>
+</div>

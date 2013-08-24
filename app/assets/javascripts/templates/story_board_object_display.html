@@ -1,0 +1,84 @@
+<li id="sbo_<%= id %>" class="sbo-stage-row <%= parent_task_id + '_hasparent' %> <%= type.toLowerCase() %>" data-order="<%= obj_order %>" data-objid="<%= id %>">
+    <div class="title-pt">
+        <span class="sbo-title"><%= title %></span>
+        <div class="sbo-info">
+            <div class="sbo-disp-row">
+                <div class="sbo-disp-row">
+                    <label>Type: </label>
+                    <span><%= type %></span>
+                </div>
+                <div class="sbo-disp-row">
+                    <label>Status: </label>
+                    <span><%= status %></span>
+                </div>
+                <% if(end_date){%>
+                    <div class="sbo-disp-row">
+                        <label>Completed at: </label>
+                        <span><%= moment(end_date).format('HH:mm DD/MM/YYYY') %></span>
+                    </div>
+                <% }%>
+                <% if(parent_title && parent_title != ''){ %>
+                <div class="sbo-disp-row">
+                    <label>Parent Task: </label>
+                    <span><%= parent_title %></span>
+                </div>
+                <% } %>
+            </div>
+        </div>
+        <div class="sbo-display-ctrs">
+            <ul>
+                <li><button class="more-info" data-objid="<%= id %>">More Info</button></li>
+                <li><a href="update/<%= id %>">Edit</a></li>
+                <li><a href="change_status/<%= id %>">Status</a></li>
+                <li><a href="delete_sbo/<%= id %>">Delete</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="more-info-<%= id %>" class="more-info-pt">
+        <div class="sbo-disp-row">
+            <label>Estimated time (hrs): </label>
+            <span><%= estimated_time %></span>
+        </div>
+        <div class="sbo-disp-row">
+            <label>Started at: </label>
+            <span>
+                <% if(start_date){%>
+                <%= moment(start_date).format('HH:mm DD/MM/YYYY') %>
+                <% }%>
+            </span>
+        </div>
+        <% if(end_date){%>
+            <div class="sbo-disp-row">
+                <label>Completed at: </label>
+                <span><%= moment(end_date).format('HH:mm DD/MM/YYYY') %></span>
+            </div>
+        <% }%>
+        <div class="sbo-disp-row">
+            <label>Created at: </label>
+            <span><%= moment(created_at).format('HH:mm DD/MM/YYYY') %></span>
+        </div>
+        <div class="sbo-disp-row">
+            <label>Updated at: </label>
+            <span><%= moment(updated_at).format('HH:mm DD/MM/YYYY') %></span>
+        </div>
+        <div class="sbo-description">
+            <label>Description: </label>
+            <span><%= description %></span>
+        </div>
+        <div class="linked-tasks">
+            <a href="new/<%= id %>">New Linked Task</a>
+            <% if(linked_tasks && linked_tasks.length > 0){ %>
+            <a href="view_linked_tasks/<%= id %>">View Linked Tasks</a>
+            <ul>
+                <% _.each(linked_tasks, function(task){%>
+                <li><a href="show_task/<%= task.id %>"><%= task.title %></a>&nbsp;<%= task.status %></li>
+                <% });%>
+            </ul>
+            <% }%>
+
+        </div>
+    </div>
+    <div id="sbo-edit-form-<%= id %>" class="sbo-edit-from">
+
+    </div>
+</li>

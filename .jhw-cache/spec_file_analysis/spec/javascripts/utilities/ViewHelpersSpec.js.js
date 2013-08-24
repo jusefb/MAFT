@@ -1,0 +1,1 @@
+{"getTemplate from file":[1],"Makes a valid request to get the template":[14],"Reuses the template if it has already been loaded":[19],"Expect to set the template":[25]}

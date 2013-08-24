@@ -1,0 +1,1399 @@
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:30:35 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>MAFT</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2105146674355249224_70301752759480'
+
+
+Compiled jquery.js  (3ms)  (pid 1995)
+Compiled jquery_ujs.js  (0ms)  (pid 1995)
+Compiled backbone/lodash.min.js  (0ms)  (pid 1995)
+Compiled backbone/backbone-min.js  (1ms)  (pid 1995)
+Compiled jasmine_examples/Player.js  (0ms)  (pid 1995)
+Compiled jasmine_examples/Song.js  (0ms)  (pid 1995)
+Compiled story_board/story_board.js  (0ms)  (pid 1995)
+Compiled application.js  (319ms)  (pid 1995)
+Compiled forms.css  (25ms)  (pid 1995)
+Compiled home.css  (4ms)  (pid 1995)
+Compiled project.css  (2ms)  (pid 1995)
+Compiled story_board.css  (2ms)  (pid 1995)
+Compiled application.css  (94ms)  (pid 1995)
+Compiled jquery.js  (3ms)  (pid 1995)
+Compiled jquery_ujs.js  (0ms)  (pid 1995)
+Compiled backbone/lodash.min.js  (0ms)  (pid 1995)
+Compiled backbone/backbone-min.js  (30ms)  (pid 1995)
+Compiled jasmine_examples/Player.js  (0ms)  (pid 1995)
+Compiled jasmine_examples/Song.js  (0ms)  (pid 1995)
+Compiled story_board/story_board.js  (0ms)  (pid 1995)
+Compiled application.js  (529ms)  (pid 1995)
+Compiled forms.css  (45ms)  (pid 1995)
+Compiled home.css  (2ms)  (pid 1995)
+Compiled project.css  (4ms)  (pid 1995)
+Compiled story_board.css  (1ms)  (pid 1995)
+Compiled application.css  (154ms)  (pid 1995)
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:33:22 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>MAFT</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2105146674355249224_70301752759480'
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:33:40 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>MAFT</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2105146674355249224_70301752759480'
+
+
+Compiled jquery.js  (3ms)  (pid 2013)
+Compiled jquery_ujs.js  (0ms)  (pid 2013)
+Compiled backbone/lodash.min.js  (0ms)  (pid 2013)
+Compiled backbone/backbone-min.js  (0ms)  (pid 2013)
+Compiled jasmine_examples/Player.js  (0ms)  (pid 2013)
+Compiled jasmine_examples/Song.js  (0ms)  (pid 2013)
+Compiled story_board/story_board.js  (0ms)  (pid 2013)
+Compiled application.js  (429ms)  (pid 2013)
+Compiled forms.css  (39ms)  (pid 2013)
+Compiled home.css  (12ms)  (pid 2013)
+Compiled project.css  (1ms)  (pid 2013)
+Compiled story_board.css  (1ms)  (pid 2013)
+Compiled application.css  (192ms)  (pid 2013)
+Compiled jquery.js  (4ms)  (pid 2013)
+Compiled jquery_ujs.js  (0ms)  (pid 2013)
+Compiled backbone/lodash.min.js  (0ms)  (pid 2013)
+Compiled backbone/backbone-min.js  (0ms)  (pid 2013)
+Compiled jasmine_examples/Player.js  (0ms)  (pid 2013)
+Compiled jasmine_examples/Song.js  (0ms)  (pid 2013)
+Compiled story_board/story_board.js  (0ms)  (pid 2013)
+Compiled application.js  (319ms)  (pid 2013)
+Compiled forms.css  (19ms)  (pid 2013)
+Compiled home.css  (21ms)  (pid 2013)
+Compiled project.css  (3ms)  (pid 2013)
+Compiled story_board.css  (6ms)  (pid 2013)
+Compiled application.css  (121ms)  (pid 2013)
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:36:32 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>MAFT</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2105146674355249224_70301752759480'
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:36:34 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3: <head>
+    4:   <title>MAFT</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2105146674355249224_70301752759480'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:37:09 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+  Rendered menus/_main_menu.erb (1.8ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-bc93177cae1ddd630e6749984329a116.css" for 127.0.0.1 at 2013-05-28 23:37:09 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bc93177cae1ddd630e6749984329a116.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js" for 127.0.0.1 at 2013-05-28 23:37:09 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js" for 127.0.0.1 at 2013-05-28 23:41:32 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:41:40 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered menus/_main_menu.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js" for 127.0.0.1 at 2013-05-28 23:41:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-bc93177cae1ddd630e6749984329a116.css" for 127.0.0.1 at 2013-05-28 23:41:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bc93177cae1ddd630e6749984329a116.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:42:38 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+  Rendered menus/_main_menu.erb (2.5ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js" for 127.0.0.1 at 2013-05-28 23:42:39 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-bc93177cae1ddd630e6749984329a116.css" for 127.0.0.1 at 2013-05-28 23:42:39 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bc93177cae1ddd630e6749984329a116.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-05-28 23:42:39 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:43:08 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered menus/_main_menu.erb (0.8ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-bc93177cae1ddd630e6749984329a116.css" for 127.0.0.1 at 2013-05-28 23:43:09 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bc93177cae1ddd630e6749984329a116.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js" for 127.0.0.1 at 2013-05-28 23:43:09 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-05-28 23:43:09 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/story_board/index/1" for 127.0.0.1 at 2013-05-28 23:43:10 +0100
+Processing by StoryBoardController#index as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 75ms
+
+ActiveRecord::StatementInvalid (Could not find table 'projects'):
+  app/controllers/story_board_controller.rb:3:in `index'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-05-28 23:43:11 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-28 23:43:19 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered menus/_main_menu.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-bc93177cae1ddd630e6749984329a116.css" for 127.0.0.1 at 2013-05-28 23:43:19 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bc93177cae1ddd630e6749984329a116.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js" for 127.0.0.1 at 2013-05-28 23:43:20 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-94889dfea09afd94d1ea5d815eae5a7d.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-05-28 23:43:20 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/project" for 127.0.0.1 at 2013-05-28 23:43:21 +0100
+Processing by ProjectController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (Could not find table 'projects'):
+  app/controllers/project_controller.rb:3:in `index'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-05-28 23:43:22 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled jquery.js  (12ms)  (pid 7588)
+Compiled jquery_ujs.js  (0ms)  (pid 7588)
+Compiled backbone/lodash.min.js  (1ms)  (pid 7588)
+Compiled backbone/backbone.js  (1ms)  (pid 7588)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 7588)
+Compiled collections/StoryBoardCollection.js  (0ms)  (pid 7588)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 7588)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 7588)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 7588)
+Compiled routes/StoryBoardRoute.js  (0ms)  (pid 7588)
+Compiled story_board.js  (0ms)  (pid 7588)
+Compiled application.js  (939ms)  (pid 7588)
+Connecting to database specified by database.yml
+Migrating to CreateProjects (20130331231330)
+Migrating to CreateStoryBoardObjects (20130515134929)
+Migrating to RemoveAttributeTypeId (20130519190748)
+Migrating to AddColumnToProject (20130522203011)
+Migrating to AddProjectStoryBoardsAssociation (20130522203211)
+Migrating to AddColumnStoryBoardObjectStage (20130612075309)
+Migrating to AddOrderToStoryBoardObject (20130715193549)
+Migrating to AddParentTaskIdToStoryBoardObject (20130721175625)
+Migrating to AddStatusToStoryBoardObject (20130722195431)
+Migrating to DeviseCreateUsers (20130724211255)
+Connecting to database specified by database.yml
+Migrating to CreateProjects (20130331231330)
+Migrating to CreateStoryBoardObjects (20130515134929)
+Migrating to RemoveAttributeTypeId (20130519190748)
+Migrating to AddColumnToProject (20130522203011)
+Migrating to AddProjectStoryBoardsAssociation (20130522203211)
+Migrating to AddColumnStoryBoardObjectStage (20130612075309)
+Migrating to AddOrderToStoryBoardObject (20130715193549)
+Migrating to AddParentTaskIdToStoryBoardObject (20130721175625)
+Migrating to AddStatusToStoryBoardObject (20130722195431)
+Migrating to DeviseCreateUsers (20130724211255)
+Migrating to AddNameToUsers (20130729064547)
+Migrating to CreateProjectsAndUsers (20130801194154)
+Migrating to AddEndDateToStoryBoardObject (20130804092821)
+Migrating to AddStartDateToStoryBoardObject (20130804093719)
+Connecting to database specified by database.yml
+Migrating to CreateProjects (20130331231330)
+Migrating to CreateStoryBoardObjects (20130515134929)
+Migrating to RemoveAttributeTypeId (20130519190748)
+Migrating to AddColumnToProject (20130522203011)
+Migrating to AddProjectStoryBoardsAssociation (20130522203211)
+Migrating to AddColumnStoryBoardObjectStage (20130612075309)
+Migrating to AddOrderToStoryBoardObject (20130715193549)
+Migrating to AddParentTaskIdToStoryBoardObject (20130721175625)
+Migrating to AddStatusToStoryBoardObject (20130722195431)
+Migrating to DeviseCreateUsers (20130724211255)
+Migrating to AddNameToUsers (20130729064547)
+Migrating to CreateProjectsAndUsers (20130801194154)
+Migrating to AddEndDateToStoryBoardObject (20130804092821)
+Migrating to AddStartDateToStoryBoardObject (20130804093719)
+Compiled jquery.js  (3ms)  (pid 73960)
+Compiled jquery.ui.core.js  (0ms)  (pid 73960)
+Compiled jquery.ui.widget.js  (3ms)  (pid 73960)
+Compiled jquery.ui.accordion.js  (103ms)  (pid 73960)
+Compiled jquery.ui.position.js  (78ms)  (pid 73960)
+Compiled jquery.ui.menu.js  (149ms)  (pid 73960)
+Compiled jquery.ui.autocomplete.js  (206ms)  (pid 73960)
+Compiled jquery.ui.button.js  (5ms)  (pid 73960)
+Compiled jquery.ui.datepicker.js  (7ms)  (pid 73960)
+Compiled jquery.ui.mouse.js  (10ms)  (pid 73960)
+Compiled jquery.ui.draggable.js  (86ms)  (pid 73960)
+Compiled jquery.ui.resizable.js  (7ms)  (pid 73960)
+Compiled jquery.ui.dialog.js  (221ms)  (pid 73960)
+Compiled jquery.ui.droppable.js  (12ms)  (pid 73960)
+Compiled jquery.ui.effect.js  (0ms)  (pid 73960)
+Compiled jquery.ui.effect-blind.js  (72ms)  (pid 73960)
+Compiled jquery.ui.effect-bounce.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-clip.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-drop.js  (18ms)  (pid 73960)
+Compiled jquery.ui.effect-explode.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-fade.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-fold.js  (11ms)  (pid 73960)
+Compiled jquery.ui.effect-highlight.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-pulsate.js  (2ms)  (pid 73960)
+Compiled jquery.ui.effect-scale.js  (2ms)  (pid 73960)
+Compiled jquery.ui.effect-shake.js  (13ms)  (pid 73960)
+Compiled jquery.ui.effect-slide.js  (5ms)  (pid 73960)
+Compiled jquery.ui.effect-transfer.js  (6ms)  (pid 73960)
+Compiled jquery.ui.progressbar.js  (5ms)  (pid 73960)
+Compiled jquery.ui.selectable.js  (8ms)  (pid 73960)
+Compiled jquery.ui.slider.js  (14ms)  (pid 73960)
+Compiled jquery.ui.sortable.js  (8ms)  (pid 73960)
+Compiled jquery.ui.spinner.js  (23ms)  (pid 73960)
+Compiled jquery.ui.tabs.js  (39ms)  (pid 73960)
+Compiled jquery.ui.tooltip.js  (14ms)  (pid 73960)
+Compiled jquery.ui.all.js  (1957ms)  (pid 73960)
+Compiled backbone/lodash.min.js  (0ms)  (pid 73960)
+Compiled backbone/backbone.js  (7ms)  (pid 73960)
+Compiled moment.min.js  (0ms)  (pid 73960)
+Compiled utilities/view_helpers.js  (0ms)  (pid 73960)
+Compiled models/StoryBoardObject.js  (2ms)  (pid 73960)
+Compiled collections/StoryBoardCollection.js  (0ms)  (pid 73960)
+Compiled views/ReportingView.js  (0ms)  (pid 73960)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 73960)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 73960)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 73960)
+Compiled views/UsersHomeView.js  (0ms)  (pid 73960)
+Compiled routes/StoryBoardRoute.js  (0ms)  (pid 73960)
+Compiled main.js  (1ms)  (pid 73960)
+Compiled application.js  (2755ms)  (pid 73960)
+Compiled foundation_and_overrides.css  (15153ms)  (pid 73960)
+Compiled forms.css  (16ms)  (pid 73960)
+Compiled home.css  (3649ms)  (pid 73960)
+Compiled project.css  (189ms)  (pid 73960)
+Compiled reporting.css  (4ms)  (pid 73960)
+Compiled story_board.css  (262ms)  (pid 73960)
+Compiled tdd.css  (7ms)  (pid 73960)
+Compiled user.css  (4ms)  (pid 73960)
+Compiled application.css  (19629ms)  (pid 73960)
+Compiled jquery.js  (41ms)  (pid 73960)
+Compiled jquery.ui.core.js  (0ms)  (pid 73960)
+Compiled jquery.ui.widget.js  (0ms)  (pid 73960)
+Compiled jquery.ui.accordion.js  (118ms)  (pid 73960)
+Compiled jquery.ui.position.js  (0ms)  (pid 73960)
+Compiled jquery.ui.menu.js  (135ms)  (pid 73960)
+Compiled jquery.ui.autocomplete.js  (189ms)  (pid 73960)
+Compiled jquery.ui.button.js  (5ms)  (pid 73960)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 73960)
+Compiled jquery.ui.mouse.js  (46ms)  (pid 73960)
+Compiled jquery.ui.draggable.js  (93ms)  (pid 73960)
+Compiled jquery.ui.resizable.js  (13ms)  (pid 73960)
+Compiled jquery.ui.dialog.js  (233ms)  (pid 73960)
+Compiled jquery.ui.droppable.js  (28ms)  (pid 73960)
+Compiled jquery.ui.effect.js  (0ms)  (pid 73960)
+Compiled jquery.ui.effect-blind.js  (111ms)  (pid 73960)
+Compiled jquery.ui.effect-bounce.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-clip.js  (11ms)  (pid 73960)
+Compiled jquery.ui.effect-drop.js  (5ms)  (pid 73960)
+Compiled jquery.ui.effect-explode.js  (4ms)  (pid 73960)
+Compiled jquery.ui.effect-fade.js  (56ms)  (pid 73960)
+Compiled jquery.ui.effect-fold.js  (4ms)  (pid 73960)
+Compiled jquery.ui.effect-highlight.js  (2ms)  (pid 73960)
+Compiled jquery.ui.effect-pulsate.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-scale.js  (37ms)  (pid 73960)
+Compiled jquery.ui.effect-shake.js  (4ms)  (pid 73960)
+Compiled jquery.ui.effect-slide.js  (3ms)  (pid 73960)
+Compiled jquery.ui.effect-transfer.js  (4ms)  (pid 73960)
+Compiled jquery.ui.progressbar.js  (33ms)  (pid 73960)
+Compiled jquery.ui.selectable.js  (77ms)  (pid 73960)
+Compiled jquery.ui.slider.js  (21ms)  (pid 73960)
+Compiled jquery.ui.sortable.js  (20ms)  (pid 73960)
+Compiled jquery.ui.spinner.js  (17ms)  (pid 73960)
+Compiled jquery.ui.tabs.js  (8ms)  (pid 73960)
+Compiled jquery.ui.tooltip.js  (80ms)  (pid 73960)
+Compiled jquery.ui.all.js  (2305ms)  (pid 73960)
+Compiled backbone/lodash.min.js  (16ms)  (pid 73960)
+Compiled backbone/backbone.js  (1ms)  (pid 73960)
+Compiled moment.min.js  (1ms)  (pid 73960)
+Compiled utilities/view_helpers.js  (0ms)  (pid 73960)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 73960)
+Compiled collections/StoryBoardCollection.js  (11ms)  (pid 73960)
+Compiled views/ReportingView.js  (17ms)  (pid 73960)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 73960)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 73960)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 73960)
+Compiled views/UsersHomeView.js  (0ms)  (pid 73960)
+Compiled routes/StoryBoardRoute.js  (2ms)  (pid 73960)
+Compiled main.js  (0ms)  (pid 73960)
+Compiled application.js  (3181ms)  (pid 73960)
+Compiled foundation_and_overrides.css  (5654ms)  (pid 73960)
+Compiled forms.css  (52ms)  (pid 73960)
+Compiled home.css  (2739ms)  (pid 73960)
+Compiled project.css  (13ms)  (pid 73960)
+Compiled reporting.css  (5ms)  (pid 73960)
+Compiled story_board.css  (48ms)  (pid 73960)
+Compiled tdd.css  (14ms)  (pid 73960)
+Compiled user.css  (4ms)  (pid 73960)
+Compiled application.css  (8883ms)  (pid 73960)
+Compiled jquery.js  (3ms)  (pid 80585)
+Compiled jquery.ui.core.js  (0ms)  (pid 80585)
+Compiled jquery.ui.widget.js  (3ms)  (pid 80585)
+Compiled jquery.ui.accordion.js  (35ms)  (pid 80585)
+Compiled jquery.ui.position.js  (0ms)  (pid 80585)
+Compiled jquery.ui.menu.js  (46ms)  (pid 80585)
+Compiled jquery.ui.autocomplete.js  (95ms)  (pid 80585)
+Compiled jquery.ui.button.js  (5ms)  (pid 80585)
+Compiled jquery.ui.datepicker.js  (5ms)  (pid 80585)
+Compiled jquery.ui.mouse.js  (5ms)  (pid 80585)
+Compiled jquery.ui.draggable.js  (26ms)  (pid 80585)
+Compiled jquery.ui.resizable.js  (10ms)  (pid 80585)
+Compiled jquery.ui.dialog.js  (167ms)  (pid 80585)
+Compiled jquery.ui.droppable.js  (19ms)  (pid 80585)
+Compiled jquery.ui.effect.js  (4ms)  (pid 80585)
+Compiled jquery.ui.effect-blind.js  (34ms)  (pid 80585)
+Compiled jquery.ui.effect-bounce.js  (102ms)  (pid 80585)
+Compiled jquery.ui.effect-clip.js  (2ms)  (pid 80585)
+Compiled jquery.ui.effect-drop.js  (34ms)  (pid 80585)
+Compiled jquery.ui.effect-explode.js  (3ms)  (pid 80585)
+Compiled jquery.ui.effect-fade.js  (24ms)  (pid 80585)
+Compiled jquery.ui.effect-fold.js  (8ms)  (pid 80585)
+Compiled jquery.ui.effect-highlight.js  (12ms)  (pid 80585)
+Compiled jquery.ui.effect-pulsate.js  (10ms)  (pid 80585)
+Compiled jquery.ui.effect-scale.js  (11ms)  (pid 80585)
+Compiled jquery.ui.effect-shake.js  (5ms)  (pid 80585)
+Compiled jquery.ui.effect-slide.js  (7ms)  (pid 80585)
+Compiled jquery.ui.effect-transfer.js  (8ms)  (pid 80585)
+Compiled jquery.ui.progressbar.js  (6ms)  (pid 80585)
+Compiled jquery.ui.selectable.js  (10ms)  (pid 80585)
+Compiled jquery.ui.slider.js  (10ms)  (pid 80585)
+Compiled jquery.ui.sortable.js  (19ms)  (pid 80585)
+Compiled jquery.ui.spinner.js  (11ms)  (pid 80585)
+Compiled jquery.ui.tabs.js  (7ms)  (pid 80585)
+Compiled jquery.ui.tooltip.js  (29ms)  (pid 80585)
+Compiled jquery.ui.all.js  (1534ms)  (pid 80585)
+Compiled backbone/lodash.min.js  (6ms)  (pid 80585)
+Compiled backbone/backbone.js  (1ms)  (pid 80585)
+Compiled moment.min.js  (0ms)  (pid 80585)
+Compiled utilities/view_helpers.js  (0ms)  (pid 80585)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 80585)
+Compiled collections/StoryBoardCollection.js  (0ms)  (pid 80585)
+Compiled views/ReportingView.js  (2ms)  (pid 80585)
+Compiled views/StoryBoardEditObjView.js  (12ms)  (pid 80585)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 80585)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 80585)
+Compiled views/UsersHomeView.js  (1ms)  (pid 80585)
+Compiled routes/StoryBoardRoute.js  (2ms)  (pid 80585)
+Compiled main.js  (3ms)  (pid 80585)
+Compiled foundation/foundation.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.alerts.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.clearing.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.cookie.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.dropdown.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.forms.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.joyride.js  (1ms)  (pid 80585)
+Compiled foundation/foundation.magellan.js  (1ms)  (pid 80585)
+Compiled foundation/foundation.orbit.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.placeholder.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.reveal.js  (0ms)  (pid 80585)
+Compiled foundation/foundation.section.js  (3ms)  (pid 80585)
+Compiled foundation/foundation.tooltips.js  (11ms)  (pid 80585)
+Compiled foundation/foundation.topbar.js  (2ms)  (pid 80585)
+Compiled foundation/index.js  (519ms)  (pid 80585)
+Compiled application.js  (2676ms)  (pid 80585)
+Compiled jquery.js  (3ms)  (pid 88314)
+Compiled jquery.ui.core.js  (0ms)  (pid 88314)
+Compiled jquery.ui.widget.js  (0ms)  (pid 88314)
+Compiled jquery.ui.accordion.js  (81ms)  (pid 88314)
+Compiled jquery.ui.position.js  (1ms)  (pid 88314)
+Compiled jquery.ui.menu.js  (21ms)  (pid 88314)
+Compiled jquery.ui.autocomplete.js  (53ms)  (pid 88314)
+Compiled jquery.ui.button.js  (13ms)  (pid 88314)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 88314)
+Compiled jquery.ui.mouse.js  (3ms)  (pid 88314)
+Compiled jquery.ui.draggable.js  (19ms)  (pid 88314)
+Compiled jquery.ui.resizable.js  (9ms)  (pid 88314)
+Compiled jquery.ui.dialog.js  (145ms)  (pid 88314)
+Compiled jquery.ui.droppable.js  (14ms)  (pid 88314)
+Compiled jquery.ui.effect.js  (3ms)  (pid 88314)
+Compiled jquery.ui.effect-blind.js  (86ms)  (pid 88314)
+Compiled jquery.ui.effect-bounce.js  (9ms)  (pid 88314)
+Compiled jquery.ui.effect-clip.js  (16ms)  (pid 88314)
+Compiled jquery.ui.effect-drop.js  (6ms)  (pid 88314)
+Compiled jquery.ui.effect-explode.js  (8ms)  (pid 88314)
+Compiled jquery.ui.effect-fade.js  (2ms)  (pid 88314)
+Compiled jquery.ui.effect-fold.js  (14ms)  (pid 88314)
+Compiled jquery.ui.effect-highlight.js  (3ms)  (pid 88314)
+Compiled jquery.ui.effect-pulsate.js  (3ms)  (pid 88314)
+Compiled jquery.ui.effect-scale.js  (4ms)  (pid 88314)
+Compiled jquery.ui.effect-shake.js  (2ms)  (pid 88314)
+Compiled jquery.ui.effect-slide.js  (4ms)  (pid 88314)
+Compiled jquery.ui.effect-transfer.js  (5ms)  (pid 88314)
+Compiled jquery.ui.progressbar.js  (12ms)  (pid 88314)
+Compiled jquery.ui.selectable.js  (8ms)  (pid 88314)
+Compiled jquery.ui.slider.js  (10ms)  (pid 88314)
+Compiled jquery.ui.sortable.js  (56ms)  (pid 88314)
+Compiled jquery.ui.spinner.js  (8ms)  (pid 88314)
+Compiled jquery.ui.tabs.js  (4ms)  (pid 88314)
+Compiled jquery.ui.tooltip.js  (7ms)  (pid 88314)
+Compiled jquery.ui.all.js  (1225ms)  (pid 88314)
+Compiled backbone/lodash.min.js  (1ms)  (pid 88314)
+Compiled backbone/backbone.js  (1ms)  (pid 88314)
+Compiled moment.min.js  (0ms)  (pid 88314)
+Compiled utilities/view_helpers.js  (7ms)  (pid 88314)
+Compiled models/StoryBoardObject.js  (1ms)  (pid 88314)
+Compiled collections/StoryBoardCollection.js  (0ms)  (pid 88314)
+Compiled views/ReportingView.js  (2ms)  (pid 88314)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 88314)
+Compiled views/StoryBoardHomeView.js  (3ms)  (pid 88314)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 88314)
+Compiled views/UsersHomeView.js  (0ms)  (pid 88314)
+Compiled routes/StoryBoardRoute.js  (0ms)  (pid 88314)
+Compiled main.js  (0ms)  (pid 88314)
+Compiled application.js  (1665ms)  (pid 88314)
+Compiled forms.css  (3ms)  (pid 88314)
+Compiled home.css  (7ms)  (pid 88314)
+Compiled project.css  (1ms)  (pid 88314)
+Compiled reporting.css  (1ms)  (pid 88314)
+Compiled story_board.css  (122ms)  (pid 88314)
+Compiled tdd.css  (64ms)  (pid 88314)
+Compiled user.css  (11ms)  (pid 88314)
+Compiled application.css  (1022ms)  (pid 88314)
+Compiled jquery.js  (4ms)  (pid 88314)
+Compiled jquery.ui.core.js  (0ms)  (pid 88314)
+Compiled jquery.ui.widget.js  (0ms)  (pid 88314)
+Compiled jquery.ui.accordion.js  (85ms)  (pid 88314)
+Compiled jquery.ui.position.js  (0ms)  (pid 88314)
+Compiled jquery.ui.menu.js  (48ms)  (pid 88314)
+Compiled jquery.ui.autocomplete.js  (94ms)  (pid 88314)
+Compiled jquery.ui.button.js  (6ms)  (pid 88314)
+Compiled jquery.ui.datepicker.js  (3ms)  (pid 88314)
+Compiled jquery.ui.mouse.js  (4ms)  (pid 88314)
+Compiled jquery.ui.draggable.js  (107ms)  (pid 88314)
+Compiled jquery.ui.resizable.js  (6ms)  (pid 88314)
+Compiled jquery.ui.dialog.js  (185ms)  (pid 88314)
+Compiled jquery.ui.droppable.js  (13ms)  (pid 88314)
+Compiled jquery.ui.effect.js  (0ms)  (pid 88314)
+Compiled jquery.ui.effect-blind.js  (61ms)  (pid 88314)
+Compiled jquery.ui.effect-bounce.js  (5ms)  (pid 88314)
+Compiled jquery.ui.effect-clip.js  (15ms)  (pid 88314)
+Compiled jquery.ui.effect-drop.js  (5ms)  (pid 88314)
+Compiled jquery.ui.effect-explode.js  (2ms)  (pid 88314)
+Compiled jquery.ui.effect-fade.js  (5ms)  (pid 88314)
+Compiled jquery.ui.effect-fold.js  (10ms)  (pid 88314)
+Compiled jquery.ui.effect-highlight.js  (2ms)  (pid 88314)
+Compiled jquery.ui.effect-pulsate.js  (9ms)  (pid 88314)
+Compiled jquery.ui.effect-scale.js  (2ms)  (pid 88314)
+Compiled jquery.ui.effect-shake.js  (4ms)  (pid 88314)
+Compiled jquery.ui.effect-slide.js  (5ms)  (pid 88314)
+Compiled jquery.ui.effect-transfer.js  (2ms)  (pid 88314)
+Compiled jquery.ui.progressbar.js  (6ms)  (pid 88314)
+Compiled jquery.ui.selectable.js  (16ms)  (pid 88314)
+Compiled jquery.ui.slider.js  (30ms)  (pid 88314)
+Compiled jquery.ui.sortable.js  (31ms)  (pid 88314)
+Compiled jquery.ui.spinner.js  (30ms)  (pid 88314)
+Compiled jquery.ui.tabs.js  (10ms)  (pid 88314)
+Compiled jquery.ui.tooltip.js  (17ms)  (pid 88314)
+Compiled jquery.ui.all.js  (1862ms)  (pid 88314)
+Compiled backbone/lodash.min.js  (0ms)  (pid 88314)
+Compiled backbone/backbone.js  (1ms)  (pid 88314)
+Compiled moment.min.js  (0ms)  (pid 88314)
+Compiled utilities/view_helpers.js  (0ms)  (pid 88314)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 88314)
+Compiled collections/StoryBoardCollection.js  (0ms)  (pid 88314)
+Compiled views/ReportingView.js  (0ms)  (pid 88314)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 88314)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 88314)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 88314)
+Compiled views/UsersHomeView.js  (0ms)  (pid 88314)
+Compiled routes/StoryBoardRoute.js  (0ms)  (pid 88314)
+Compiled main.js  (14ms)  (pid 88314)
+Compiled application.js  (2380ms)  (pid 88314)
+Compiled forms.css  (9ms)  (pid 88314)
+Compiled home.css  (25ms)  (pid 88314)
+Compiled project.css  (2ms)  (pid 88314)
+Compiled reporting.css  (3ms)  (pid 88314)
+Compiled story_board.css  (68ms)  (pid 88314)
+Compiled tdd.css  (10ms)  (pid 88314)
+Compiled user.css  (8ms)  (pid 88314)
+Compiled application.css  (626ms)  (pid 88314)
+Compiled jquery.js  (6ms)  (pid 91549)
+Compiled jquery.ui.core.js  (0ms)  (pid 91549)
+Compiled jquery.ui.widget.js  (1ms)  (pid 91549)
+Compiled jquery.ui.accordion.js  (37ms)  (pid 91549)
+Compiled jquery.ui.position.js  (0ms)  (pid 91549)
+Compiled jquery.ui.menu.js  (19ms)  (pid 91549)
+Compiled jquery.ui.autocomplete.js  (44ms)  (pid 91549)
+Compiled jquery.ui.button.js  (9ms)  (pid 91549)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 91549)
+Compiled jquery.ui.mouse.js  (3ms)  (pid 91549)
+Compiled jquery.ui.draggable.js  (66ms)  (pid 91549)
+Compiled jquery.ui.resizable.js  (13ms)  (pid 91549)
+Compiled jquery.ui.dialog.js  (124ms)  (pid 91549)
+Compiled jquery.ui.droppable.js  (22ms)  (pid 91549)
+Compiled jquery.ui.effect.js  (0ms)  (pid 91549)
+Compiled jquery.ui.effect-blind.js  (77ms)  (pid 91549)
+Compiled jquery.ui.effect-bounce.js  (4ms)  (pid 91549)
+Compiled jquery.ui.effect-clip.js  (17ms)  (pid 91549)
+Compiled jquery.ui.effect-drop.js  (7ms)  (pid 91549)
+Compiled jquery.ui.effect-explode.js  (6ms)  (pid 91549)
+Compiled jquery.ui.effect-fade.js  (7ms)  (pid 91549)
+Compiled jquery.ui.effect-fold.js  (3ms)  (pid 91549)
+Compiled jquery.ui.effect-highlight.js  (3ms)  (pid 91549)
+Compiled jquery.ui.effect-pulsate.js  (6ms)  (pid 91549)
+Compiled jquery.ui.effect-scale.js  (20ms)  (pid 91549)
+Compiled jquery.ui.effect-shake.js  (5ms)  (pid 91549)
+Compiled jquery.ui.effect-slide.js  (3ms)  (pid 91549)
+Compiled jquery.ui.effect-transfer.js  (3ms)  (pid 91549)
+Compiled jquery.ui.progressbar.js  (38ms)  (pid 91549)
+Compiled jquery.ui.selectable.js  (33ms)  (pid 91549)
+Compiled jquery.ui.slider.js  (10ms)  (pid 91549)
+Compiled jquery.ui.sortable.js  (8ms)  (pid 91549)
+Compiled jquery.ui.spinner.js  (13ms)  (pid 91549)
+Compiled jquery.ui.tabs.js  (5ms)  (pid 91549)
+Compiled jquery.ui.tooltip.js  (6ms)  (pid 91549)
+Compiled jquery.ui.all.js  (1378ms)  (pid 91549)
+Compiled backbone/lodash.min.js  (2ms)  (pid 91549)
+Compiled backbone/backbone.js  (2ms)  (pid 91549)
+Compiled moment.min.js  (1ms)  (pid 91549)
+Compiled utilities/view_helpers.js  (0ms)  (pid 91549)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 91549)
+Compiled collections/StoryBoardCollection.js  (1ms)  (pid 91549)
+Compiled views/ReportingView.js  (2ms)  (pid 91549)
+Compiled views/StoryBoardEditObjView.js  (1ms)  (pid 91549)
+Compiled views/StoryBoardHomeView.js  (2ms)  (pid 91549)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 91549)
+Compiled views/UsersHomeView.js  (1ms)  (pid 91549)
+Compiled routes/StoryBoardRoute.js  (0ms)  (pid 91549)
+Compiled main.js  (0ms)  (pid 91549)
+Compiled application.js  (1781ms)  (pid 91549)
+Compiled foundation_and_overrides.css  (8931ms)  (pid 91549)
+Compiled forms.css  (4ms)  (pid 91549)
+Compiled home.css  (4193ms)  (pid 91549)
+Compiled project.css  (5ms)  (pid 91549)
+Compiled reporting.css  (3ms)  (pid 91549)
+Compiled story_board.css  (68ms)  (pid 91549)
+Compiled tdd.css  (15ms)  (pid 91549)
+Compiled user.css  (65ms)  (pid 91549)
+Compiled application.css  (13882ms)  (pid 91549)
+Compiled jquery.js  (12ms)  (pid 91549)
+Compiled jquery.ui.core.js  (0ms)  (pid 91549)
+Compiled jquery.ui.widget.js  (1ms)  (pid 91549)
+Compiled jquery.ui.accordion.js  (122ms)  (pid 91549)
+Compiled jquery.ui.position.js  (0ms)  (pid 91549)
+Compiled jquery.ui.menu.js  (21ms)  (pid 91549)
+Compiled jquery.ui.autocomplete.js  (65ms)  (pid 91549)
+Compiled jquery.ui.button.js  (69ms)  (pid 91549)
+Compiled jquery.ui.datepicker.js  (3ms)  (pid 91549)
+Compiled jquery.ui.mouse.js  (5ms)  (pid 91549)
+Compiled jquery.ui.draggable.js  (115ms)  (pid 91549)
+Compiled jquery.ui.resizable.js  (9ms)  (pid 91549)
+Compiled jquery.ui.dialog.js  (260ms)  (pid 91549)
+Compiled jquery.ui.droppable.js  (12ms)  (pid 91549)
+Compiled jquery.ui.effect.js  (0ms)  (pid 91549)
+Compiled jquery.ui.effect-blind.js  (20ms)  (pid 91549)
+Compiled jquery.ui.effect-bounce.js  (6ms)  (pid 91549)
+Compiled jquery.ui.effect-clip.js  (2ms)  (pid 91549)
+Compiled jquery.ui.effect-drop.js  (3ms)  (pid 91549)
+Compiled jquery.ui.effect-explode.js  (8ms)  (pid 91549)
+Compiled jquery.ui.effect-fade.js  (12ms)  (pid 91549)
+Compiled jquery.ui.effect-fold.js  (6ms)  (pid 91549)
+Compiled jquery.ui.effect-highlight.js  (6ms)  (pid 91549)
+Compiled jquery.ui.effect-pulsate.js  (2ms)  (pid 91549)
+Compiled jquery.ui.effect-scale.js  (2ms)  (pid 91549)
+Compiled jquery.ui.effect-shake.js  (5ms)  (pid 91549)
+Compiled jquery.ui.effect-slide.js  (2ms)  (pid 91549)
+Compiled jquery.ui.effect-transfer.js  (2ms)  (pid 91549)
+Compiled jquery.ui.progressbar.js  (5ms)  (pid 91549)
+Compiled jquery.ui.selectable.js  (27ms)  (pid 91549)
+Compiled jquery.ui.slider.js  (7ms)  (pid 91549)
+Compiled jquery.ui.sortable.js  (19ms)  (pid 91549)
+Compiled jquery.ui.spinner.js  (23ms)  (pid 91549)
+Compiled jquery.ui.tabs.js  (5ms)  (pid 91549)
+Compiled jquery.ui.tooltip.js  (6ms)  (pid 91549)
+Compiled jquery.ui.all.js  (1963ms)  (pid 91549)
+Compiled backbone/lodash.min.js  (0ms)  (pid 91549)
+Compiled backbone/backbone.js  (2ms)  (pid 91549)
+Compiled moment.min.js  (2ms)  (pid 91549)
+Compiled utilities/view_helpers.js  (0ms)  (pid 91549)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 91549)
+Compiled collections/StoryBoardCollection.js  (1ms)  (pid 91549)
+Compiled views/ReportingView.js  (0ms)  (pid 91549)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 91549)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 91549)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 91549)
+Compiled views/UsersHomeView.js  (0ms)  (pid 91549)
+Compiled routes/StoryBoardRoute.js  (5ms)  (pid 91549)
+Compiled main.js  (0ms)  (pid 91549)
+Compiled application.js  (2501ms)  (pid 91549)
+Compiled foundation_and_overrides.css  (7595ms)  (pid 91549)
+Compiled forms.css  (7ms)  (pid 91549)
+Compiled home.css  (1356ms)  (pid 91549)
+Compiled project.css  (10ms)  (pid 91549)
+Compiled reporting.css  (13ms)  (pid 91549)
+Compiled story_board.css  (43ms)  (pid 91549)
+Compiled tdd.css  (7ms)  (pid 91549)
+Compiled user.css  (11ms)  (pid 91549)
+Compiled application.css  (9673ms)  (pid 91549)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:08:00 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (48.6ms)
+Completed 500 Internal Server Error in 882ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load path: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT
+  (in /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/assets/stylesheets/foundation_and_overrides.scss)):
+    15: 	
+    16: 	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    17: 
+    18: 	<%= stylesheet_link_tag    "application" %>
+    19: 	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    20:   <%= csrf_meta_tags %>
+    21: </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:8
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___1825006804234802180_70131679416380'
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:08:23 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load path: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT
+  (in /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/assets/stylesheets/foundation_and_overrides.scss)):
+    15: 	
+    16: 	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    17: 
+    18: 	<%= stylesheet_link_tag    "application" %>
+    19: 	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    20:   <%= csrf_meta_tags %>
+    21: </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:8
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___1825006804234802180_70131679416380'
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:09:03 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load path: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT
+  (in /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/assets/stylesheets/foundation_and_overrides.scss)):
+    15: 	
+    16: 	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    17: 
+    18: 	<%= stylesheet_link_tag    "application" %>
+    19: 	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    20:   <%= csrf_meta_tags %>
+    21: </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:8
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___1825006804234802180_70131679416380'
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:09:05 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load path: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT
+  (in /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/assets/stylesheets/foundation_and_overrides.scss)):
+    15: 	
+    16: 	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    17: 
+    18: 	<%= stylesheet_link_tag    "application" %>
+    19: 	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    20:   <%= csrf_meta_tags %>
+    21: </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:8
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___1825006804234802180_70131679416380'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-08-18 15:09:28 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (52.6ms)
+Completed 500 Internal Server Error in 717ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load path: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT
+  (in /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/assets/stylesheets/foundation_and_overrides.scss)):
+    15: 	
+    16: 	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    17: 
+    18: 	<%= stylesheet_link_tag    "application" %>
+    19: 	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    20:   <%= csrf_meta_tags %>
+    21: </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:8
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__1931652948442295870_70314967120160'
+
+
+  Rendered /Users/jusef/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/jusef/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/jusef/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.1ms)
+Started GET "/" for 127.0.0.1 at 2013-08-18 16:22:17 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load path: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT
+  (in /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/assets/stylesheets/foundation_and_overrides.scss)):
+    15: 	
+    16: 	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    17: 
+    18: 	<%= stylesheet_link_tag    "application" %>
+    19: 	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    20:   <%= csrf_meta_tags %>
+    21: </head>
+  app/assets/stylesheets/foundation_and_overrides.scss:8
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__1931652948442295870_70314967120160'
+
+
+  Rendered /Users/jusef/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/jusef/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/jusef/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+Compiled jquery.js  (3ms)  (pid 12682)
+Compiled jquery.ui.core.js  (2ms)  (pid 12682)
+Compiled jquery.ui.widget.js  (18ms)  (pid 12682)
+Compiled jquery.ui.accordion.js  (70ms)  (pid 12682)
+Compiled jquery.ui.position.js  (0ms)  (pid 12682)
+Compiled jquery.ui.menu.js  (23ms)  (pid 12682)
+Compiled jquery.ui.autocomplete.js  (73ms)  (pid 12682)
+Compiled jquery.ui.button.js  (7ms)  (pid 12682)
+Compiled jquery.ui.datepicker.js  (2ms)  (pid 12682)
+Compiled jquery.ui.mouse.js  (4ms)  (pid 12682)
+Compiled jquery.ui.draggable.js  (102ms)  (pid 12682)
+Compiled jquery.ui.resizable.js  (10ms)  (pid 12682)
+Compiled jquery.ui.dialog.js  (178ms)  (pid 12682)
+Compiled jquery.ui.droppable.js  (19ms)  (pid 12682)
+Compiled jquery.ui.effect.js  (0ms)  (pid 12682)
+Compiled jquery.ui.effect-blind.js  (111ms)  (pid 12682)
+Compiled jquery.ui.effect-bounce.js  (3ms)  (pid 12682)
+Compiled jquery.ui.effect-clip.js  (8ms)  (pid 12682)
+Compiled jquery.ui.effect-drop.js  (7ms)  (pid 12682)
+Compiled jquery.ui.effect-explode.js  (2ms)  (pid 12682)
+Compiled jquery.ui.effect-fade.js  (4ms)  (pid 12682)
+Compiled jquery.ui.effect-fold.js  (4ms)  (pid 12682)
+Compiled jquery.ui.effect-highlight.js  (3ms)  (pid 12682)
+Compiled jquery.ui.effect-pulsate.js  (2ms)  (pid 12682)
+Compiled jquery.ui.effect-scale.js  (2ms)  (pid 12682)
+Compiled jquery.ui.effect-shake.js  (2ms)  (pid 12682)
+Compiled jquery.ui.effect-slide.js  (8ms)  (pid 12682)
+Compiled jquery.ui.effect-transfer.js  (4ms)  (pid 12682)
+Compiled jquery.ui.progressbar.js  (9ms)  (pid 12682)
+Compiled jquery.ui.selectable.js  (5ms)  (pid 12682)
+Compiled jquery.ui.slider.js  (15ms)  (pid 12682)
+Compiled jquery.ui.sortable.js  (8ms)  (pid 12682)
+Compiled jquery.ui.spinner.js  (12ms)  (pid 12682)
+Compiled jquery.ui.tabs.js  (7ms)  (pid 12682)
+Compiled jquery.ui.tooltip.js  (10ms)  (pid 12682)
+Compiled jquery.ui.all.js  (1904ms)  (pid 12682)
+Compiled backbone/lodash.min.js  (0ms)  (pid 12682)
+Compiled backbone/backbone.js  (1ms)  (pid 12682)
+Compiled moment.min.js  (2ms)  (pid 12682)
+Compiled utilities/view_helpers.js  (0ms)  (pid 12682)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 12682)
+Compiled collections/StoryBoardCollection.js  (3ms)  (pid 12682)
+Compiled views/ReportingView.js  (0ms)  (pid 12682)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 12682)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 12682)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 12682)
+Compiled views/UsersHomeView.js  (1ms)  (pid 12682)
+Compiled routes/StoryBoardRoute.js  (2ms)  (pid 12682)
+Compiled foundation.min.js  (79ms)  (pid 12682)
+Compiled main.js  (0ms)  (pid 12682)
+Compiled application.js  (2484ms)  (pid 12682)
+Compiled foundation_and_overrides.css  (4172ms)  (pid 12682)
+Compiled forms.css  (10ms)  (pid 12682)
+Compiled foundation/scss/_settings.css  (8ms)  (pid 12682)
+Compiled foundation/scss/app.css  (1422ms)  (pid 12682)
+Compiled foundation/scss/normalize.css  (107ms)  (pid 12682)
+Compiled home.css  (1671ms)  (pid 12682)
+Compiled project.css  (2ms)  (pid 12682)
+Compiled reporting.css  (4ms)  (pid 12682)
+Compiled story_board.css  (43ms)  (pid 12682)
+Compiled tdd.css  (6ms)  (pid 12682)
+Compiled user.css  (4ms)  (pid 12682)
+Compiled application.css  (7810ms)  (pid 12682)
+Compiled jquery.js  (3ms)  (pid 12682)
+Compiled jquery.ui.core.js  (0ms)  (pid 12682)
+Compiled jquery.ui.widget.js  (0ms)  (pid 12682)
+Compiled jquery.ui.accordion.js  (141ms)  (pid 12682)
+Compiled jquery.ui.position.js  (3ms)  (pid 12682)
+Compiled jquery.ui.menu.js  (73ms)  (pid 12682)
+Compiled jquery.ui.autocomplete.js  (160ms)  (pid 12682)
+Compiled jquery.ui.button.js  (10ms)  (pid 12682)
+Compiled jquery.ui.datepicker.js  (3ms)  (pid 12682)
+Compiled jquery.ui.mouse.js  (4ms)  (pid 12682)
+Compiled jquery.ui.draggable.js  (118ms)  (pid 12682)
+Compiled jquery.ui.resizable.js  (8ms)  (pid 12682)
+Compiled jquery.ui.dialog.js  (197ms)  (pid 12682)
+Compiled jquery.ui.droppable.js  (9ms)  (pid 12682)
+Compiled jquery.ui.effect.js  (1ms)  (pid 12682)
+Compiled jquery.ui.effect-blind.js  (45ms)  (pid 12682)
+Compiled jquery.ui.effect-bounce.js  (2ms)  (pid 12682)
+Compiled jquery.ui.effect-clip.js  (2ms)  (pid 12682)
+Compiled jquery.ui.effect-drop.js  (2ms)  (pid 12682)
+Compiled jquery.ui.effect-explode.js  (3ms)  (pid 12682)
+Compiled jquery.ui.effect-fade.js  (7ms)  (pid 12682)
+Compiled jquery.ui.effect-fold.js  (8ms)  (pid 12682)
+Compiled jquery.ui.effect-highlight.js  (35ms)  (pid 12682)
+Compiled jquery.ui.effect-pulsate.js  (31ms)  (pid 12682)
+Compiled jquery.ui.effect-scale.js  (7ms)  (pid 12682)
+Compiled jquery.ui.effect-shake.js  (12ms)  (pid 12682)
+Compiled jquery.ui.effect-slide.js  (24ms)  (pid 12682)
+Compiled jquery.ui.effect-transfer.js  (3ms)  (pid 12682)
+Compiled jquery.ui.progressbar.js  (4ms)  (pid 12682)
+Compiled jquery.ui.selectable.js  (12ms)  (pid 12682)
+Compiled jquery.ui.slider.js  (7ms)  (pid 12682)
+Compiled jquery.ui.sortable.js  (28ms)  (pid 12682)
+Compiled jquery.ui.spinner.js  (5ms)  (pid 12682)
+Compiled jquery.ui.tabs.js  (5ms)  (pid 12682)
+Compiled jquery.ui.tooltip.js  (8ms)  (pid 12682)
+Compiled jquery.ui.all.js  (2367ms)  (pid 12682)
+Compiled backbone/lodash.min.js  (1ms)  (pid 12682)
+Compiled backbone/backbone.js  (1ms)  (pid 12682)
+Compiled moment.min.js  (0ms)  (pid 12682)
+Compiled utilities/view_helpers.js  (0ms)  (pid 12682)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 12682)
+Compiled collections/StoryBoardCollection.js  (0ms)  (pid 12682)
+Compiled views/ReportingView.js  (0ms)  (pid 12682)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 12682)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 12682)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 12682)
+Compiled views/UsersHomeView.js  (0ms)  (pid 12682)
+Compiled routes/StoryBoardRoute.js  (0ms)  (pid 12682)
+Compiled foundation.min.js  (1ms)  (pid 12682)
+Compiled main.js  (13ms)  (pid 12682)
+Compiled application.js  (3069ms)  (pid 12682)
+Compiled foundation_and_overrides.css  (7464ms)  (pid 12682)
+Compiled forms.css  (9ms)  (pid 12682)
+Compiled foundation/scss/_settings.css  (9ms)  (pid 12682)
+Compiled foundation/scss/app.css  (1375ms)  (pid 12682)
+Compiled foundation/scss/normalize.css  (79ms)  (pid 12682)
+Compiled home.css  (1608ms)  (pid 12682)
+Compiled project.css  (13ms)  (pid 12682)
+Compiled reporting.css  (13ms)  (pid 12682)
+Compiled story_board.css  (49ms)  (pid 12682)
+Compiled tdd.css  (6ms)  (pid 12682)
+Compiled user.css  (4ms)  (pid 12682)
+Compiled application.css  (11230ms)  (pid 12682)
+Started GET "/" for 127.0.0.1 at 2013-08-18 16:29:31 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered menus/_main_menu.erb (218.7ms)
+Completed 200 OK in 524ms (Views: 512.7ms | ActiveRecord: 11.2ms)
+Started GET "/assets/application-ea4262b85d06832f4fc8361a569e7a36.js" for 127.0.0.1 at 2013-08-18 16:29:32 +0100
+Served asset /application-ea4262b85d06832f4fc8361a569e7a36.js - 200 OK (0ms)
+Started GET "/assets/vendor/custom.modernizr.js" for 127.0.0.1 at 2013-08-18 16:29:32 +0100
+Served asset /vendor/custom.modernizr.js - 404 Not Found (34ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/custom.modernizr.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/jusef/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+Started GET "/assets/application-3379b62614bb514e5a352866954a7cb8.css" for 127.0.0.1 at 2013-08-18 16:29:32 +0100
+Served asset /application-3379b62614bb514e5a352866954a7cb8.css - 200 OK (0ms)

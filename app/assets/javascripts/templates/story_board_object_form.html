@@ -1,0 +1,73 @@
+<div class="edit-form">
+    <form action="#" name="sbo-new-form">
+    <div class="edit-row">
+        <label for="title">Title</label>
+        <input name="title" type="text" value="<%= model.get('title') %>"/></div>
+        <div class="edit-row">
+            <label for="order">Order</label>
+            <span><%= model.get('obj_order') %></span></div>
+    <div class="edit-row">
+        <label for="type">Object Type</label>
+        <select name="type">
+            <!--Options should be obtained from the sbo form objects object -->
+            <% _.each(formObjects.types, function(value, key){ %>
+                <% if(model.get('type') == value){%>
+                    <option value="<%= value['value'] %>" selected="selected"><%= value['label'] %></option>
+                <%}else{ %>
+                    <option value="<%= value['value'] %>"><%= value['label'] %></option>
+                <%} %>
+            <%});%>
+        </select>
+    </div>
+    <div class="edit-row">
+        <label for="stage">Stage</label>
+        <!--These should be radio buttons based on the items in the sbo form object object (the radio buttons should be changed to switches during the design stage of the project -->
+        <select name="stage" id="">
+            <!--Options should be obtained from the sbo form objects object -->
+            <% _.each(formObjects.stages, function(value, key){ %>
+                <% if(model.get('stage') == value){%>
+                    <option value="<%= value %>" selected="selected"><%= value %></option>
+                <%}else{ %>
+                    <option value="<%= value %>"><%= value %></option>
+            <%}%>
+            <%});%>
+        </select>
+    </div>
+        <div class="edit-row">
+            <label for="status">Status</label>
+            <!--These should be radio buttons based on the items in the sbo form object object (the radio buttons should be changed to switches during the design stage of the project -->
+            <select name="status">
+                <!--Options should be obtained from the sbo form objects object -->
+                <% _.each(formObjects.statuses, function(value, key){ %>
+                <% if(model.get('status') == value){%>
+                <option value="<%= value %>" selected="selected"><%= value %></option>
+                <%}else{ %>
+                <option value="<%= value %>"><%= value %></option>
+                <%}%>
+                <%});%>
+            </select>
+        </div>
+        <!--<div class="edit-row">-->
+            <!--<label for="start_date">Start Date</label>-->
+            <!--<input name="start_date" type="text" class="datepicker" value="<%= model.get('start_date') %>" />-->
+        <!--</div>-->
+        <!--<div class="edit-row">-->
+            <!--<label for="end_date">End Date</label>-->
+            <!--<input name="end_date" type="text" class="datepicker" value="<%= model.get('end_date') %>">-->
+        <!--</div>-->
+        <div class="edit-row">
+            <label for="estimated_time">Estimated Time:</label>
+            <input name="estimated_time" type="text" value="<%= model.get('estimated_time') %>">
+        </div>
+    <div class="edit-row">
+        <label for="description"></label>
+        <textarea name="description" cols="30" rows="10"><%= model.get('description') %></textarea>
+    </div>
+        <!-- Should be available in the data passed to this view-->
+        <input name="project_id" type="hidden" value="<%= model.get('project_id') %>"/>
+        <%= controls %>
+</form>
+    <div class="sbo-form-controls">
+        <!--The submit buttons should be based on the contents of the of sb object and the edit mode (create or update-->
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<div class="edit-form">
+  <%= form_for(@user, url: {action: :update_roles}, html: { method: :post}) do |f| %>
+  <ul class="checkbox-list">
+    <% @roles.each do |r| %>
+        <li>
+          <label>
+            <%= check_box 'roles_to_link', r.id, {checked: @user.user_roles.include?(r)} %>
+            <%= r.title %>
+          </label>
+        </li>
+    <% end %>
+  </ul>
+  <div class="edit-row">
+    <%= f.submit 'Save' %>
+    <input id="cancel-edit" type="submit" value="Cancel"/>
+  </div>
+  <% end %>
+</div>

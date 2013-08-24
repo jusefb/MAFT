@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Jusef\Dropbox\Web_Development\Ruby\Projects\MAFT\coverage" />
+  </component>
+  <component name="ProjectKey">
+    <option name="state" value="$PROJECT_DIR$/../../../../Repositories/maft.git" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="ruby-1.9.3-p327" project-jdk-type="RUBY_SDK" />
+</project>
+

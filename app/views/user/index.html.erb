@@ -1,0 +1,81 @@
+<div class="page-content">
+  <h1>MAFT Users</h1>
+
+  <div class="tile-list-cntr">
+    <% if (@message != nil && @message != '') %>
+        <div class="message-cntr"><%= @message %></div>
+    <% end %>
+    <h4>Your User Details</h4>
+    <ul class="tile-list">
+      <li class="tile-list-row">
+        <h5><%= @current_user.name %></h5>
+
+        <div class="form-row"><a href="mailto:<%= @current_user.email %>"><%= @current_user.email %></a></div>
+        <% if (@current_user.user_roles.length > 0) %>
+            <h5>User Roles</h5>
+            <ul>
+              <% @current_user.user_roles.each do |r| %>
+                  <li>
+                    <%= r.title.humanize %>
+                  </li>
+              <% end %>
+            </ul>
+        <% end %>
+        <div class="tile-controls">
+          <ul>
+            <li><%= link_to 'View Details', user_path(id: @current_user) %></li>
+
+            <li><%= link_to 'Edit Details', edit_user_path(id: @current_user) %></li>
+            <li><%= link_to 'Change Password', edit_user_registration_path %></li>
+            <li><%= link_to 'Change Roles', user_change_role_path(id: @current_user) %></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <h4>Other User Details</h4>
+
+    <div><%= link_to 'Add New User', :new_user %></div>
+    <% if (@users) %>
+        <ul id="other-users" class="tile-list">
+          <%- current_user.id %>
+          <% @users.each do |u| %>
+              <li class="tile-list-row">
+                <h5><%= u.name %></h5>
+
+                <div class="form-row"><a href="mailto:<%= u.email %>"><%= u.email %></a></div>
+                <% if (u.user_roles.length > 0) %>
+                    <h5>User Roles</h5>
+                    <ul>
+                      <% u.user_roles.each do |r| %>
+                          <li>
+                            <%= r.title.humanize %>
+                          </li>
+                      <% end %>
+                    </ul>
+                <% end %>
+                <div class="tile-controls">
+                  <ul>
+                    <li><%= link_to 'View Details', user_path(id: u) %></li>
+
+                    <li><%= link_to 'Edit Details', edit_user_path(id: u) %></li>
+                    <li>
+                      <% link_to 'Reset Password', user_path(id: u) %></li>
+                    <li><%= link_to 'Change Roles', edit_user_password_path(id: u) %></li>
+                    <li>
+                      <a data-userid="<%= u.id %>" data-username="<%= u.name %>" href="javascript:void(0)" class="delete-user">Delete
+                        User</a></li>
+                  </ul>
+                </div>
+              </li>
+          <% end %>
+        </ul>
+    <% end %>
+
+  </div>
+</div>
+
+
+<% content_for :javascript_section do %>
+    <%= javascript_include_tag "user" %>
+<% end %>

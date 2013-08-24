@@ -1,0 +1,35 @@
+<% content_for :head_section do %>
+<%= stylesheet_link_tag "story_board" %>
+<% end %>
+<div id="main-content">
+<h1>Story Board for <%=  @project.title %></h1>
+<input type="hidden" id="project-id" value="<%= @project.id %>" />
+<div id="sbo-controls-container">
+    <ul id="sbo-main-controls">
+      <li><a href="new" class="small button radius">New</a></li>
+      <li><div class="small-3 columns"><input id="find-objects" type="search" /></div></li>
+    </ul>
+  <ul id="sbo-main-stage-ctrls">
+    <li><input class="toggle-stage" type="checkbox" checked="checked" data-stageid="current"/>&nbsp;Current </li>
+    <li><input class="toggle-stage" type="checkbox" checked="checked" data-stageid="backlog"/>&nbsp;Backlog </li>
+    <li><input class="toggle-stage" type="checkbox" checked="checked" data-stageid="future"/>&nbsp;Future </li>
+    <li><input class="toggle-stage" type="checkbox" data-stageid="done"/>&nbsp;Done </li>
+  </ul>
+  <div class="clear"></div>
+</div>
+<div id="sbo-form-container">
+  <div id="sbo-form">
+  </div>
+</div>
+<div id="sbo-container">
+  <div id="current" class="sbo-stage-col"></div>
+  <div id="backlog" class="sbo-stage-col"></div>
+  <div id="future" class="sbo-stage-col"></div>
+  <div id="done" class="hide sbo-stage-col"></div>
+</div>
+<div class="clear"></div>
+</div>
+
+<% content_for :javascript_section do%>
+    <%= javascript_include_tag "story_board" %>
+<% end %>

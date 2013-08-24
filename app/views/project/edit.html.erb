@@ -1,0 +1,34 @@
+<div class="edit-form">
+  <div class="validation-errors">
+    <%= @project.errors.full_messages.first if @project.errors.any? %>
+  </div>
+  <div id="details-pane">
+  <h3 class="title-pane">Project Details</h3>
+  <%= form_for(@project, url: {action: :update}) do |f| %>
+      <div class="edit-row">
+        <%= f.label :title %>
+        <%= f.text_field :title %>
+      </div>
+      <div class="edit-row">
+        <%= f.label :description %>
+        <%= f.text_field :description %>
+      </div>
+      <div class="edit-row">
+        <%= f.label :owner %>
+        <%= f.text_field :owner %>
+      </div>
+      <div class="edit-row">
+        <%= f.label :start_date %>
+        <%= f.date_select :start_date %>
+      </div>
+      <div class="edit-row">
+        <%= f.label :end_date %>
+        <%= f.date_select :end_date %>
+      </div>
+      <div class="edit-row">
+        <%= f.submit 'Save' %>
+        <input id="cancel-edit" type="submit" value="Cancel"/>
+      </div>
+  <% end %>
+  </div>
+</div>
