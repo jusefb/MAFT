@@ -1,0 +1,38 @@
+<h1>MAFT Reporting</h1>
+<div id="main-cntr">
+ <div id="module-info">
+   <p>This section of the application provides a series of simple graphical reports that you can generate for your projects</p>
+ </div>
+ <div id="report-controls">
+   <div class="report-control">
+    <%= label_tag('project', 'Select Project') %>
+    <%= select_tag('project', options_for_select([['Project 1', 1], ['Project 2', 2]])) %>
+   </div>
+   <div class="report-control">
+     <%= label_tag('report_type', 'Select Report Type') %>
+     <%= select_tag('report_type', options_for_select([['', 0], ['Sprint burndown', 1]])) %>
+   </div>
+   <div class="report-control">
+     <%= label_tag('start_date', 'Start Date') %>
+     <input name="start_date" type="text" class="datepicker" value="" />
+   </div>
+   <div class="report-control">
+     <%= label_tag('end_date', 'End Date') %>
+     <input name="end_date" type="text" class="datepicker" value="" />
+   </div>
+   <div class="report-control">
+     <button id="view-report">View Report</button>
+   </div>
+ </div>
+ <div id="chart-container"></div>
+</div>
+
+<% content_for :style_section do%>
+    <%= stylesheet_link_tag "jqplot/jquery.jqplot.min" %>
+<% end %>
+<% content_for :javascript_section do%>
+    <%= javascript_include_tag "jqplot/jquery.jqplot.min" %>
+    <%= javascript_include_tag "jqplot/plugins/jqplot.canvasTextRenderer" %>
+    <%= javascript_include_tag "jqplot/plugins/jqplot.canvasAxisLabelRenderer" %>
+    <%= javascript_include_tag "reporting" %>
+<% end %>

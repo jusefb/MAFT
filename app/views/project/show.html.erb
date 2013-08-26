@@ -1,0 +1,23 @@
+<div class="view-form">
+  <h3><%= @project.title %></h3>
+  <h3 class="title-pane">Project Details</h3>
+  <ul class="vf-controls">
+    <li><%= link_to('Edit', {action: :edit, id: @project}) %></li>
+  </ul>
+  <ul class="vf-fields">
+    <li class="vf-label"><label>Owner:</label></li>
+    <li class="vf-field"><%= @project.owner %></li>
+
+    <li class="vf-label"><label>Description:</label></li>
+    <li class="vf-field"><%= @project.description %></li>
+  </ul>
+  <div id="users">
+    <h3 class="title-pane">Project Team</h3>
+    <%= link_to 'Edit Team', {action: 'edit_team', id: @project} %>
+    <ul>
+      <% @project.users.each do |u|%>
+          <li><%= u.name %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>

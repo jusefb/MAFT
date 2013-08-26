@@ -1,0 +1,18 @@
+<div class="edit-form">
+  <div class="validation-errors">
+    <%= @user.errors.full_messages.first if @user.errors.any? %>
+  </div>
+  <%= form_for @user, url: {action: :create} do |f| %>
+      <div class="edit-row">
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+      </div>
+      <div class="edit-row">
+        <%= f.label :email %>
+        <%= f.text_field :email %>
+      </div>
+      <div class="edit-row">
+        <%= f.submit 'Create' %>
+      </div>
+  <% end %>
+</div>

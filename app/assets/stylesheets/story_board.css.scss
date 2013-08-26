@@ -1,0 +1,160 @@
+// Place all the styles related to the story_board controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$sb-card-color: #FEFEE4 ;
+
+h1{
+  font-size: 18px;
+}
+
+#sbo-controls-container{
+  margin: 2px;
+}
+
+#sbo-container{
+  font-size: 12px;
+  margin-top: 10px;
+  width: 100%;
+
+  > div{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    min-height: 200px;
+    height:auto;
+    float: left;
+    min-width: 33%;
+    padding-bottom: 5px;
+
+  }
+
+  .sbo-edit-from {
+    display: none;
+  }
+
+  .edit-row{
+    padding: 5px;
+    position: relative;
+  }
+}
+
+#sbo-controls-container{
+  width: 100%;
+}
+
+#sbo-controls-container{
+  border: 1px solid #000000;
+  margin-right: 4px;
+  width: 99%;
+
+  ul{
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    display: inline-block;
+  }
+
+  li{
+    display: inline-block;
+
+    a{
+      margin: 0;
+    }
+
+    input{
+      margin: 0;
+    }
+  }
+
+  #sbo-main-stage-ctrls{
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+  }
+}
+
+#sbo-form-container{
+  border: 1px solid #DDDDDD;
+  margin: 2px;
+  padding: 5px;
+  display: none;
+}
+
+.sbo-stage{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  li.sbo-stage-row{
+    width: 98%;
+    min-height: 50px;
+    border: 1px solid grey;
+    //border-top: 5px solid blue;
+    background-color: $sb-card-color;
+    //padding: 5px;
+    margin: 10px 1% 0 1% ;
+
+    div.title-pt{
+      position: relative;
+
+      .sbo-info{
+        padding: 10px;
+        padding-top: 5px;
+      }
+    }
+
+    div.more-info-pt{
+      display: none;
+      padding: 5px;
+      padding-left: 10px;
+    }
+
+    .sbo-title{
+      padding: 10px;
+      display: block;
+    }
+
+    .sbo-display-ctrs{
+      position: absolute;
+      right: 5px;
+      top: 5px;
+
+      ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li{
+        display: inline;
+        border: none;
+      }
+    }
+  }
+
+  li.linked-task{
+    border: 5px solid red;
+  }
+
+  li.task{
+    border-top: 5px solid grey;
+  }
+
+  li.userstory{
+    border-top: 5px solid orange;
+  }
+
+  li.testtask{
+    border-top: 5px solid blue;
+  }
+}
+
+//jquery ui overwrites
+
+.ui-widget{
+  font-size: 0.7em;
+}

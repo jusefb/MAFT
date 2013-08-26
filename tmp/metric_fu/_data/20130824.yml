@@ -1,0 +1,3161 @@
+---
+:cane:
+  :total_violations: 63
+  :violations:
+    :abc_complexity:
+    - :file: app/controllers/reporting_controller.rb
+      :method: ReportingController#get_report_data
+      :complexity: '31'
+    - :file: app/controllers/user_controller.rb
+      :method: UserController#update_roles
+      :complexity: '19'
+    - :file: app/controllers/story_board_controller.rb
+      :method: StoryBoardController#create
+      :complexity: '16'
+    :line_style:
+    - :line: app/controllers/reporting_controller.rb:13
+      :description: Line is >80 characters (86)
+    - :line: app/controllers/reporting_controller.rb:21
+      :description: Line is >80 characters (170)
+    - :line: app/controllers/reporting_controller.rb:22
+      :description: Line is >80 characters (103)
+    - :line: app/controllers/reporting_controller.rb:25
+      :description: Line is >80 characters (209)
+    - :line: app/controllers/reporting_controller.rb:26
+      :description: Line is >80 characters (83)
+    - :line: app/controllers/reporting_controller.rb:32
+      :description: Line is >80 characters (179)
+    - :line: app/controllers/reporting_controller.rb:33
+      :description: Line is >80 characters (113)
+    - :line: app/controllers/reporting_controller.rb:38
+      :description: Line is >80 characters (94)
+    - :line: app/controllers/story_board_controller.rb:20
+      :description: Line is >80 characters (132)
+    - :line: app/controllers/story_board_controller.rb:32
+      :description: Line is >80 characters (92)
+    - :line: app/controllers/story_board_controller.rb:50
+      :description: Line is >80 characters (110)
+    - :line: app/controllers/story_board_controller.rb:56
+      :description: Line is >80 characters (123)
+    - :line: app/controllers/story_board_controller.rb:86
+      :description: Line is >80 characters (97)
+    - :line: app/controllers/user_controller.rb:82
+      :description: Line is >80 characters (81)
+    - :line: app/controllers/user_controller.rb:86
+      :description: Line is >80 characters (85)
+    - :line: app/controllers/user_controller.rb:100
+      :description: Line is >80 characters (95)
+    - :line: app/models/story_board_object.rb:2
+      :description: Line is >80 characters (170)
+    - :line: app/models/story_board_object.rb:8
+      :description: Line is >80 characters (87)
+    - :line: app/models/story_board_object.rb:14
+      :description: Line is >80 characters (82)
+    - :line: app/models/story_board_object.rb:16
+      :description: Line is >80 characters (93)
+    - :line: app/models/story_board_object.rb:17
+      :description: Line is >80 characters (83)
+    - :line: spec/controllers/project_controller_spec.rb:139
+      :description: Line is >80 characters (106)
+    - :line: spec/controllers/reporting_controller_spec.rb:43
+      :description: Line is >80 characters (86)
+    - :line: spec/controllers/story_board_controller_spec.rb:69
+      :description: Line is >80 characters (111)
+    - :line: spec/controllers/story_board_controller_spec.rb:81
+      :description: Line is >80 characters (92)
+    - :line: spec/controllers/story_board_controller_spec.rb:82
+      :description: Line is >80 characters (94)
+    - :line: spec/controllers/story_board_controller_spec.rb:87
+      :description: Line is >80 characters (114)
+    - :line: spec/controllers/story_board_controller_spec.rb:93
+      :description: Line is >80 characters (94)
+    - :line: spec/controllers/story_board_controller_spec.rb:97
+      :description: Line is >80 characters (91)
+    - :line: spec/controllers/story_board_controller_spec.rb:98
+      :description: Line is >80 characters (94)
+    - :line: spec/controllers/story_board_controller_spec.rb:100
+      :description: Line is >80 characters (178)
+    - :line: spec/controllers/story_board_controller_spec.rb:105
+      :description: Line is >80 characters (106)
+    - :line: spec/controllers/story_board_controller_spec.rb:111
+      :description: Line is >80 characters (102)
+    - :line: spec/controllers/story_board_controller_spec.rb:112
+      :description: Line is >80 characters (120)
+    - :line: spec/controllers/user_controller_spec.rb:28
+      :description: Line is >80 characters (112)
+    - :line: spec/controllers/user_controller_spec.rb:39
+      :description: Line is >80 characters (103)
+    - :line: spec/controllers/user_controller_spec.rb:40
+      :description: Line is >80 characters (81)
+    - :line: spec/controllers/user_controller_spec.rb:51
+      :description: Line is >80 characters (81)
+    - :line: spec/features/project_management_spec.rb:5
+      :description: Line is >80 characters (85)
+    - :line: spec/models/story_board_object_spec.rb:10
+      :description: Line is >80 characters (81)
+    - :line: spec/models/story_board_object_spec.rb:18
+      :description: Line is >80 characters (91)
+    - :line: spec/models/story_board_object_spec.rb:22
+      :description: Line is >80 characters (81)
+    - :line: spec/models/story_board_object_spec.rb:26
+      :description: Line is >80 characters (89)
+    - :line: spec/spec_helper.rb:29
+      :description: Line is >80 characters (81)
+    - :line: spec/spec_helper.rb:78
+      :description: Line is >80 characters (84)
+    - :line: spec/support/macros/controller_macros.rb:10
+      :description: Line is >80 characters (99)
+    :comment:
+    - :line: app/controllers/application_controller.rb:1
+      :class_name: ApplicationController
+    - :line: app/controllers/home_controller.rb:1
+      :class_name: HomeController
+    - :line: app/controllers/project_controller.rb:1
+      :class_name: ProjectController
+    - :line: app/controllers/reporting_controller.rb:1
+      :class_name: ReportingController
+    - :line: app/controllers/story_board_controller.rb:1
+      :class_name: StoryBoardController
+    - :line: app/controllers/tdd_controller.rb:1
+      :class_name: TddController
+    - :line: app/controllers/user_controller.rb:1
+      :class_name: UserController
+    - :line: app/models/project.rb:1
+      :class_name: Project
+    - :line: app/models/story_board_object.rb:1
+      :class_name: StoryBoardObject
+    - :line: app/models/story_board_object.rb:44
+      :class_name: Task
+    - :line: app/models/story_board_object.rb:48
+      :class_name: UserStory
+    - :line: app/models/story_board_object.rb:52
+      :class_name: TestTask
+    - :line: app/models/user.rb:1
+      :class_name: User
+    - :line: app/models/user_role.rb:1
+      :class_name: UserRole
+:churn:
+  :changes:
+  - :file_path: .idea/workspace.xml
+    :times_changed: 12
+  :class_churn: []
+  :method_churn: []
+  :changed_files:
+  - .idea/workspace.xml
+  - app/views/story_board/new.html.erb
+  - config/routes.rb
+  :changed_classes: []
+  :changed_methods: []
+:flay:
+  :total_score: '144'
+  :matches:
+  - :reason: 1) Similar code found in :iter (mass = 64)
+    :matches:
+    - :name: app/views/reporting/index.html.erb
+      :line: '31'
+    - :name: app/views/story_board/index.html.erb
+      :line: '2'
+    - :name: app/views/story_board/index.html.erb
+      :line: '34'
+    - :name: app/views/user/index.html.erb
+      :line: '80'
+  - :reason: 2) Similar code found in :block (mass = 46)
+    :matches:
+    - :name: app/views/menus/_main_menu.erb
+      :line: '25'
+    - :name: app/views/menus/_main_menu.erb
+      :line: '27'
+  - :reason: 3) Similar code found in :iter (mass = 34)
+    :matches:
+    - :name: app/views/project/index.html.erb
+      :line: '19'
+    - :name: app/views/project/show.html.erb
+      :line: '19'
+:flog:
+  :total: 398.433799151355
+  :average: 9.717897540276951
+  :method_containers:
+  - :name: ReportingController
+    :path: app/controllers/reporting_controller.rb
+    :total_score: 60.810868577542
+    :highest_score: 59.810868577542
+    :average_score: 30.405434288771
+    :methods:
+      ReportingController#get_report_data:
+        :operators:
+          :assignment: 18.299999999999997
+          :params: 2.8
+          :[]: 2.4
+          :parse: 2.0
+          :to_a: 1.0
+          :branch: 2.2
+          :each: 1.0
+          :index: 1.4000000000000001
+          :lit_fixnum: 0.35000000000000003
+          :+: 2.4000000000000004
+          :where: 7.800000000000002
+          :select: 4.9
+          :block_pass: 4.9
+          :to_proc_normal: 7.350000000000001
+          :map: 4.300000000000001
+          :sum: 3.7000000000000006
+          :day: 1.8
+          :-: 2.8000000000000003
+          :count: 1.4000000000000001
+          :>: 1.2000000000000002
+          :push: 1.2000000000000002
+          :length: 1.2
+          :render: 1.0
+        :score: 59.810868577542
+        :path: app/controllers/reporting_controller.rb:6
+      ReportingController#index:
+        :operators:
+          :render: 1.0
+        :score: 1.0
+        :path: app/controllers/reporting_controller.rb:2
+  - :name: UserController
+    :path: app/controllers/user_controller.rb
+    :total_score: 148.76277836448486
+    :highest_score: 50.64474306381661
+    :average_score: 12.396898197040406
+    :methods:
+      UserController#update_roles:
+        :operators:
+          :assignment: 7.200000000000002
+          :params: 2.5999999999999996
+          :[]: 5.000000000000001
+          :find: 2.2
+          :branch: 4.800000000000001
+          :each: 1.0
+          :lit_fixnum: 0.4
+          :==: 1.2000000000000002
+          :user_roles: 6.600000000000001
+          :exists?: 2.8000000000000007
+          :!: 1.3000000000000003
+          :<<: 1.5000000000000004
+          :title: 4.600000000000001
+          :humanize: 4.200000000000001
+          :+: 10.200000000000003
+          :name: 3.800000000000001
+          :delete: 1.5000000000000007
+          :redirect_to: 1.0000000000000002
+        :score: 50.64474306381661
+        :path: app/controllers/user_controller.rb:73
+      UserController#add_user_role:
+        :operators:
+          :assignment: 6.300000000000001
+          :params: 2.8
+          :[]: 2.4
+          :find: 2.0
+          :user_roles: 1.0
+          :branch: 1.0
+          :include?: 1.2
+          :!: 1.0
+          :create: 1.2000000000000002
+          :title: 1.6
+          :+: 2.6000000000000005
+          :name: 1.4000000000000001
+          :redirect_to: 1.0
+        :score: 19.285486771144768
+        :path: app/controllers/user_controller.rb:8
+      UserController#destroy:
+        :operators:
+          :branch: 1.0000000000000002
+          :params: 3.6000000000000005
+          :[]: 3.200000000000001
+          :destroy: 1.2000000000000004
+          :+: 4.300000000000002
+          :render: 2.300000000000001
+          :assignment: 1.1000000000000005
+          :to_s: 1.5000000000000004
+          :lit_fixnum: 0.3250000000000001
+        :score: 16.492138278585955
+        :path: app/controllers/user_controller.rb:95
+      UserController#index:
+        :operators:
+          :assignment: 3.0
+          :params: 1.2
+          :[]: 1.0
+          :current_user: 1.4
+          :id: 3.1999999999999997
+          :find: 1.0
+          :to_s: 1.7999999999999998
+          :+: 3.0
+          :where: 1.2
+          :all: 1.0
+        :score: 15.100993344810135
+        :path: app/controllers/user_controller.rb:2
+      UserController#update_password:
+        :operators:
+          :assignment: 1.0
+          :current_user: 1.4
+          :id: 1.2
+          :find: 1.0
+          :branch: 1.0
+          :user_params: 1.2
+          :update_attributes: 1.0
+          :sign_in: 1.2000000000000002
+          :root_path: 1.4000000000000001
+          :redirect_to: 1.2000000000000002
+          :render: 1.1
+        :score: 10.793053321465619
+        :path: app/controllers/user_controller.rb:46
+      UserController#update:
+        :operators:
+          :assignment: 2.0
+          :params: 2.5999999999999996
+          :[]: 4.6000000000000005
+          :find: 1.0
+          :update_attributes: 1.0
+          :render: 1.0
+        :score: 10.394229168149026
+        :path: app/controllers/user_controller.rb:61
+      UserController#create:
+        :operators:
+          :assignment: 5.0
+          :params: 1.2
+          :[]: 1.0
+          :generate_dummy_password: 1.0
+          :create: 1.0
+          :branch: 1.0
+          :save: 1.0
+          :redirect_to: 1.1
+          :render: 1.1
+        :score: 8.98665677546439
+        :path: app/controllers/user_controller.rb:27
+      UserController#change_roles:
+        :operators:
+          :assignment: 2.0
+          :params: 1.4
+          :[]: 1.2
+          :find: 1.0
+          :all: 1.0
+        :score: 5.015974481593781
+        :path: app/controllers/user_controller.rb:68
+      UserController#show:
+        :operators:
+          :assignment: 1.0
+          :params: 1.4
+          :[]: 1.2
+          :find: 1.0
+        :score: 3.7363083384538807
+        :path: app/controllers/user_controller.rb:42
+      UserController#edit:
+        :operators:
+          :assignment: 1.0
+          :params: 1.4
+          :[]: 1.2
+          :find: 1.0
+        :score: 3.7363083384538807
+        :path: app/controllers/user_controller.rb:57
+      UserController#generate_dummy_password:
+        :operators:
+          :assignment: 2.000000000000001
+          :lit_fixnum: 0.2500000000000001
+          :friendly_token: 1.2000000000000004
+          :first: 1.0000000000000004
+        :score: 3.162672920173695
+        :path: app/controllers/user_controller.rb:106
+      UserController#new:
+        :operators:
+          :assignment: 1.0
+          :new: 1.0
+        :score: 1.4142135623730951
+        :path: app/controllers/user_controller.rb:23
+  - :name: ProjectController
+    :path: app/controllers/project_controller.rb
+    :total_score: 64.11661892665565
+    :highest_score: 31.234766286943792
+    :average_score: 8.014577365831956
+    :methods:
+      ProjectController#add_users:
+        :operators:
+          :assignment: 3.2
+          :params: 2.5999999999999996
+          :[]: 5.1000000000000005
+          :find: 1.0
+          :branch: 6.300000000000001
+          :each: 1.0
+          :find_by_id: 1.2000000000000002
+          :!=: 1.2000000000000002
+          :lit_fixnum: 0.42500000000000004
+          :==: 1.3000000000000003
+          :users: 6.8000000000000025
+          :exists?: 3.000000000000001
+          :!: 1.4000000000000006
+          :<<: 1.5000000000000007
+          :delete: 1.5000000000000007
+          :render: 2.400000000000001
+        :score: 31.234766286943792
+        :path: app/controllers/project_controller.rb:47
+      ProjectController#update:
+        :operators:
+          :assignment: 1.0
+          :params: 2.8
+          :[]: 2.4
+          :find: 1.0
+          :branch: 1.0
+          :update_attributes: 1.0
+          :redirect_to: 1.1
+          :render: 1.1
+        :score: 9.505787710652914
+        :path: app/controllers/project_controller.rb:31
+      ProjectController#create:
+        :operators:
+          :assignment: 2.0
+          :params: 1.2
+          :[]: 1.0
+          :create: 1.0
+          :branch: 1.0
+          :save: 1.0
+          :redirect_to: 1.1
+          :render: 1.1
+        :score: 6.779380502671318
+        :path: app/controllers/project_controller.rb:11
+      ProjectController#edit_team:
+        :operators:
+          :assignment: 2.0
+          :params: 1.4
+          :[]: 1.2
+          :find: 1.0
+          :all: 1.0
+        :score: 5.015974481593781
+        :path: app/controllers/project_controller.rb:41
+      ProjectController#edit:
+        :operators:
+          :assignment: 2.0
+          :params: 1.4
+          :[]: 1.2
+          :find: 1.0
+          :all: 1.0
+        :score: 5.015974481593781
+        :path: app/controllers/project_controller.rb:22
+      ProjectController#show:
+        :operators:
+          :assignment: 1.0
+          :params: 1.4
+          :[]: 1.2
+          :find: 1.0
+        :score: 3.7363083384538807
+        :path: app/controllers/project_controller.rb:27
+      ProjectController#index:
+        :operators:
+          :assignment: 1.0
+          :all: 1.0
+        :score: 1.4142135623730951
+        :path: app/controllers/project_controller.rb:3
+      ProjectController#new:
+        :operators:
+          :assignment: 1.0
+          :new: 1.0
+        :score: 1.4142135623730951
+        :path: app/controllers/project_controller.rb:7
+  - :name: StoryBoardController
+    :path: app/controllers/story_board_controller.rb
+    :total_score: 77.56302428360125
+    :highest_score: 24.392621835300936
+    :average_score: 11.080432040514465
+    :methods:
+      StoryBoardController#create:
+        :operators:
+          :assignment: 6.2
+          :params: 1.2
+          :[]: 2.3
+          :branch: 3.0
+          :select: 1.0
+          :attribute_names: 1.3
+          :index: 1.1
+          :all: 1.4
+          :count: 1.2
+          :>: 1.0
+          :find_by_sql: 1.7
+          :first: 1.5
+          :lit_fixnum: 0.6000000000000001
+          :+: 1.1
+          :set_status_dates: 1.0
+          :create: 1.0
+          :save: 1.0
+          :render: 2.2
+          :errors: 1.5
+          :messages: 1.3
+        :score: 24.392621835300936
+        :path: app/controllers/story_board_controller.rb:13
+      StoryBoardController#update:
+        :operators:
+          :assignment: 2.0
+          :params: 2.8
+          :[]: 2.4
+          :find: 1.0
+          :except: 1.0
+          :branch: 1.0
+          :update_attributes: 1.0
+          :set_status_dates: 1.2000000000000002
+          :save: 1.2000000000000002
+          :becomes: 1.4000000000000001
+          :render: 2.3000000000000003
+          :errors: 1.5
+          :messages: 1.3
+          :lit_fixnum: 0.325
+        :score: 17.56788618474061
+        :path: app/controllers/story_board_controller.rb:48
+      StoryBoardController#reorder:
+        :operators:
+          :assignment: 5.6000000000000005
+          :params: 1.4
+          :[]: 6.1000000000000005
+          :branch: 2.2
+          :each: 1.0
+          :find: 1.2000000000000002
+          :update_attribute: 1.4000000000000001
+          :!: 1.2000000000000002
+          :+: 1.5000000000000002
+          :push: 1.3000000000000003
+          :render: 1.0
+        :score: 17.187495454544855
+        :path: app/controllers/story_board_controller.rb:60
+      StoryBoardController#get_project_tasks:
+        :operators:
+          :assignment: 2.0
+          :params: 1.5999999999999999
+          :[]: 1.4
+          :find: 1.2
+          :story_board_objects: 1.0
+          :as_json: 1.0
+          :render: 1.0
+        :score: 7.472616676907762
+        :path: app/controllers/story_board_controller.rb:7
+      StoryBoardController#destroy:
+        :operators:
+          :branch: 1.0
+          :params: 1.4
+          :[]: 1.2
+          :delete: 1.0
+          :render: 2.2
+          :lit_fixnum: 0.325
+        :score: 6.206095793653205
+        :path: app/controllers/story_board_controller.rb:82
+      StoryBoardController#index:
+        :operators:
+          :assignment: 1.0
+          :params: 1.4
+          :[]: 1.2
+          :find: 1.0
+        :score: 3.7363083384538807
+        :path: app/controllers/story_board_controller.rb:3
+      StoryBoardController#get_form_objects:
+        :operators:
+          :render: 1.0
+        :score: 1.0
+        :path: app/controllers/story_board_controller.rb:36
+  - :name: StoryBoardObject
+    :path: app/models/story_board_object.rb
+    :total_score: 27.294933411246365
+    :highest_score: 11.739250401963497
+    :average_score: 6.823733352811591
+    :methods:
+      StoryBoardObject#as_json:
+        :operators:
+          :assignment: 7.900000000000005
+          :super: 1.1000000000000005
+          :branch: 2.200000000000001
+          :parent_task_id: 2.700000000000001
+          :!=: 2.200000000000001
+          :find_by_id: 1.2000000000000006
+          :[]: 1.2000000000000006
+        :score: 11.739250401963497
+        :path: app/models/story_board_object.rb:9
+      StoryBoardObject#set_status_dates:
+        :operators:
+          :branch: 3.5000000000000018
+          :status: 1.1000000000000005
+          :assignment: 5.200000000000003
+          :now: 2.6000000000000014
+        :score: 7.278736154031142
+        :path: app/models/story_board_object.rb:23
+      StoryBoardObject#on_update_stage:
+        :operators:
+          :branch: 3.5000000000000018
+          :stage: 1.1000000000000005
+          :assignment: 2.6000000000000014
+          :now: 1.3000000000000007
+        :score: 4.9769468552517235
+        :path: app/models/story_board_object.rb:34
+      StoryBoardObject#none:
+        :operators:
+          :attr_accessible: 1.1000000000000005
+          :belongs_to: 1.1000000000000005
+          :validates_presence_of: 1.1000000000000005
+        :score: 3.3000000000000016
+        :path: 
+  - :name: TddController
+    :path: app/controllers/tdd_controller.rb
+    :total_score: 6.885575587824865
+    :highest_score: 5.885575587824865
+    :average_score: 3.4427877939124323
+    :methods:
+      TddController#render_svg_image:
+        :operators:
+          :assignment: 1.0
+          :response: 1.2
+          :headers: 1.0
+          :open: 1.4
+          :read: 1.2
+          :render: 1.0
+        :score: 5.885575587824865
+        :path: app/controllers/tdd_controller.rb:12
+      TddController#none:
+        :operators:
+          :skip_before_filter: 1.0
+        :score: 1.0
+        :path: 
+  - :name: User
+    :path: ''
+    :total_score: 4.000000000000002
+    :highest_score: 4.000000000000002
+    :average_score: 4.000000000000002
+    :methods:
+      User#none:
+        :operators:
+          :attr_accessible: 1.0000000000000004
+          :devise: 1.0000000000000004
+          :has_and_belongs_to_many: 2.000000000000001
+        :score: 4.000000000000002
+        :path: 
+  - :name: Project
+    :path: ''
+    :total_score: 4.000000000000002
+    :highest_score: 4.000000000000002
+    :average_score: 4.000000000000002
+    :methods:
+      Project#none:
+        :operators:
+          :attr_accessible: 1.0000000000000004
+          :validates_presence_of: 1.0000000000000004
+          :has_many: 1.0000000000000004
+          :has_and_belongs_to_many: 1.0000000000000004
+        :score: 4.000000000000002
+        :path: 
+  - :name: UserRole
+    :path: ''
+    :total_score: 2.000000000000001
+    :highest_score: 2.000000000000001
+    :average_score: 2.000000000000001
+    :methods:
+      UserRole#none:
+        :operators:
+          :attr_accessible: 1.0000000000000004
+          :has_and_belongs_to_many: 1.0000000000000004
+        :score: 2.000000000000001
+        :path: 
+  - :name: HomeController
+    :path: ''
+    :total_score: 1.0
+    :highest_score: 1.0
+    :average_score: 1.0
+    :methods:
+      HomeController#none:
+        :operators:
+          :before_filter: 1.0
+        :score: 1.0
+        :path: 
+  - :name: ApplicationController
+    :path: app/controllers/application_controller.rb
+    :total_score: 2.0
+    :highest_score: 1.0
+    :average_score: 1.0
+    :methods:
+      ApplicationController#main_menu:
+        :operators:
+          :render: 1.0
+        :score: 1.0
+        :path: app/controllers/application_controller.rb:5
+      ApplicationController#none:
+        :operators:
+          :before_filter: 1.0
+        :score: 1.0
+        :path: 
+:stats:
+  :codeLOC: 1151
+  :testLOC: 414
+  :code_to_test_ratio: 0.4
+  :lines:
+  - :name: Controllers
+    :lines: 343
+    :loc: 269
+    :classes: 7
+    :methods: 35
+    :methods_per_class: 5
+    :loc_per_method: 5
+  - :name: Helpers
+    :lines: 14
+    :loc: 14
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Models
+    :lines: 78
+    :loc: 55
+    :classes: 7
+    :methods: 3
+    :methods_per_class: 0
+    :loc_per_method: 16
+  - :name: Mailers
+    :lines: 0
+    :loc: 0
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Javascripts
+    :lines: 963
+    :loc: 813
+    :classes: 0
+    :methods: 108
+    :methods_per_class: 0
+    :loc_per_method: 5
+  - :name: Libraries
+    :lines: 0
+    :loc: 0
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Controllers specs
+    :lines: 447
+    :loc: 353
+    :classes: 0
+    :methods: 1
+    :methods_per_class: 0
+    :loc_per_method: 351
+  - :name: Features specs
+    :lines: 23
+    :loc: 14
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Models specs
+    :lines: 64
+    :loc: 47
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Total
+    :lines: 1932
+    :loc: 1565
+    :classes: 14
+    :methods: 147
+    :methods_per_class: 10
+    :loc_per_method: 8
+:saikuro:
+  :files:
+  - :classes:
+    - :class_name: UserController
+      :complexity: 20
+      :lines: 112
+      :methods:
+      - :name: UserController#update_roles
+        :complexity: 5
+        :lines: 20
+      - :name: UserController#add_user_role
+        :complexity: 2
+        :lines: 13
+      - :name: UserController#destroy
+        :complexity: 2
+        :lines: 7
+      - :name: UserController#create
+        :complexity: 2
+        :lines: 13
+      - :name: UserController#update_password
+        :complexity: 2
+        :lines: 9
+      - :name: UserController#edit
+        :complexity: 1
+        :lines: 2
+      - :name: UserController#update
+        :complexity: 1
+        :lines: 5
+      - :name: UserController#show
+        :complexity: 1
+        :lines: 2
+      - :name: UserController#change_roles
+        :complexity: 1
+        :lines: 3
+      - :name: UserController#new
+        :complexity: 1
+        :lines: 2
+      - :name: UserController#generate_dummy_password
+        :complexity: 1
+        :lines: 5
+      - :name: UserController#index
+        :complexity: 1
+        :lines: 4
+    :filename: app/controllers/user_controller.rb
+  - :classes:
+    - :class_name: ProjectController
+      :complexity: 15
+      :lines: 66
+      :methods:
+      - :name: ProjectController#add_users
+        :complexity: 6
+        :lines: 19
+      - :name: ProjectController#create
+        :complexity: 2
+        :lines: 8
+      - :name: ProjectController#update
+        :complexity: 2
+        :lines: 7
+      - :name: ProjectController#show
+        :complexity: 1
+        :lines: 2
+      - :name: ProjectController#edit
+        :complexity: 1
+        :lines: 3
+      - :name: ProjectController#edit_team
+        :complexity: 1
+        :lines: 3
+      - :name: ProjectController#new
+        :complexity: 1
+        :lines: 2
+      - :name: ProjectController#index
+        :complexity: 1
+        :lines: 2
+    :filename: app/controllers/project_controller.rb
+  - :classes:
+    - :class_name: StoryBoardController
+      :complexity: 15
+      :lines: 88
+      :methods:
+      - :name: StoryBoardController#create
+        :complexity: 4
+        :lines: 21
+      - :name: StoryBoardController#reorder
+        :complexity: 3
+        :lines: 16
+      - :name: StoryBoardController#destroy
+        :complexity: 2
+        :lines: 6
+      - :name: StoryBoardController#update
+        :complexity: 2
+        :lines: 10
+      - :name: StoryBoardController#get_form_objects
+        :complexity: 1
+        :lines: 10
+      - :name: StoryBoardController#show
+        :complexity: 1
+        :lines: 2
+      - :name: StoryBoardController#get_project_tasks
+        :complexity: 1
+        :lines: 4
+      - :name: StoryBoardController#index
+        :complexity: 1
+        :lines: 2
+    :filename: app/controllers/story_board_controller.rb
+  - :classes:
+    - :class_name: StoryBoardObject
+      :complexity: 9
+      :lines: 41
+      :methods:
+      - :name: StoryBoardObject#on_update_stage
+        :complexity: 3
+        :lines: 7
+      - :name: StoryBoardObject#set_status_dates
+        :complexity: 3
+        :lines: 9
+      - :name: StoryBoardObject#as_json
+        :complexity: 3
+        :lines: 12
+    - :class_name: Task
+      :complexity: 0
+      :lines: 2
+      :methods: []
+    - :class_name: UserStory
+      :complexity: 0
+      :lines: 2
+      :methods: []
+    - :class_name: TestTask
+      :complexity: 0
+      :lines: 2
+      :methods: []
+    :filename: app/models/story_board_object.rb
+  - :classes:
+    - :class_name: ''
+      :complexity: 14
+      :lines: 65
+      :methods: []
+    :filename: app/views/layouts/application.html.erb
+  - :classes:
+    - :class_name: ReportingController
+      :complexity: 4
+      :lines: 41
+      :methods:
+      - :name: ReportingController#get_report_data
+        :complexity: 3
+        :lines: 35
+      - :name: ReportingController#index
+        :complexity: 1
+        :lines: 2
+    :filename: app/controllers/reporting_controller.rb
+  - :classes:
+    - :class_name: TddController
+      :complexity: 3
+      :lines: 16
+      :methods:
+      - :name: TddController#render_svg_image
+        :complexity: 1
+        :lines: 3
+      - :name: TddController#view_tdd_process
+        :complexity: 1
+        :lines: 2
+      - :name: TddController#index
+        :complexity: 1
+        :lines: 2
+    :filename: app/controllers/tdd_controller.rb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::'
+      :complexity: 1
+      :lines: 1
+      :methods: []
+    :filename: app/views/project/new.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 1
+      :lines: 2
+      :methods: []
+    :filename: app/views/user/change_roles.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::MAFT'
+      :complexity: 0
+      :lines: 3
+      :methods: []
+    - :class_name: '::MAFT::TDD'
+      :complexity: 1
+      :lines: 3
+      :methods: []
+    :filename: app/views/tdd/index.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::'
+      :complexity: 1
+      :lines: 1
+      :methods: []
+    :filename: app/views/user/edit.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 1
+      :lines: 0
+      :methods: []
+    :filename: app/views/story_board/index.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 1
+      :lines: 8
+      :methods: []
+    :filename: app/views/reporting/index.html.erb
+  - :classes:
+    - :class_name: Projects
+      :complexity: 0
+      :lines: 2
+      :methods: []
+    - :class_name: ! 'Projects::'
+      :complexity: 1
+      :lines: 1
+      :methods: []
+    :filename: app/views/project/index.html.erb
+  - :classes:
+    - :class_name: HomeController
+      :complexity: 1
+      :lines: 6
+      :methods:
+      - :name: HomeController#index
+        :complexity: 1
+        :lines: 2
+    :filename: app/controllers/home_controller.rb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::'
+      :complexity: 1
+      :lines: 1
+      :methods: []
+    :filename: app/views/user/new.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 1
+      :lines: 7
+      :methods: []
+    :filename: app/views/devise/registrations/edit.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 1
+      :lines: 0
+      :methods: []
+    :filename: app/views/devise/shared/_links.erb
+  - :classes:
+    - :class_name: ApplicationController
+      :complexity: 1
+      :lines: 7
+      :methods:
+      - :name: ApplicationController#main_menu
+        :complexity: 1
+        :lines: 2
+    :filename: app/controllers/application_controller.rb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 0
+      :methods: []
+    :filename: app/views/devise/registrations/new.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::'
+      :complexity: 0
+      :lines: 3
+      :methods: []
+    - :class_name: '::::'
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::::::'
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::::::::'
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::::::::::'
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::::::::::::'
+      :complexity: 0
+      :lines: 2
+      :methods: []
+    :filename: app/views/menus/_main_menu.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 0
+      :methods: []
+    :filename: app/views/devise/sessions/new.html.erb
+  - :classes:
+    - :class_name: MAFT
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/views/home/index.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/views/project/create.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 0
+      :methods: []
+    :filename: app/views/devise/mailer/unlock_instructions.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 0
+      :methods: []
+    :filename: app/views/devise/mailer/reset_password_instructions.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 0
+      :methods: []
+    :filename: app/views/devise/mailer/confirmation_instructions.html.erb
+  - :classes:
+    - :class_name: UserRole
+      :complexity: 0
+      :lines: 4
+      :methods: []
+    :filename: app/models/user_role.rb
+  - :classes:
+    - :class_name: User
+      :complexity: 0
+      :lines: 10
+      :methods: []
+    :filename: app/models/user.rb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::'
+      :complexity: 0
+      :lines: 2
+      :methods: []
+    - :class_name: '::::Project'
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    - :class_name: '::::Project::'
+      :complexity: 0
+      :lines: 3
+      :methods: []
+    - :class_name: '::::Project::::'
+      :complexity: 0
+      :lines: 3
+      :methods: []
+    - :class_name: '::::Project::::::'
+      :complexity: 0
+      :lines: 3
+      :methods: []
+    :filename: app/views/project/edit.html.erb
+  - :classes:
+    - :class_name: Project
+      :complexity: 0
+      :lines: 7
+      :methods: []
+    :filename: app/models/project.rb
+  - :classes:
+    - :class_name: UserHelper
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/helpers/user_helper.rb
+  - :classes:
+    - :class_name: TddHelper
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/helpers/tdd_helper.rb
+  - :classes:
+    - :class_name: StoryBoardHelper
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/helpers/story_board_helper.rb
+  - :classes:
+    - :class_name: ReportingHelper
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/helpers/reporting_helper.rb
+  - :classes:
+    - :class_name: ProjectHelper
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/helpers/project_helper.rb
+  - :classes:
+    - :class_name: HomeHelper
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/helpers/home_helper.rb
+  - :classes:
+    - :class_name: ApplicationHelper
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/helpers/application_helper.rb
+  - :classes:
+    - :class_name: Project
+      :complexity: 0
+      :lines: 4
+      :methods: []
+    :filename: app/views/project/edit_team.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/views/project/save.html.erb
+  - :classes:
+    - :class_name: Project
+      :complexity: 0
+      :lines: 4
+      :methods: []
+    - :class_name: Project::Description
+      :complexity: 0
+      :lines: 2
+      :methods: []
+    :filename: app/views/project/show.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/views/project/view.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 1
+      :methods: []
+    :filename: app/views/reporting/generate_report.html.erb
+  - :classes:
+    - :class_name: MAFT
+      :complexity: 0
+      :lines: 5
+      :methods: []
+    - :class_name: MAFT::User
+      :complexity: 0
+      :lines: 9
+      :methods: []
+    :filename: app/views/user/index.html.erb
+  - :classes:
+    - :class_name: ''
+      :complexity: 0
+      :lines: 0
+      :methods: []
+    :filename: app/views/user/show.html.erb
+  :classes:
+  - :name: UserController
+    :complexity: 20
+    :lines: 112
+    :defs:
+    - :name: UserController#index
+      :complexity: 1
+      :lines: 4
+    - :name: UserController#add_user_role
+      :complexity: 2
+      :lines: 13
+    - :name: UserController#new
+      :complexity: 1
+      :lines: 2
+    - :name: UserController#create
+      :complexity: 2
+      :lines: 13
+    - :name: UserController#show
+      :complexity: 1
+      :lines: 2
+    - :name: UserController#update_password
+      :complexity: 2
+      :lines: 9
+    - :name: UserController#edit
+      :complexity: 1
+      :lines: 2
+    - :name: UserController#update
+      :complexity: 1
+      :lines: 5
+    - :name: UserController#change_roles
+      :complexity: 1
+      :lines: 3
+    - :name: UserController#update_roles
+      :complexity: 5
+      :lines: 20
+    - :name: UserController#destroy
+      :complexity: 2
+      :lines: 7
+    - :name: UserController#generate_dummy_password
+      :complexity: 1
+      :lines: 5
+  - :name: ProjectController
+    :complexity: 15
+    :lines: 66
+    :defs:
+    - :name: ProjectController#index
+      :complexity: 1
+      :lines: 2
+    - :name: ProjectController#new
+      :complexity: 1
+      :lines: 2
+    - :name: ProjectController#create
+      :complexity: 2
+      :lines: 8
+    - :name: ProjectController#edit
+      :complexity: 1
+      :lines: 3
+    - :name: ProjectController#show
+      :complexity: 1
+      :lines: 2
+    - :name: ProjectController#update
+      :complexity: 2
+      :lines: 7
+    - :name: ProjectController#edit_team
+      :complexity: 1
+      :lines: 3
+    - :name: ProjectController#add_users
+      :complexity: 6
+      :lines: 19
+  - :name: StoryBoardController
+    :complexity: 15
+    :lines: 88
+    :defs:
+    - :name: StoryBoardController#index
+      :complexity: 1
+      :lines: 2
+    - :name: StoryBoardController#get_project_tasks
+      :complexity: 1
+      :lines: 4
+    - :name: StoryBoardController#create
+      :complexity: 4
+      :lines: 21
+    - :name: StoryBoardController#get_form_objects
+      :complexity: 1
+      :lines: 10
+    - :name: StoryBoardController#update
+      :complexity: 2
+      :lines: 10
+    - :name: StoryBoardController#reorder
+      :complexity: 3
+      :lines: 16
+    - :name: StoryBoardController#show
+      :complexity: 1
+      :lines: 2
+    - :name: StoryBoardController#destroy
+      :complexity: 2
+      :lines: 6
+  - :name: StoryBoardObject
+    :complexity: 9
+    :lines: 41
+    :defs:
+    - :name: StoryBoardObject#as_json
+      :complexity: 3
+      :lines: 12
+    - :name: StoryBoardObject#set_status_dates
+      :complexity: 3
+      :lines: 9
+    - :name: StoryBoardObject#on_update_stage
+      :complexity: 3
+      :lines: 7
+  - :name: ''
+    :complexity: 5
+    :lines: 17
+  - :name: ''
+    :complexity: 4
+    :lines: 17
+  - :name: ReportingController
+    :complexity: 4
+    :lines: 41
+    :defs:
+    - :name: ReportingController#index
+      :complexity: 1
+      :lines: 2
+    - :name: ReportingController#get_report_data
+      :complexity: 3
+      :lines: 35
+  - :name: ''
+    :complexity: 3
+    :lines: 16
+  - :name: TddController
+    :complexity: 3
+    :lines: 16
+    :defs:
+    - :name: TddController#index
+      :complexity: 1
+      :lines: 2
+    - :name: TddController#view_tdd_process
+      :complexity: 1
+      :lines: 2
+    - :name: TddController#render_svg_image
+      :complexity: 1
+      :lines: 3
+  - :name: ''
+    :complexity: 2
+    :lines: 15
+  - :name: '::'
+    :complexity: 1
+    :lines: 1
+  - :name: ''
+    :complexity: 1
+    :lines: 2
+  - :name: '::MAFT::TDD'
+    :complexity: 1
+    :lines: 3
+  - :name: '::'
+    :complexity: 1
+    :lines: 1
+  - :name: ''
+    :complexity: 1
+    :lines: 0
+  - :name: ''
+    :complexity: 1
+    :lines: 8
+  - :name: ! 'Projects::'
+    :complexity: 1
+    :lines: 1
+  - :name: HomeController
+    :complexity: 1
+    :lines: 6
+    :defs:
+    - :name: HomeController#index
+      :complexity: 1
+      :lines: 2
+  - :name: '::'
+    :complexity: 1
+    :lines: 1
+  - :name: ''
+    :complexity: 1
+    :lines: 7
+  - :name: ''
+    :complexity: 1
+    :lines: 0
+  - :name: ApplicationController
+    :complexity: 1
+    :lines: 7
+    :defs:
+    - :name: ApplicationController#main_menu
+      :complexity: 1
+      :lines: 2
+  - :name: '::::Project::::::'
+    :complexity: 0
+    :lines: 3
+  - :name: User
+    :complexity: 0
+    :lines: 10
+  - :name: UserRole
+    :complexity: 0
+    :lines: 4
+  - :name: ''
+    :complexity: 0
+    :lines: 0
+  - :name: ''
+    :complexity: 0
+    :lines: 0
+  - :name: ''
+    :complexity: 0
+    :lines: 0
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: MAFT
+    :complexity: 0
+    :lines: 1
+  - :name: ''
+    :complexity: 0
+    :lines: 0
+  - :name: '::::::::::::'
+    :complexity: 0
+    :lines: 2
+  - :name: '::::::::::'
+    :complexity: 0
+    :lines: 1
+  - :name: '::::::::'
+    :complexity: 0
+    :lines: 1
+  - :name: '::::::'
+    :complexity: 0
+    :lines: 1
+  - :name: '::::'
+    :complexity: 0
+    :lines: 1
+  - :name: '::'
+    :complexity: 0
+    :lines: 3
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: ''
+    :complexity: 0
+    :lines: 0
+  - :name: '::'
+    :complexity: 0
+    :lines: 2
+  - :name: '::::Project'
+    :complexity: 0
+    :lines: 1
+  - :name: '::::Project::'
+    :complexity: 0
+    :lines: 3
+  - :name: '::::Project::::'
+    :complexity: 0
+    :lines: 3
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: Project
+    :complexity: 0
+    :lines: 7
+  - :name: Projects
+    :complexity: 0
+    :lines: 2
+  - :name: UserHelper
+    :complexity: 0
+    :lines: 1
+  - :name: TddHelper
+    :complexity: 0
+    :lines: 1
+  - :name: StoryBoardHelper
+    :complexity: 0
+    :lines: 1
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: ReportingHelper
+    :complexity: 0
+    :lines: 1
+  - :name: '::MAFT'
+    :complexity: 0
+    :lines: 3
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: ProjectHelper
+    :complexity: 0
+    :lines: 1
+  - :name: HomeHelper
+    :complexity: 0
+    :lines: 1
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: ApplicationHelper
+    :complexity: 0
+    :lines: 1
+  - :name: Project
+    :complexity: 0
+    :lines: 4
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: Project
+    :complexity: 0
+    :lines: 4
+  - :name: Project::Description
+    :complexity: 0
+    :lines: 2
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: TestTask
+    :complexity: 0
+    :lines: 2
+  - :name: UserStory
+    :complexity: 0
+    :lines: 2
+  - :name: Task
+    :complexity: 0
+    :lines: 2
+  - :name: ''
+    :complexity: 0
+    :lines: 1
+  - :name: MAFT
+    :complexity: 0
+    :lines: 5
+  - :name: MAFT::User
+    :complexity: 0
+    :lines: 9
+  - :name: ''
+    :complexity: 0
+    :lines: 0
+  :methods:
+  - :name: ProjectController#add_users
+    :complexity: 6
+    :lines: 19
+  - :name: UserController#update_roles
+    :complexity: 5
+    :lines: 20
+  - :name: StoryBoardController#create
+    :complexity: 4
+    :lines: 21
+  - :name: StoryBoardObject#on_update_stage
+    :complexity: 3
+    :lines: 7
+  - :name: StoryBoardController#reorder
+    :complexity: 3
+    :lines: 16
+  - :name: ReportingController#get_report_data
+    :complexity: 3
+    :lines: 35
+  - :name: StoryBoardObject#set_status_dates
+    :complexity: 3
+    :lines: 9
+  - :name: StoryBoardObject#as_json
+    :complexity: 3
+    :lines: 12
+  - :name: UserController#add_user_role
+    :complexity: 2
+    :lines: 13
+  - :name: UserController#destroy
+    :complexity: 2
+    :lines: 7
+  - :name: StoryBoardController#destroy
+    :complexity: 2
+    :lines: 6
+  - :name: ProjectController#create
+    :complexity: 2
+    :lines: 8
+  - :name: UserController#create
+    :complexity: 2
+    :lines: 13
+  - :name: StoryBoardController#update
+    :complexity: 2
+    :lines: 10
+  - :name: ProjectController#update
+    :complexity: 2
+    :lines: 7
+  - :name: UserController#update_password
+    :complexity: 2
+    :lines: 9
+  - :name: ApplicationController#main_menu
+    :complexity: 1
+    :lines: 2
+  - :name: StoryBoardController#index
+    :complexity: 1
+    :lines: 2
+  - :name: StoryBoardController#get_project_tasks
+    :complexity: 1
+    :lines: 4
+  - :name: ProjectController#edit_team
+    :complexity: 1
+    :lines: 3
+  - :name: StoryBoardController#get_form_objects
+    :complexity: 1
+    :lines: 10
+  - :name: ProjectController#show
+    :complexity: 1
+    :lines: 2
+  - :name: ProjectController#edit
+    :complexity: 1
+    :lines: 3
+  - :name: StoryBoardController#show
+    :complexity: 1
+    :lines: 2
+  - :name: ProjectController#new
+    :complexity: 1
+    :lines: 2
+  - :name: ProjectController#index
+    :complexity: 1
+    :lines: 2
+  - :name: UserController#generate_dummy_password
+    :complexity: 1
+    :lines: 5
+  - :name: ReportingController#index
+    :complexity: 1
+    :lines: 2
+  - :name: TddController#index
+    :complexity: 1
+    :lines: 2
+  - :name: UserController#change_roles
+    :complexity: 1
+    :lines: 3
+  - :name: UserController#update
+    :complexity: 1
+    :lines: 5
+  - :name: UserController#edit
+    :complexity: 1
+    :lines: 2
+  - :name: TddController#view_tdd_process
+    :complexity: 1
+    :lines: 2
+  - :name: UserController#show
+    :complexity: 1
+    :lines: 2
+  - :name: TddController#render_svg_image
+    :complexity: 1
+    :lines: 3
+  - :name: UserController#new
+    :complexity: 1
+    :lines: 2
+  - :name: HomeController#index
+    :complexity: 1
+    :lines: 2
+  - :name: UserController#index
+    :complexity: 1
+    :lines: 4
+:reek:
+  :matches:
+  - :file_path: app/controllers/application_controller.rb
+    :code_smells:
+    - :method: ApplicationController
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+  - :file_path: app/controllers/home_controller.rb
+    :code_smells:
+    - :method: HomeController
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+  - :file_path: app/controllers/project_controller.rb
+    :code_smells:
+    - :method: ProjectController
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: ProjectController#add_users
+      :message: calls @project.users 4 times
+      :type: DuplicateMethodCall
+    - :method: ProjectController#add_users
+      :message: calls @project.users.exists?(@user) twice
+      :type: DuplicateMethodCall
+    - :method: ProjectController#add_users
+      :message: has approx 9 statements
+      :type: TooManyStatements
+    - :method: ProjectController#add_users
+      :message: has the variable name 'u'
+      :type: UncommunicativeVariableName
+  - :file_path: app/controllers/reporting_controller.rb
+    :code_smells:
+    - :method: ReportingController
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: ReportingController
+      :message: has the variable name '@date1'
+      :type: UncommunicativeVariableName
+    - :method: ReportingController
+      :message: has the variable name '@date2'
+      :type: UncommunicativeVariableName
+    - :method: ReportingController#get_report_data
+      :message: has approx 19 statements
+      :type: TooManyStatements
+    - :method: ReportingController#get_report_data
+      :message: has the variable name 'd'
+      :type: UncommunicativeVariableName
+    - :method: ReportingController#get_report_data
+      :message: has the variable name 'i'
+      :type: UncommunicativeVariableName
+  - :file_path: app/controllers/story_board_controller.rb
+    :code_smells:
+    - :method: StoryBoardController
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: StoryBoardController#create
+      :message: has approx 9 statements
+      :type: TooManyStatements
+    - :method: StoryBoardController#create
+      :message: has the variable name 'x'
+      :type: UncommunicativeVariableName
+    - :method: StoryBoardController#reorder
+      :message: has approx 8 statements
+      :type: TooManyStatements
+    - :method: StoryBoardController#reorder
+      :message: has the variable name 'v'
+      :type: UncommunicativeVariableName
+    - :method: StoryBoardController#update
+      :message: has approx 6 statements
+      :type: TooManyStatements
+  - :file_path: app/controllers/tdd_controller.rb
+    :code_smells:
+    - :method: TddController
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+  - :file_path: app/controllers/user_controller.rb
+    :code_smells:
+    - :method: UserController
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: UserController#add_user_role
+      :message: has approx 8 statements
+      :type: TooManyStatements
+    - :method: UserController#create
+      :message: has approx 7 statements
+      :type: TooManyStatements
+    - :method: UserController#destroy
+      :message: calls params[:id] twice
+      :type: DuplicateMethodCall
+    - :method: UserController#destroy
+      :message: has the variable name 'e'
+      :type: UncommunicativeVariableName
+    - :method: UserController#generate_dummy_password
+      :message: doesn't depend on instance state
+      :type: UtilityFunction
+    - :method: UserController#update_roles
+      :message: calls role.title twice
+      :type: DuplicateMethodCall
+    - :method: UserController#update_roles
+      :message: calls role.title.humanize twice
+      :type: DuplicateMethodCall
+    - :method: UserController#update_roles
+      :message: calls user.name twice
+      :type: DuplicateMethodCall
+    - :method: UserController#update_roles
+      :message: calls user.user_roles 4 times
+      :type: DuplicateMethodCall
+    - :method: UserController#update_roles
+      :message: calls user.user_roles.exists?(role) twice
+      :type: DuplicateMethodCall
+    - :method: UserController#update_roles
+      :message: has approx 10 statements
+      :type: TooManyStatements
+    - :method: UserController#update_roles
+      :message: has the variable name 'r'
+      :type: UncommunicativeVariableName
+    - :method: UserController#update_roles
+      :message: refers to user more than self
+      :type: FeatureEnvy
+  - :file_path: app/helpers/application_helper.rb
+    :code_smells: []
+  - :file_path: app/helpers/home_helper.rb
+    :code_smells: []
+  - :file_path: app/helpers/project_helper.rb
+    :code_smells: []
+  - :file_path: app/helpers/reporting_helper.rb
+    :code_smells: []
+  - :file_path: app/helpers/story_board_helper.rb
+    :code_smells: []
+  - :file_path: app/helpers/tdd_helper.rb
+    :code_smells: []
+  - :file_path: app/helpers/user_helper.rb
+    :code_smells: []
+  - :file_path: app/models/project.rb
+    :code_smells:
+    - :method: Project
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+  - :file_path: app/models/story_board_object.rb
+    :code_smells:
+    - :method: StoryBoardObject
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: StoryBoardObject#as_json
+      :message: has approx 7 statements
+      :type: TooManyStatements
+    - :method: StoryBoardObject#set_status_dates
+      :message: calls Time.now twice
+      :type: DuplicateMethodCall
+    - :method: Task
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: TestTask
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: UserStory
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+  - :file_path: app/models/user.rb
+    :code_smells:
+    - :method: User
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+  - :file_path: app/models/user_role.rb
+    :code_smells:
+    - :method: UserRole
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+:roodi:
+  :total:
+  - Found 4 errors.
+  :problems:
+  - :file: app/models/story_board_object.rb
+    :line: '24'
+    :problem: Case statement is missing an else clause.
+  - :file: app/models/story_board_object.rb
+    :line: '35'
+    :problem: Case statement is missing an else clause.
+  - :file: app/controllers/project_controller.rb
+    :line: '51'
+    :problem: Block cyclomatic complexity is 5.  It should be 4 or less.
+  - :file: app/controllers/reporting_controller.rb
+    :line: '6'
+    :problem: Method "get_report_data" has 34 lines.  It should have 20 or less.
+:rails_best_practices:
+  :total:
+  - Found 21 errors.
+  :problems:
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/db/schema.rb
+    :line: '26'
+    :problem: always add db index (projects_users => [project_id])
+    :url: http://rails-bestpractices.com/posts/21-always-add-db-index
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/db/schema.rb
+    :line: '26'
+    :problem: always add db index (projects_users => [user_id])
+    :url: http://rails-bestpractices.com/posts/21-always-add-db-index
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/db/schema.rb
+    :line: '31'
+    :problem: always add db index (story_board_objects => [project_id])
+    :url: http://rails-bestpractices.com/posts/21-always-add-db-index
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/db/schema.rb
+    :line: '54'
+    :problem: always add db index (user_roles_users => [user_id])
+    :url: http://rails-bestpractices.com/posts/21-always-add-db-index
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/db/schema.rb
+    :line: '54'
+    :problem: always add db index (user_roles_users => [user_role_id])
+    :url: http://rails-bestpractices.com/posts/21-always-add-db-index
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/views/reporting/index.html.erb
+    :line: '9'
+    :problem: move code into helper (array_count >= 3)
+    :url: http://rails-bestpractices.com/posts/26-move-code-into-helper
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/views/reporting/index.html.erb
+    :line: '13'
+    :problem: move code into helper (array_count >= 3)
+    :url: http://rails-bestpractices.com/posts/26-move-code-into-helper
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/controllers/project_controller.rb
+    :line: '4'
+    :problem: move finder to named_scope
+    :url: http://rails-bestpractices.com/posts/1-move-finder-to-named_scope
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/controllers/project_controller.rb
+    :line: '47'
+    :problem: move model logic into model (@project use_count > 4)
+    :url: http://rails-bestpractices.com/posts/7-move-model-logic-into-the-model
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/controllers/story_board_controller.rb
+    :line: '48'
+    :problem: move model logic into model (@story_board_object use_count > 4)
+    :url: http://rails-bestpractices.com/posts/7-move-model-logic-into-the-model
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/controllers/user_controller.rb
+    :line: '73'
+    :problem: move model logic into model (user use_count > 4)
+    :url: http://rails-bestpractices.com/posts/7-move-model-logic-into-the-model
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/controllers/user_controller.rb
+    :line: '99'
+    :problem: not rescue Exception
+    :url: http://rails-bestpractices.com/posts/702-don-t-rescue-exception-rescue-standarderror
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/helpers/home_helper.rb
+    :line: '1'
+    :problem: remove empty helpers
+    :url: http://rails-bestpractices.com/posts/72-remove-empty-helpers
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/helpers/project_helper.rb
+    :line: '1'
+    :problem: remove empty helpers
+    :url: http://rails-bestpractices.com/posts/72-remove-empty-helpers
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/helpers/reporting_helper.rb
+    :line: '1'
+    :problem: remove empty helpers
+    :url: http://rails-bestpractices.com/posts/72-remove-empty-helpers
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/helpers/story_board_helper.rb
+    :line: '1'
+    :problem: remove empty helpers
+    :url: http://rails-bestpractices.com/posts/72-remove-empty-helpers
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/helpers/tdd_helper.rb
+    :line: '1'
+    :problem: remove empty helpers
+    :url: http://rails-bestpractices.com/posts/72-remove-empty-helpers
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/helpers/user_helper.rb
+    :line: '1'
+    :problem: remove empty helpers
+    :url: http://rails-bestpractices.com/posts/72-remove-empty-helpers
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/controllers/user_controller.rb
+    :line: '46'
+    :problem: remove unused methods (UserController#update_password)
+    :url: 
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/models/story_board_object.rb
+    :line: '34'
+    :problem: remove unused methods (StoryBoardObject#on_update_stage)
+    :url: 
+  - :file: /Users/jusef/Dropbox/Web_Development/Ruby/Projects/MAFT/app/views/layouts/application.html.erb
+    :line: '26'
+    :problem: remove trailing whitespace
+    :url: http://rails-bestpractices.com/posts/60-remove-trailing-whitespace
+:hotspots:
+  :files:
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/reporting_controller.rb:6
+      file_name: app/controllers/reporting_controller.rb
+      line_number: '6'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 537201571051363681
+    :details:
+      :flog: complexity is 59.8
+      :saikuro: complexity is 3.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:73
+      file_name: app/controllers/user_controller.rb
+      line_number: '73'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -4317521785722386857
+    :details:
+      :flog: complexity is 50.6
+      :saikuro: complexity is 5.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:47
+      file_name: app/controllers/project_controller.rb
+      line_number: '47'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 2288079324234983901
+    :details:
+      :flog: complexity is 31.2
+      :saikuro: complexity is 6.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:13
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '13'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3045618321961796753
+    :details:
+      :flog: complexity is 24.4
+      :saikuro: average complexity is 2.5
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:8
+      file_name: app/controllers/user_controller.rb
+      line_number: '8'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 432487975130829195
+    :details:
+      :flog: complexity is 19.3
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:60
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '60'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -4406492825513824368
+    :details:
+      :flog: complexity is 17.2
+      :saikuro: complexity is 3.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:48
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '48'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -3322850944279964654
+    :details:
+      :flog: complexity is 17.6
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:95
+      file_name: app/controllers/user_controller.rb
+      line_number: '95'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3632697536746988081
+    :details:
+      :flog: complexity is 16.5
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:2
+      file_name: app/controllers/user_controller.rb
+      line_number: '2'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -1268402020341658249
+    :details:
+      :flog: complexity is 15.1
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb:9
+      file_name: app/models/story_board_object.rb
+      line_number: '9'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -1552313435163788919
+    :details:
+      :flog: complexity is 11.7
+      :saikuro: complexity is 3.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:46
+      file_name: app/controllers/user_controller.rb
+      line_number: '46'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -1929920514420049576
+    :details:
+      :flog: complexity is 10.8
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:31
+      file_name: app/controllers/project_controller.rb
+      line_number: '31'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -814711558708839365
+    :details:
+      :flog: complexity is 9.5
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:61
+      file_name: app/controllers/user_controller.rb
+      line_number: '61'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -1266603460906444037
+    :details:
+      :flog: complexity is 10.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:27
+      file_name: app/controllers/user_controller.rb
+      line_number: '27'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -155853261077444694
+    :details:
+      :flog: complexity is 9.0
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb:23
+      file_name: app/models/story_board_object.rb
+      line_number: '23'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -1688491523090885996
+    :details:
+      :flog: complexity is 7.3
+      :saikuro: complexity is 3.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:11
+      file_name: app/controllers/project_controller.rb
+      line_number: '11'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3387454074765666414
+    :details:
+      :flog: complexity is 6.8
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:7
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '7'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 4085774284756511490
+    :details:
+      :flog: complexity is 7.5
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:82
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '82'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3575350497463863526
+    :details:
+      :flog: complexity is 6.2
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb:34
+      file_name: app/models/story_board_object.rb
+      line_number: '34'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -3721347693815774040
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 3.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/tdd_controller.rb:12
+      file_name: app/controllers/tdd_controller.rb
+      line_number: '12'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -789318263870327661
+    :details:
+      :flog: complexity is 5.9
+      :saikuro: average complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:22
+      file_name: app/controllers/project_controller.rb
+      line_number: '22'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -250020216060424347
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:68
+      file_name: app/controllers/user_controller.rb
+      line_number: '68'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 2820100048154284797
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:41
+      file_name: app/controllers/project_controller.rb
+      line_number: '41'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2764055265579854593
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:27
+      file_name: app/controllers/project_controller.rb
+      line_number: '27'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3739767757238757940
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:3
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '3'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2633347302488028253
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:42
+      file_name: app/controllers/user_controller.rb
+      line_number: '42'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 1773556637374525762
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:57
+      file_name: app/controllers/user_controller.rb
+      line_number: '57'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 1179180842373899683
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:106
+      file_name: app/controllers/user_controller.rb
+      line_number: '106'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 4457728466653836031
+    :details:
+      :flog: complexity is 3.2
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:7
+      file_name: app/controllers/project_controller.rb
+      line_number: '7'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3882507640532178745
+    :details:
+      :flog: complexity is 1.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:3
+      file_name: app/controllers/project_controller.rb
+      line_number: '3'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -1374080023007990791
+    :details:
+      :flog: complexity is 1.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:23
+      file_name: app/controllers/user_controller.rb
+      line_number: '23'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 1837287842613429118
+    :details:
+      :flog: complexity is 1.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/application_controller.rb:5
+      file_name: app/controllers/application_controller.rb
+      line_number: '5'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 4106411843282077093
+    :details:
+      :flog: complexity is 1.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/reporting_controller.rb:2
+      file_name: app/controllers/reporting_controller.rb
+      line_number: '2'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 4330049907121397876
+    :details:
+      :flog: complexity is 1.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:36
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '36'
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -523380494332209468
+    :details:
+      :flog: complexity is 1.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb
+      file_name: app/models/story_board_object.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 2159810653813059414
+    :details:
+      :reek: found 6 code smells
+      :roodi: found 2 design problems
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/home_controller.rb
+      file_name: app/controllers/home_controller.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2559252683327756030
+    :details:
+      :saikuro: complexity is 1.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb
+      file_name: app/controllers/user_controller.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -1590738186453384312
+    :details:
+      :reek: found 14 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb
+      file_name: app/controllers/project_controller.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 2830674687156735821
+    :details:
+      :reek: found 5 code smells
+      :roodi: found 1 design problems
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/views/reporting/index.html.erb
+      file_name: app/views/reporting/index.html.erb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 4074566080382221003
+    :details:
+      :flay: found 1 code duplications
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/reporting_controller.rb
+      file_name: app/controllers/reporting_controller.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3003014017770732237
+    :details:
+      :reek: found 6 code smells
+      :roodi: found 1 design problems
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/views/story_board/index.html.erb
+      file_name: app/views/story_board/index.html.erb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 980955463654235084
+    :details:
+      :flay: found 1 code duplications
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb
+      file_name: app/controllers/story_board_controller.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2651778948461328784
+    :details:
+      :reek: found 6 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: .idea/workspace.xml
+      file_name: .idea/workspace.xml
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 3165227347299048687
+    :details:
+      :churn: detected high level of churn (changed 12 times)
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/views/user/index.html.erb
+      file_name: app/views/user/index.html.erb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -4178589756532050797
+    :details:
+      :flay: found 1 code duplications
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/tdd_controller.rb
+      file_name: app/controllers/tdd_controller.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2956598204708183587
+    :details:
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/application_controller.rb
+      file_name: app/controllers/application_controller.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 187407356606411337
+    :details:
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/views/menus/_main_menu.erb
+      file_name: app/views/menus/_main_menu.erb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2907305926488120577
+    :details:
+      :flay: found 1 code duplications
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/project.rb
+      file_name: app/models/project.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: 470353052246758365
+    :details:
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/views/project/index.html.erb
+      file_name: app/views/project/index.html.erb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -3842348124186575364
+    :details:
+      :flay: found 1 code duplications
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/user.rb
+      file_name: app/models/user.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2700256098561234136
+    :details:
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/views/project/show.html.erb
+      file_name: app/views/project/show.html.erb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -3525273525100362934
+    :details:
+      :flay: found 1 code duplications
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/user_role.rb
+      file_name: app/models/user_role.rb
+      line_number: 
+      class_name: 
+      method_name: 
+      simple_method_name: ''
+      hash: -2158367139816081044
+    :details:
+      :reek: found 1 code smells
+  :classes:
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/reporting_controller.rb:6
+      file_name: app/controllers/reporting_controller.rb
+      line_number: '6'
+      class_name: ReportingController
+      method_name: 
+      simple_method_name: ''
+      hash: 2876649386804824599
+    :details:
+      :flog: average complexity is 30.4
+      :saikuro: average complexity is 2.0
+      :reek: found 6 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:73
+      file_name: app/controllers/user_controller.rb
+      line_number: '73'
+      class_name: UserController
+      method_name: 
+      simple_method_name: ''
+      hash: -2256816960441991107
+    :details:
+      :flog: average complexity is 12.4
+      :saikuro: average complexity is 1.7
+      :reek: found 14 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:13
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '13'
+      class_name: StoryBoardController
+      method_name: 
+      simple_method_name: ''
+      hash: -3511104365991855697
+    :details:
+      :flog: average complexity is 11.1
+      :saikuro: average complexity is 1.9
+      :reek: found 6 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:47
+      file_name: app/controllers/project_controller.rb
+      line_number: '47'
+      class_name: ProjectController
+      method_name: 
+      simple_method_name: ''
+      hash: 692871180859051834
+    :details:
+      :flog: average complexity is 8.0
+      :saikuro: average complexity is 1.9
+      :reek: found 5 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb:9
+      file_name: app/models/story_board_object.rb
+      line_number: '9'
+      class_name: StoryBoardObject
+      method_name: 
+      simple_method_name: ''
+      hash: 780077915753257390
+    :details:
+      :flog: average complexity is 6.8
+      :saikuro: average complexity is 3.0
+      :reek: found 3 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/tdd_controller.rb:12
+      file_name: app/controllers/tdd_controller.rb
+      line_number: '12'
+      class_name: TddController
+      method_name: 
+      simple_method_name: ''
+      hash: 834445070397901438
+    :details:
+      :flog: average complexity is 3.4
+      :saikuro: average complexity is 1.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: Project
+      method_name: 
+      simple_method_name: ''
+      hash: -2809481157579781462
+    :details:
+      :flog: complexity is 4.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: User
+      method_name: 
+      simple_method_name: ''
+      hash: 124079429607721379
+    :details:
+      :flog: complexity is 4.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/application_controller.rb:5
+      file_name: app/controllers/application_controller.rb
+      line_number: '5'
+      class_name: ApplicationController
+      method_name: 
+      simple_method_name: ''
+      hash: 3897578329855073848
+    :details:
+      :flog: average complexity is 1.0
+      :saikuro: complexity is 1.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: HomeController
+      method_name: 
+      simple_method_name: ''
+      hash: -2566494273878353693
+    :details:
+      :flog: complexity is 1.0
+      :saikuro: complexity is 1.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: UserRole
+      method_name: 
+      simple_method_name: ''
+      hash: -2268591371330977223
+    :details:
+      :flog: complexity is 2.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb
+      file_name: app/models/story_board_object.rb
+      line_number: 
+      class_name: Task
+      method_name: 
+      simple_method_name: ''
+      hash: -4577345681585263220
+    :details:
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb
+      file_name: app/models/story_board_object.rb
+      line_number: 
+      class_name: TestTask
+      method_name: 
+      simple_method_name: ''
+      hash: 2848144164894439125
+    :details:
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb
+      file_name: app/models/story_board_object.rb
+      line_number: 
+      class_name: UserStory
+      method_name: 
+      simple_method_name: ''
+      hash: 3883101050678169873
+    :details:
+      :reek: found 1 code smells
+  :methods:
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/reporting_controller.rb:6
+      file_name: app/controllers/reporting_controller.rb
+      line_number: '6'
+      class_name: ReportingController
+      method_name: ReportingController#get_report_data
+      simple_method_name: ! '#get_report_data'
+      hash: 1021629393366073004
+    :details:
+      :flog: complexity is 59.8
+      :saikuro: complexity is 3.0
+      :reek: found 3 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:73
+      file_name: app/controllers/user_controller.rb
+      line_number: '73'
+      class_name: UserController
+      method_name: UserController#update_roles
+      simple_method_name: ! '#update_roles'
+      hash: -2912138623074544086
+    :details:
+      :flog: complexity is 50.6
+      :saikuro: complexity is 5.0
+      :reek: found 8 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:47
+      file_name: app/controllers/project_controller.rb
+      line_number: '47'
+      class_name: ProjectController
+      method_name: ProjectController#add_users
+      simple_method_name: ! '#add_users'
+      hash: -2028873042504707066
+    :details:
+      :flog: complexity is 31.2
+      :saikuro: complexity is 6.0
+      :reek: found 4 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:13
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '13'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#create
+      simple_method_name: ! '#create'
+      hash: 3308242322371075163
+    :details:
+      :flog: complexity is 24.4
+      :saikuro: complexity is 4.0
+      :reek: found 2 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:8
+      file_name: app/controllers/user_controller.rb
+      line_number: '8'
+      class_name: UserController
+      method_name: UserController#add_user_role
+      simple_method_name: ! '#add_user_role'
+      hash: 2927296387310279577
+    :details:
+      :flog: complexity is 19.3
+      :saikuro: complexity is 2.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:60
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '60'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#reorder
+      simple_method_name: ! '#reorder'
+      hash: 3045742246500030255
+    :details:
+      :flog: complexity is 17.2
+      :saikuro: complexity is 3.0
+      :reek: found 2 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:48
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '48'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#update
+      simple_method_name: ! '#update'
+      hash: -2531229322692583288
+    :details:
+      :flog: complexity is 17.6
+      :saikuro: complexity is 2.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:95
+      file_name: app/controllers/user_controller.rb
+      line_number: '95'
+      class_name: UserController
+      method_name: UserController#destroy
+      simple_method_name: ! '#destroy'
+      hash: -3204824766473520102
+    :details:
+      :flog: complexity is 16.5
+      :saikuro: complexity is 2.0
+      :reek: found 2 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:2
+      file_name: app/controllers/user_controller.rb
+      line_number: '2'
+      class_name: UserController
+      method_name: UserController#index
+      simple_method_name: ! '#index'
+      hash: 992341384705449816
+    :details:
+      :flog: complexity is 15.1
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb:9
+      file_name: app/models/story_board_object.rb
+      line_number: '9'
+      class_name: StoryBoardObject
+      method_name: StoryBoardObject#as_json
+      simple_method_name: ! '#as_json'
+      hash: -2338212952499511039
+    :details:
+      :flog: complexity is 11.7
+      :saikuro: complexity is 3.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:46
+      file_name: app/controllers/user_controller.rb
+      line_number: '46'
+      class_name: UserController
+      method_name: UserController#update_password
+      simple_method_name: ! '#update_password'
+      hash: 18868241305873865
+    :details:
+      :flog: complexity is 10.8
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:31
+      file_name: app/controllers/project_controller.rb
+      line_number: '31'
+      class_name: ProjectController
+      method_name: ProjectController#update
+      simple_method_name: ! '#update'
+      hash: 4476635279670128526
+    :details:
+      :flog: complexity is 9.5
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:61
+      file_name: app/controllers/user_controller.rb
+      line_number: '61'
+      class_name: UserController
+      method_name: UserController#update
+      simple_method_name: ! '#update'
+      hash: 1205149470942295179
+    :details:
+      :flog: complexity is 10.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:27
+      file_name: app/controllers/user_controller.rb
+      line_number: '27'
+      class_name: UserController
+      method_name: UserController#create
+      simple_method_name: ! '#create'
+      hash: -693219027140540915
+    :details:
+      :flog: complexity is 9.0
+      :saikuro: complexity is 2.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb:23
+      file_name: app/models/story_board_object.rb
+      line_number: '23'
+      class_name: StoryBoardObject
+      method_name: StoryBoardObject#set_status_dates
+      simple_method_name: ! '#set_status_dates'
+      hash: -2353414743020871551
+    :details:
+      :flog: complexity is 7.3
+      :saikuro: complexity is 3.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:11
+      file_name: app/controllers/project_controller.rb
+      line_number: '11'
+      class_name: ProjectController
+      method_name: ProjectController#create
+      simple_method_name: ! '#create'
+      hash: 1394299497813634010
+    :details:
+      :flog: complexity is 6.8
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:7
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '7'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#get_project_tasks
+      simple_method_name: ! '#get_project_tasks'
+      hash: 3943782882331968213
+    :details:
+      :flog: complexity is 7.5
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:82
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '82'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#destroy
+      simple_method_name: ! '#destroy'
+      hash: -3537959102833738145
+    :details:
+      :flog: complexity is 6.2
+      :saikuro: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/models/story_board_object.rb:34
+      file_name: app/models/story_board_object.rb
+      line_number: '34'
+      class_name: StoryBoardObject
+      method_name: StoryBoardObject#on_update_stage
+      simple_method_name: ! '#on_update_stage'
+      hash: -2780012303060252066
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 3.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/tdd_controller.rb:12
+      file_name: app/controllers/tdd_controller.rb
+      line_number: '12'
+      class_name: TddController
+      method_name: TddController#render_svg_image
+      simple_method_name: ! '#render_svg_image'
+      hash: 3934675882381869937
+    :details:
+      :flog: complexity is 5.9
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:22
+      file_name: app/controllers/project_controller.rb
+      line_number: '22'
+      class_name: ProjectController
+      method_name: ProjectController#edit
+      simple_method_name: ! '#edit'
+      hash: -1388994969000827920
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:68
+      file_name: app/controllers/user_controller.rb
+      line_number: '68'
+      class_name: UserController
+      method_name: UserController#change_roles
+      simple_method_name: ! '#change_roles'
+      hash: -420947521181223056
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:41
+      file_name: app/controllers/project_controller.rb
+      line_number: '41'
+      class_name: ProjectController
+      method_name: ProjectController#edit_team
+      simple_method_name: ! '#edit_team'
+      hash: -846157117812852318
+    :details:
+      :flog: complexity is 5.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:57
+      file_name: app/controllers/user_controller.rb
+      line_number: '57'
+      class_name: UserController
+      method_name: UserController#edit
+      simple_method_name: ! '#edit'
+      hash: -1365595405521120653
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:27
+      file_name: app/controllers/project_controller.rb
+      line_number: '27'
+      class_name: ProjectController
+      method_name: ProjectController#show
+      simple_method_name: ! '#show'
+      hash: -93566154123668623
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:42
+      file_name: app/controllers/user_controller.rb
+      line_number: '42'
+      class_name: UserController
+      method_name: UserController#show
+      simple_method_name: ! '#show'
+      hash: -1433806399628518208
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:3
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '3'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#index
+      simple_method_name: ! '#index'
+      hash: -1337064973378504770
+    :details:
+      :flog: complexity is 3.7
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:106
+      file_name: app/controllers/user_controller.rb
+      line_number: '106'
+      class_name: UserController
+      method_name: UserController#generate_dummy_password
+      simple_method_name: ! '#generate_dummy_password'
+      hash: -1269910759133542506
+    :details:
+      :flog: complexity is 3.2
+      :saikuro: complexity is 1.0
+      :reek: found 1 code smells
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: Project
+      method_name: Project#none
+      simple_method_name: ! '#none'
+      hash: -3651376257921788611
+    :details:
+      :flog: complexity is 4.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: User
+      method_name: User#none
+      simple_method_name: ! '#none'
+      hash: -638213614979272132
+    :details:
+      :flog: complexity is 4.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: StoryBoardObject
+      method_name: StoryBoardObject#none
+      simple_method_name: ! '#none'
+      hash: 3243219817204704789
+    :details:
+      :flog: complexity is 3.3
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:7
+      file_name: app/controllers/project_controller.rb
+      line_number: '7'
+      class_name: ProjectController
+      method_name: ProjectController#new
+      simple_method_name: ! '#new'
+      hash: 1683163361293710029
+    :details:
+      :flog: complexity is 1.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/user_controller.rb:23
+      file_name: app/controllers/user_controller.rb
+      line_number: '23'
+      class_name: UserController
+      method_name: UserController#new
+      simple_method_name: ! '#new'
+      hash: -2022390697071553722
+    :details:
+      :flog: complexity is 1.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/project_controller.rb:3
+      file_name: app/controllers/project_controller.rb
+      line_number: '3'
+      class_name: ProjectController
+      method_name: ProjectController#index
+      simple_method_name: ! '#index'
+      hash: -2185612195750915254
+    :details:
+      :flog: complexity is 1.4
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: UserRole
+      method_name: UserRole#none
+      simple_method_name: ! '#none'
+      hash: 2016195978380637627
+    :details:
+      :flog: complexity is 2.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/application_controller.rb:5
+      file_name: app/controllers/application_controller.rb
+      line_number: '5'
+      class_name: ApplicationController
+      method_name: ApplicationController#main_menu
+      simple_method_name: ! '#main_menu'
+      hash: 4418825951317563433
+    :details:
+      :flog: complexity is 1.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/reporting_controller.rb:2
+      file_name: app/controllers/reporting_controller.rb
+      line_number: '2'
+      class_name: ReportingController
+      method_name: ReportingController#index
+      simple_method_name: ! '#index'
+      hash: -4540342006896112228
+    :details:
+      :flog: complexity is 1.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:36
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '36'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#get_form_objects
+      simple_method_name: ! '#get_form_objects'
+      hash: 409931477874230664
+    :details:
+      :flog: complexity is 1.0
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: HomeController
+      method_name: HomeController#none
+      simple_method_name: ! '#none'
+      hash: 3275427704074409278
+    :details:
+      :flog: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: TddController
+      method_name: TddController#none
+      simple_method_name: ! '#none'
+      hash: -213125402543278301
+    :details:
+      :flog: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: 
+      file_name: 
+      line_number: 
+      class_name: ApplicationController
+      method_name: ApplicationController#none
+      simple_method_name: ! '#none'
+      hash: 1972922200286867938
+    :details:
+      :flog: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/story_board_controller.rb:13
+      file_name: app/controllers/story_board_controller.rb
+      line_number: '13'
+      class_name: StoryBoardController
+      method_name: StoryBoardController#show
+      simple_method_name: ! '#show'
+      hash: 1302116951186032956
+    :details:
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/tdd_controller.rb:12
+      file_name: app/controllers/tdd_controller.rb
+      line_number: '12'
+      class_name: TddController
+      method_name: TddController#view_tdd_process
+      simple_method_name: ! '#view_tdd_process'
+      hash: -2453634441945444764
+    :details:
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/tdd_controller.rb:12
+      file_name: app/controllers/tdd_controller.rb
+      line_number: '12'
+      class_name: TddController
+      method_name: TddController#index
+      simple_method_name: ! '#index'
+      hash: 681602349749572724
+    :details:
+      :saikuro: complexity is 1.0
+  - :location: !ruby/object:MetricFu::Location
+      file_path: app/controllers/home_controller.rb
+      file_name: app/controllers/home_controller.rb
+      line_number: 
+      class_name: HomeController
+      method_name: HomeController#index
+      simple_method_name: ! '#index'
+      hash: -4351227053793298830
+    :details:
+      :saikuro: complexity is 1.0

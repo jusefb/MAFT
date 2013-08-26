@@ -1,0 +1,120 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//@import url(http://fonts.googleapis.com/css?family=Expletus+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import 'foundation_and_overrides';
+
+//$tile-color: #E5E5E5;
+$tile-hover-color: #FEFEE4 ;
+
+body{
+  //font-family: 'Expletus Sans', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clear{
+  clear: both;
+}
+
+.hide{
+  display: none;
+}
+
+.tile-list-cntr{
+  width: 90%;
+}
+
+.tile-list{
+  list-style: none;
+  width: 100%;
+
+
+  .tile-list-row{
+    display: inline-block;
+    //border: 1px solid black;
+    min-width: 222px;
+    max-width: 35%;
+    padding: 10px;
+    vertical-align: top;
+    //background-color: $tile-color;
+    @include panel;
+    border-radius: 10px;
+    margin-left: 10px;
+
+    h5{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .tile-list-row:hover{
+    background-color: $tile-hover-color;
+    cursor: pointer;
+  }
+
+  .tile-controls{
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+  }
+}
+
+.form-row{
+  label{
+   width: 20%;
+   heigh: auto;
+  }
+}
+
+.page-content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#main-nav-menu{
+  background-color: #F5F5F5;
+  color: #000000;
+ border-bottom: 1px solid #cccccc;
+  margin-bottom: 10px;
+  height: 120px;
+
+  ul{
+    margin-top: 50px;
+    min-width: 550px;
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+#app-logo{
+  position: absolute;
+  top:0;
+
+  img{
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #main-nav-menu{
+    height: 160px;
+    ul{
+        margin-left: 0;
+      margin-top: 120px;
+      min-width: 100%;
+    }
+  }
+}
+

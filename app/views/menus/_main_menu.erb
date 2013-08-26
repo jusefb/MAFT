@@ -1,0 +1,33 @@
+<div id="main-nav-menu">
+  <div class="row">
+  <div id="app-logo" class="small-12 large-5 columns">
+    <img src="<%= image_path("maft_logo.png") %>" />
+  </div>
+  <!-- Right Nav Section -->
+  <div id="menu-options" class="small-12 large-7 columns">
+  <ul>
+    <li class="divider"></li>
+    <li class=""><%= link_to('Home', :root, {class: 'button radius small'}) %></li>
+    </li>
+    <li class="divider"></li>
+    <% if user_signed_in? %>
+        <li class=""><%= link_to('Projects', :project_index, {class: 'button radius small'}) %></li>
+        <li class="divider"></li>
+        <li><%= link_to('Users', :users_index, {class: 'button radius small'}) %></li>
+        <li class="divider"></li>
+        <li><%= link_to('Reporting', :reports_index, {class: 'button radius small'}) %></li>
+        <li class="divider"></li>
+    <% end %>
+    <li><%= link_to('TDD Info', :tdd_index, {class: 'button radius small'}) %></li>
+    <li class="divider"></li>
+    <li class="has-form">
+      <% if user_signed_in? %>
+          <%= button_tag('Logout', id: 'log-out-btn', type: 'button', class: 'button radius success small', data: {actionurl: destroy_user_session_path}) %>
+      <% else %>
+          <%= button_tag('Login', id: 'log-in-btn', type: 'button', class: 'button radius success small', data: {actionurl: new_user_session_path}) %>
+      <% end %>
+    </li>
+  </ul>
+  </div>
+  </div>
+</div>

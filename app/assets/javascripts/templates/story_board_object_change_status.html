@@ -1,0 +1,16 @@
+<div class="edit-row">
+    <form action="#" name="sbo-change-status-form">
+    <label for="status">Status</label>
+    <!--These should be radio buttons based on the items in the sbo form object object (the radio buttons should be changed to switches during the design stage of the project -->
+    <select name="status" class="change_status">
+        <!--Options should be obtained from the sbo form objects object -->
+        <% _.each(formObjects.statuses, function(value, key){ %>
+        <% if(model.get('status') == value){%>
+        <option value="<%= value %>" selected="selected"><%= value %></option>
+        <%}else{ %>
+        <option value="<%= value %>"><%= value %></option>
+        <%}%>
+        <%});%>
+    </select>
+        </form>
+</div>
