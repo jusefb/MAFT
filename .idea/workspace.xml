@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7ad0a53d-8c1f-4e0e-bc23-075f83936f76" name="744687-46782719 As a user I want to be able to access the story board of the project from the projects page" comment="" />
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377550196316" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377550269153" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377553240929" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -1110,7 +1109,11 @@
       <created>1377550275606</created>
       <updated>1377550275606</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="first day">
+      <created>1377553251774</created>
+      <updated>1377553251774</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
