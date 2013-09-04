@@ -23,9 +23,9 @@ class StoryBoardController < ApplicationController
     end
 
     sbo['obj_order'] = obj_order
-    sbo.set_status_dates
 
     @sbo = StoryBoardObject.create(sbo)
+    @sbo.set_status_dates
     if (@sbo.save)
       render :json => @sbo
     else
@@ -35,13 +35,13 @@ class StoryBoardController < ApplicationController
 
   def get_form_objects
     render :json => {
-        stages: ['Current', 'Backlog', 'Done', 'Future'],
+        stages: ['Backlog','Current', 'Future','Done'],
         :types =>  [
-            { :label => 'Task', :value => 'Task'},
             { :label => 'User Story', :value => 'UserStory'},
+            { :label => 'Task', :value => 'Task'},
             { :label => 'Test Task', :value => 'TestTask'}
         ],
-        statuses: ['Completed', 'Not Started', 'Rejected', 'Started']
+        statuses: ['Not Started', 'Started', 'Completed', 'Rejected', 'Cancelled']
     }
   end
 

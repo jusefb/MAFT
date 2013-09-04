@@ -4,4 +4,8 @@ class HomeController < ApplicationController
   def index
 
   end
+
+  def main_show
+    render partial: 'home/main_show'
+  end
 end

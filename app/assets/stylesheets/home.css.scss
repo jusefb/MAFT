@@ -4,6 +4,7 @@
 //@import url(http://fonts.googleapis.com/css?family=Expletus+Sans);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import 'foundation_and_overrides';
+@import "compass/layout/sticky-footer";
 
 //$tile-color: #E5E5E5;
 $tile-hover-color: #FEFEE4 ;
@@ -76,10 +77,38 @@ body{
   }
 }
 
+#layout{
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -100px;
+}
+
 .page-content{
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  min-height: 100%;
+  padding: 10px;
+  min-height: 400px;
+
+  h1, h3, h4{
+    vertical-align: top;
+  }
+
+  h4{
+    font-size: 1.2em;
+  }
+
+  h5{
+    font-size: 1.1em;
+  }
+
+  p{
+    font-size: 0.9em;
+  }
+
 }
 
 #main-nav-menu{
@@ -87,7 +116,6 @@ body{
   color: #000000;
  border-bottom: 1px solid #cccccc;
   margin-bottom: 10px;
-  height: 120px;
 
   ul{
     margin-top: 50px;
@@ -99,11 +127,48 @@ body{
 }
 
 #app-logo{
-  position: absolute;
-  top:0;
+  //position: absolute;
+  //top:0;
+  padding-top: 10px;
 
   img{
     width: 400px;
+  }
+}
+
+.home-info{
+  h5{
+    vertical-align: top;
+    color: $primary-color;
+  }
+  //border: 1px solid #d9d9d9;
+  p{
+  text-align: justify;
+  }
+}
+
+#main-info{
+  text-align: justify;
+
+  h4{
+    color: $primary-color;
+  }
+}
+
+#home-top{
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+
+@include sticky-footer(200px,"footer");
+
+#footer{
+  background-color: #000000;
+  color: #F5F5F5;
+  padding-top: 10px;
+
+  a{
+    vertical-align: top;
   }
 }
 

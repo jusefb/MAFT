@@ -12,3 +12,21 @@ $alert-color: #c60f13;
 $success-color: #5da423;
 
 @import 'foundation';
+
+[class*="general foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+}
+
+[class*="social foundicon-"]:before {
+  font-family: "SocialFoundicons";
+}
+
+
+.reveal-modal{
+  padding-bottom: 0;
+}
+
+.button.tiny{
+   padding-bottom: 0.6em;
+  vertical-align: top;
+}

@@ -13,6 +13,11 @@ StoryB.init = function(){
         Backbone.history.navigate(href,{trigger: true});
     });
 
+    $(window).on('resize', function(){
+        var viewHelpers = new ViewHelpers();
+        viewHelpers.adjustStageColWidth();
+    });
+
     try{
         Backbone.history.start({pushState: true, root: '/story_board/index/' + this.projectId});
     }catch(ex){}

@@ -1,3 +1,34 @@
 <div class="page-content">
-<p>MAFT Home Page</p>
+  <div class="row home-info-row" id="home-top">
+    <div id="main-info" class="columns large-5">
+      <h4><i class="general foundicon-flag"></i> Welcome to MAFT</h4>
+      <p>Maft stands for Management Application For TDD (Test Driven Development).</p>
+      <p>The application is a project management tool based on the Scrum project management methodology.</p>
+      <p><a href="#">More info...</a></p>
+      <!--<p>The application is a project management tool based on the Scrum project management methodology. It is aimed primarily at solo web developers and small teams. MAFT is an application developed as part of an academic project aimed at discovering the suitability of Test Driven Development for a solo web developer.</p>-->
+    </div>
+    <div class="columns large-7">
+      <%= render :partial => 'home/main_show' %>
+    </div>
+  </div>
+  <div class="row home-info-row">
+    <div class="columns large-4 home-info">
+      <div class="">
+        <h5><i class="general foundicon-website"></i> Interactive Story Board</h5>
+        <p>MAFT proivdes and interactive Story Board. This feature is an essential part of any Scrum project management</p>
+      </div>
+    </div>
+    <div class="columns large-4 home-info">
+      <div class="">
+        <h5><i class="general foundicon-tools"></i> Focus on TDD</h5>
+        <p>MAFT focuses on TDD and provides resources on how to use this approach effectively by yourself or in a small team.</p>
+      </div>
+    </div>
+    <div class="columns large-4 home-info">
+      <div class="">
+        <h5><i class="general foundicon-graph"></i> Reporting</h5>
+        <p>MAFT allows to generate Scrum project reports, such as scrum burndown, to always know where you are in your project progress.</p>
+      </div>
+    </div>
+  </div>
 </div>

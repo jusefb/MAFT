@@ -6,8 +6,8 @@
 <input type="hidden" id="project-id" value="<%= @project.id %>" />
 <div id="sbo-controls-container">
     <ul id="sbo-main-controls">
-      <li><a href="new" class="small button radius">New</a></li>
-      <li><div class="small-3 columns"><input id="find-objects" type="search" /></div></li>
+      <li><a href="new" class="small button radius"><i class="general foundicon-plus"></i> New</a></li>
+      <li><div class=""><input id="find-objects" type="search" /></div></li>
     </ul>
   <ul id="sbo-main-stage-ctrls">
     <li><input class="toggle-stage" type="checkbox" checked="checked" data-stageid="current"/>&nbsp;Current </li>
@@ -16,10 +16,6 @@
     <li><input class="toggle-stage" type="checkbox" data-stageid="done"/>&nbsp;Done </li>
   </ul>
   <div class="clear"></div>
-</div>
-<div id="sbo-form-container">
-  <div id="sbo-form">
-  </div>
 </div>
 <div id="sbo-container">
   <div id="current" class="sbo-stage-col"></div>
@@ -32,4 +28,10 @@
 
 <% content_for :javascript_section do%>
     <%= javascript_include_tag "story_board" %>
+<% end %>
+<% content_for :modal_dialogs do%>
+    <div id="sbo-form-container" class="reveal-modal small">
+      <div id="sbo-form" class="lead">
+      </div>
+    </div>
 <% end %>

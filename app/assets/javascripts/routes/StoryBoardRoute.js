@@ -1,4 +1,4 @@
-var StoryBoardRoute = Backbone.Router.extend({
+    var StoryBoardRoute = Backbone.Router.extend({
     sb: {
         views: [],
         projectId: ''
@@ -49,7 +49,7 @@ var StoryBoardRoute = Backbone.Router.extend({
         //bind events
         this.sb.SbObjectCollection.bind('add', this.addObjectToStage);
         this.sb.SbObjectCollection.bind('add', this.sb.SbObjectCollection.onAddObject);
-        this.sb.SbObjectCollection.bind('change:[order]', this.triggerReorderSbo);
+        //this.sb.SbObjectCollection.bind('change:[order]', this.triggerReorderSbo);
 
         this.index();
     },

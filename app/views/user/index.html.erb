@@ -1,5 +1,5 @@
 <div class="page-content">
-  <h1>MAFT Users</h1>
+  <h3><i class="social foundicon-torso"></i> MAFT Users</h3>
 
   <div class="tile-list-cntr">
     <% if (@message != nil && @message != '') %>
@@ -22,9 +22,10 @@
             </ul>
         <% end %>
         <div class="tile-controls">
-          <ul>
-            <li><%= link_to 'View Details', user_path(id: @current_user) %></li>
 
+          <a href="#" data-dropdown="drop1" class="button dropdown tiny radius">Options</a><br>
+          <ul class="f-dropdown">
+            <li><%= link_to 'View Details', user_path(id: @current_user) %></li>
             <li><%= link_to 'Edit Details', edit_user_path(id: @current_user) %></li>
             <li><%= link_to 'Change Password', edit_user_registration_path %></li>
             <li><%= link_to 'Change Roles', user_change_role_path(id: @current_user) %></li>
@@ -35,7 +36,7 @@
 
     <h4>Other User Details</h4>
 
-    <div><%= link_to 'Add New User', :new_user %></div>
+    <div><%= link_to raw('<i class="general foundicon-plus"></i> Add New User'), :new_user, class: 'button tiny radius' %></div>
     <% if (@users) %>
         <ul id="other-users" class="tile-list">
           <%- current_user.id %>
@@ -55,7 +56,8 @@
                     </ul>
                 <% end %>
                 <div class="tile-controls">
-                  <ul>
+                  <a href="#" data-dropdown="drop1" class="button dropdown tiny radius">Options</a><br>
+                  <ul class="f-dropdown">
                     <li><%= link_to 'View Details', user_path(id: u) %></li>
 
                     <li><%= link_to 'Edit Details', edit_user_path(id: u) %></li>

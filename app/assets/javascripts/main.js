@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    //resize all the rows to the highest column
+    var viewHelpers = new ViewHelpers();
+    viewHelpers.resizeColumnsToTheHighest('.tile-list-row', $('.page-content'));
+    viewHelpers.renderDates();
 
     //add event for login button
     $(document).on('click', '#log-in-btn', function(){
@@ -18,5 +22,9 @@ $(document).ready(function(){
                 document.location.href = '/';
             }
         });
+    });
+
+    $(document).on('click', '#cancel-edit', function(){
+       window.history.back();
     });
 });

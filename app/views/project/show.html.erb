@@ -1,23 +1,26 @@
+<div class="page-content">
 <div class="view-form">
-  <h3><%= @project.title %></h3>
-  <h3 class="title-pane">Project Details</h3>
-  <ul class="vf-controls">
-    <li><%= link_to('Edit', {action: :edit, id: @project}) %></li>
-  </ul>
-  <ul class="vf-fields">
-    <li class="vf-label"><label>Owner:</label></li>
-    <li class="vf-field"><%= @project.owner %></li>
+  <h4><i class="general foundicon-folder"></i> <%= @project.title %></h4>
+  <h5 class="title-pane">Project Details
+     </h5>
+  <%= link_to(raw('<i class="general foundicon-edit"></i> Edit'), {action: :edit, id: @project}, {class: 'button tiny secondary radius'}) %>
 
-    <li class="vf-label"><label>Description:</label></li>
-    <li class="vf-field"><%= @project.description %></li>
-  </ul>
-  <div id="users">
-    <h3 class="title-pane">Project Team</h3>
-    <%= link_to 'Edit Team', {action: 'edit_team', id: @project} %>
-    <ul>
-      <% @project.users.each do |u|%>
-          <li><%= u.name %></li>
-      <% end %>
-    </ul>
+  <div class="edit-row">
+    <label>Owner:
+    <span class="vf-field"><%= @project.owner %></span> </label>
   </div>
+  <div class="edit-row">
+      <label>Description:
+    <span class="vf-field"><%= @project.description %></span>
+      </label>
+  </div>
+
+  <div id="users">
+    <h5 class="title-pane">Project Team</h5>
+    <%= link_to raw('<i class="general foundicon-edit"></i> Edit Team'), {action: 'edit_team', id: @project}, {class: 'button tiny secondary radius'} %>
+      <% @project.users.each do |u|%>
+          <div class="edit-row"><%= u.name %></div>
+      <% end %>
+  </div>
+</div>
 </div>

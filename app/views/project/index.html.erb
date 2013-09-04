@@ -1,15 +1,16 @@
 <div id="project-index" class="tile-list-cntr page-content">
-    <h1>Projects</h1>
+    <h1><i class="general foundicon-folder"></i> Projects</h1>
     <nav>
-      <%= link_to('New Project', {:action => :new}) %>
+      <%= link_to(raw('<i class="general foundicon-plus"></i> New Project'), {action: :new}, {class: 'button radius tiny'}) %>
     </nav>
     <ul class="tile-list">
       <% for @project in @projects do %>
         <li class="tile-list-row"><%= @project.title %>
-          <ul>
-          <li><%= link_to('Settings', {action: :show, id: @project}) %></li>
+          <a href="#" data-dropdown="drop<%= @project.id%>" class="button dropdown tiny radius">Options</a><br>
+          <ul id="drop<%= @project.id%>" class="f-dropdown">
+            <li><%= link_to('Settings', {action: :show, id: @project}) %></li>
+            <li><%= link_to 'Edit Team', {action: 'edit_team', id: @project}%></li>
             <li><%= link_to('Story Board', {controller: :story_board, action: :index, id: @project}, {id: @project.id}) %></li>
-            <li><%= link_to 'Edit Team', {action: 'edit_team', id: @project} %> </li>
           </ul>
           <div id="users">
             <h5 class="title-pane">Project Team</h5>

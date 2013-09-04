@@ -1,9 +1,9 @@
 <div class="edit-form">
-    <form action="#" name="sbo-new-form">
+    <form action="#" name="sbo-new-form" class="custom">
     <div class="edit-row">
         <label for="title">Title</label>
         <input name="title" type="text" value="<%= model.get('title') %>"/></div>
-        <div class="edit-row">
+        <div class="edit-row hide">
             <label for="order">Order</label>
             <span><%= model.get('obj_order') %></span></div>
     <div class="edit-row">
@@ -60,14 +60,15 @@
             <input name="estimated_time" type="text" value="<%= model.get('estimated_time') %>">
         </div>
     <div class="edit-row">
-        <label for="description"></label>
+        <label for="description">Description:</label>
         <textarea name="description" cols="30" rows="10"><%= model.get('description') %></textarea>
     </div>
-        <!-- Should be available in the data passed to this view-->
-        <input name="project_id" type="hidden" value="<%= model.get('project_id') %>"/>
-        <%= controls %>
+        <div class="sbo-form-controls">
+            <!--The submit buttons should be based on the contents of the of sb object and the edit mode (create or update-->
+            <!-- Should be available in the data passed to this view-->
+            <input name="project_id" type="hidden" value="<%= model.get('project_id') %>" />
+            <%= controls %>
+        </div>
 </form>
-    <div class="sbo-form-controls">
-        <!--The submit buttons should be based on the contents of the of sb object and the edit mode (create or update-->
-    </div>
+
 </div>

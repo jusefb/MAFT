@@ -1,7 +1,9 @@
-<div class="edit-form">
+<div class="page-content">
+  <div class="edit-form columns large-5">
   <div class="validation-errors">
     <%= @project.errors.full_messages.first if @project.errors.any? %>
   </div>
+    <h3 class="title-pane"><i class="general foundicon-add-doc"></i> Project Details</h3>
   <%= form_for @project, url: {action: :create} do |f| %>
       <div class="edit-row">
         <%= f.label :title %>
@@ -17,14 +19,16 @@
       </div>
       <div class="edit-row">
         <%= f.label :start_date %>
-        <%= f.date_select :start_date %>
+        <%= f.text_field :start_date, class: 'datepicker' %>
       </div>
       <div class="edit-row">
         <%= f.label :end_date %>
-        <%= f.date_select :end_date %>
+        <%= f.text_field :start_date, class: 'datepicker' %>
       </div>
       <div class="edit-row">
-        <%= f.submit 'Create' %>
+        <%= f.submit 'Create', class: 'button tiny radius' %>
+        <input id="cancel-edit" type="reset" value="Cancel" class="button tiny radius" />
       </div>
   <% end %>
 </div>
+    </div>

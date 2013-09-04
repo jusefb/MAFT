@@ -1,10 +1,15 @@
 // Place all the styles related to the story_board controller here.
 // They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$sb-card-color: #FEFEE4 ;
+$sb-card-color: #FCF0AD ;
 
 h1{
   font-size: 18px;
+}
+
+#main-content{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #sbo-controls-container{
@@ -17,17 +22,22 @@ h1{
   width: 100%;
 
   > div{
-    border: 1px solid #000;
+    border: 1px solid #CCCCCC;
+    background-color: #F5F5F5;
+    border-radius: 3px;
     box-sizing: border-box;
     margin: 0;
     margin-left: 2px;
     margin-bottom: 2px;
-    min-height: 200px;
+    min-height: 300px;
     height:auto;
     float: left;
-    min-width: 33%;
     padding-bottom: 5px;
 
+  }
+
+  .sbo-stage-col{
+    width: 33%;
   }
 
   .sbo-edit-from {
@@ -45,7 +55,8 @@ h1{
 }
 
 #sbo-controls-container{
-  border: 1px solid #000000;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
   margin-right: 4px;
   width: 99%;
 
@@ -76,13 +87,6 @@ h1{
   }
 }
 
-#sbo-form-container{
-  border: 1px solid #DDDDDD;
-  margin: 2px;
-  padding: 5px;
-  display: none;
-}
-
 .sbo-stage{
   list-style: none;
   margin: 0;
@@ -93,6 +97,7 @@ h1{
     width: 98%;
     min-height: 50px;
     border: 1px solid grey;
+    border-radius: 3px;
     //border-top: 5px solid blue;
     background-color: $sb-card-color;
     //padding: 5px;
@@ -116,12 +121,19 @@ h1{
     .sbo-title{
       padding: 10px;
       display: block;
+      font-weight: 700;
+      //float: left;
+      width: 100%;
     }
 
     .sbo-display-ctrs{
-      position: absolute;
+      position: relative;
+      //float: left;
+      width: 35%;
+      min-width: 120px;
+      left: 10px;
       right: 5px;
-      top: 5px;
+      //top: 10px;
 
       ul{
         list-style: none;
@@ -133,6 +145,11 @@ h1{
         display: inline;
         border: none;
       }
+    }
+
+    .dropdown.button.small {
+      padding-right: 3.8125em;
+      vertical-align: top;
     }
   }
 
@@ -157,4 +174,28 @@ h1{
 
 .ui-widget{
   font-size: 0.7em;
+}
+
+//forms style
+.sbo-form-controls{
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 1008px) {
+  .sbo-stage-col{
+    min-width: 49.5%;
+    width: 49.5%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+.sbo-stage-col{
+  min-width: 100%;
+  width: 100%;
+}
+  li.sbo-stage-row{
+    width: 98%;
+    min-width: 0;
+  }
+
 }

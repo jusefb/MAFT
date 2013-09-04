@@ -28,6 +28,10 @@ class StoryBoardObject < ActiveRecord::Base
       when 'Started'
         self.start_date = Time.now
         self.stage = 'Backlog'
+      when 'Not Started'
+        self.start_date = nil
+        #set the stage back to backlog if the tsk was marked as done
+        self.stage = 'Backlog' if(self.stage == 'Done')
     end
   end
 

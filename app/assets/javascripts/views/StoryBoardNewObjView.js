@@ -12,8 +12,8 @@ var StoryBoardNewObjView = Backbone.View.extend({
         this.options.template = this.viewHelpers.getTemplate(this.options.templateUrl);
     },
     render: function(){
-        var formControls = '<input id="sbo-form-save" type="submit" value="Save"/>' +
-            '<input id="sbo-form-cancel" type="reset" value="Cancel"/>';
+        var formControls = '<input id="sbo-form-save" type="submit" value="Save" class="button tiny radius" />&nbsp;' +
+            '<input id="sbo-form-cancel" type="reset" value="Cancel" class="button tiny radius" />';
         var newModel = new StoryBoardObject({
             project_id: this.options.project_id
         });
@@ -25,7 +25,8 @@ var StoryBoardNewObjView = Backbone.View.extend({
             formObjects: this.options.formObjects,
             model: this.model
         });
-        this.$el.html(html).fadeIn();
+        this.$el.find('#sbo-form').html(html).foundation('forms');
+        this.$el.foundation('reveal', 'open', {animation: 'fade'});//.fadeIn();
         this.delegateEvents();
      },
     createObject: function(){
@@ -53,7 +54,7 @@ var StoryBoardNewObjView = Backbone.View.extend({
                     cv.displayErrors(data.get('messages'));
                 else{
                     cv.collection.add(cv.model);
-                    cv.$el.hide();
+                    cv.closeForm();
                     Backbone.history.navigate('index', {trigger: true});
                     Backbone.history.navigate('', {trigger: true});
                     cv.viewHelpers.resizeStageContainers();
@@ -75,7 +76,8 @@ var StoryBoardNewObjView = Backbone.View.extend({
         });
     },
     closeForm: function(){
-        this.$el.hide();
+        //this.$el.hide();
+        this.$el.foundation('reveal', 'close');
         Backbone.history.navigate('', {trigger: true});
     }
 });

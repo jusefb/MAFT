@@ -5,6 +5,7 @@ var StoryBoardEditObjView = Backbone.View.extend({
         formObjects: {}
     },
     viewHelpers: {},
+    colHeights: {}, //object collecting the information about contianer heights to allow resizing
     events: {
         'click .hide-edit-form': 'hideView',
         'click .sbo-edit-save': 'updateObject',
@@ -21,8 +22,8 @@ var StoryBoardEditObjView = Backbone.View.extend({
     },
     render: function(){
         this.setStageContainer();
-        var formControls = '<input id="sbo-edit-save-' + this.model.get('id') + '" class="sbo-edit-save" type="submit" value="Save"/>' +
-            '<input id="sbo-edit-cancel-' + this.model.get('id') + '" class="hide-edit-form" type="reset" value="Cancel"/>';
+        var formControls = '<input id="sbo-edit-save-' + this.model.get('id') + '" class="sbo-edit-save button small secondary radius" type="submit" value="Save" />&nbsp;' +
+            '<input id="sbo-edit-cancel-' + this.model.get('id') + '" class="hide-edit-form button small secondary radius" type="reset" value="Cancel"/>';
         var html = _.template(this.template, {
             model: this.model,
             formObjects: this.options.formObjects,
@@ -47,14 +48,18 @@ var StoryBoardEditObjView = Backbone.View.extend({
     hideView: function(){
         this.$el.find('#sbo-edit-form-' + this.model.get('id')).hide();
         Backbone.history.navigate('', {trigger: true});
+
         this.viewHelpers.resizeStageContainers();
     },
     showView: function(html){
+
         this.$el.find('.more-info-pt').hide();
         this.$el.find('.sbo-stage-row').removeClass('linked-task');
         this.$el.find('div.edit-form').unbind().remove();
+
         var form = this.$el.find('#sbo-edit-form-' + this.model.get('id'));
         form.html(html).fadeIn();
+
         this.viewHelpers.resizeStageContainers();
         this.viewHelpers.renderDates();
     },

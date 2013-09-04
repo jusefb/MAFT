@@ -3,6 +3,7 @@ MAFT::Application.routes.draw do
   root :to => 'home#index'
   match 'home', :to => 'home#index'
   match 'application/main_menu', :to => 'application#main_menu'
+  match 'home/main_show', to: 'home#main_show'
 
   #Reporitng routes
   get "reporting/index", as: 'reports_index'
