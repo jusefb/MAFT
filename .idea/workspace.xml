@@ -2,61 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home/_main_show.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/.sass-cache/1ea694b23cbc52b68bcbd397d07df10b08a18c32/_settings.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/.sass-cache/1ea694b23cbc52b68bcbd397d07df10b08a18c32/general_enclosed_foundicons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/.sass-cache/1ea694b23cbc52b68bcbd397d07df10b08a18c32/general_enclosed_foundicons_ie7.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/fonts/general_enclosed_foundicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/fonts/general_enclosed_foundicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/fonts/general_enclosed_foundicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/fonts/general_enclosed_foundicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/sass/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/sass/general_enclosed_foundicons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/sass/general_enclosed_foundicons_ie7.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/stylesheets/general_enclosed_foundicons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_icons_general_enclosed/stylesheets/general_enclosed_foundicons_ie7.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardEditObjView.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardEditObjView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardHomeView.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardHomeView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardNewObjView.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardNewObjView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/routes/StoryBoardRoute.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/routes/StoryBoardRoute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/_main_menu.erb" afterPath="$PROJECT_DIR$/app/views/menus/_main_menu.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_main_show.erb" afterPath="$PROJECT_DIR$/app/views/home/_main_show.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/project/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project/edit_team.html.erb" afterPath="$PROJECT_DIR$/app/views/project/edit_team.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/forms.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project/index.html.erb" afterPath="$PROJECT_DIR$/app/views/project/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reporting/index.html.erb" afterPath="$PROJECT_DIR$/app/views/reporting/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/story_board/index.html.erb" afterPath="$PROJECT_DIR$/app/views/story_board/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user/index.html.erb" afterPath="$PROJECT_DIR$/app/views/user/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project/new.html.erb" afterPath="$PROJECT_DIR$/app/views/project/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/reporting.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/reporting.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/project/show.html.erb" afterPath="$PROJECT_DIR$/app/views/project/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/story_board.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/story_board.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/story_board.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/story_board.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/story_board_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/story_board_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/story_board_object.rb" afterPath="$PROJECT_DIR$/app/models/story_board_object.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_display.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_display.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/utilities/view_helpers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/utilities/view_helpers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7ad0a53d-8c1f-4e0e-bc23-075f83936f76" name="744687-46782719 As a user I want to be able to access the story board of the project from the projects page" comment="" />
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377550196316" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378321898689" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378331194639" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -171,6 +125,7 @@
     <file path="/database.yml" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377546298090" ignored="false" />
     <file path="/_links.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377555523795" ignored="false" />
     <file path="/main_show.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378035152704" ignored="false" />
+    <file path="/_main_show.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378337834766" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,28 +165,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="31" selection-start="909" selection-end="909" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoryBoardHomeView.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardHomeView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="243" column="44" selection-start="8976" selection-end="8995" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -264,10 +201,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="77" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.6111111">
+            <state line="37" column="77" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_main_show.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/_main_show.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="98" selection-start="130" selection-end="130" vertical-scroll-proportion="0.055555556">
               <folding />
             </state>
           </provider>
@@ -320,7 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/StoryBoardRoute.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardEditObjView.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html" />
         <option value="$PROJECT_DIR$/app/models/story_board_object.rb" />
@@ -336,6 +281,7 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/_main_show.erb" />
       </list>
     </option>
   </component>
@@ -661,6 +607,28 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MAFT">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="images">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -1321,20 +1289,20 @@
       <method />
     </configuration>
     <list size="14">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.UserController GET 'index' render index template" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.UserController GET 'add_user_role'" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.UserController GET 'add_user_role' adds the user role if it does not exist" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.jasmine" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:create:all" />
-      <item index="5" class="java.lang.String" itemvalue="JsTestDriver.jsTestDriver.conf" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.All feautres  in: spec" />
-      <item index="8" class="java.lang.String" itemvalue="Rails.Production: MAFT" />
-      <item index="9" class="java.lang.String" itemvalue="Rails.Development: MAFT" />
-      <item index="10" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="11" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="12" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="13" class="java.lang.String" itemvalue="JsTestDriver.StoryBoardRouteSpec.js" />
+      <item index="0" class="java.lang.String" itemvalue="JsTestDriver.jsTestDriver.conf" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.All feautres  in: spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: MAFT" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: MAFT" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="8" class="java.lang.String" itemvalue="JsTestDriver.StoryBoardRouteSpec.js" />
+      <item index="9" class="java.lang.String" itemvalue="RSpec.UserController GET 'index' render index template" />
+      <item index="10" class="java.lang.String" itemvalue="RSpec.UserController GET 'add_user_role'" />
+      <item index="11" class="java.lang.String" itemvalue="RSpec.UserController GET 'add_user_role' adds the user role if it does not exist" />
+      <item index="12" class="java.lang.String" itemvalue="Rake.jasmine" />
+      <item index="13" class="java.lang.String" itemvalue="Rake.db:create:all" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1445,7 +1413,11 @@
       <created>1377556205797</created>
       <updated>1377556205797</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge branch 'master' of https://github.com/jusefb/MAFT&#10;&#10;Conflicts:&#10;&#9;.idea/MAFT.iml&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/workspace.xml&#10;&#9;Gemfile&#10;&#9;Gemfile.lock&#10;&#9;app/controllers/application_controller.rb&#10;&#9;config/database.yml&#10;&#9;coverage/.last_run.json&#10;&#9;log/development.log&#10;&#9;log/production.log&#10;&#9;log/test.log&#10;">
+      <created>1378331224359</created>
+      <updated>1378331224359</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -1485,6 +1457,7 @@
     <frame x="2" y="22" width="1296" height="694" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2621035" sideWeight="0.49270666" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28380635" sideWeight="0.52934897" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36348408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248" sideWeight="0.6761269" order="3" side_tool="false" content_ui="tabs" />
@@ -1502,7 +1475,6 @@
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31719533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2621035" sideWeight="0.49270666" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.6126878" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1584,16 +1556,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardEditObjView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="175" selection-start="1167" selection-end="1167" vertical-scroll-proportion="-3.0384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="48" selection-start="3244" selection-end="3244" vertical-scroll-proportion="-4.32" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardNewObjView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="122" selection-start="922" selection-end="922" vertical-scroll-proportion="-4.576923" />
@@ -1601,7 +1563,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/story_board_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="53" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" />
+        <state line="37" column="53" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/story_board_object.rb">
@@ -1681,7 +1645,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="77" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.6111111">
+        <state line="37" column="77" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/home-screehshot-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_main_show.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="98" selection-start="130" selection-end="130" vertical-scroll-proportion="0.055555556">
           <folding />
         </state>
       </provider>
