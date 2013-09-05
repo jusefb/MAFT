@@ -35,7 +35,7 @@ class StoryBoardController < ApplicationController
 
   def get_form_objects
     render :json => {
-        stages: ['Backlog','Current', 'Future','Done'],
+        stages: ['Future','Backlog','Current','Done'],
         :types =>  [
             { :label => 'User Story', :value => 'UserStory'},
             { :label => 'Task', :value => 'Task'},
@@ -48,6 +48,13 @@ class StoryBoardController < ApplicationController
   def update
     @story_board_object = StoryBoardObject.find(params[:id])
     @update_params =  params[:story_board].except(:id, :created_at, :updated_at, :parent_title, :linked_tasks)
+
+    #we need to set the date of when this task became current for reporting purposes
+    if(@update_params[:stage] == 'Current')
+      @update_params[:marked_as_current_date]= Time.now if(@story_board_object.stage != 'Current')
+    end
+
+    #update the parameters and return json of the updated object
     if(@story_board_object.update_attributes(@update_params))
       @story_board_object.set_status_dates
       @story_board_object.save

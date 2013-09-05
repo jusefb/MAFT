@@ -63,6 +63,11 @@ ViewHelpers.prototype = {
         $(document).scrollTop(scrollDestination);
     },
     renderDates: function(options){
+        if(options == null){
+            options = {
+                dateFormat: 'dd/mm/yy'
+            }
+        }
         if(typeof($.ui.datepicker) == 'object'){
             $('input.datepicker').datepicker(options);
         }

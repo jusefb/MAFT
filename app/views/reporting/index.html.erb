@@ -9,7 +9,7 @@
       <form class="custom">
       <div class="report-control">
         <%= label_tag('project', 'Select Project') %>
-        <%= select_tag('project', options_for_select([['Project 1', 1], ['Project 2', 2]])) %>
+        <%= select_tag('project', options_for_select(@projects)) %>
       </div>
       <div class="report-control">
         <%= label_tag('report_type', 'Select Report Type') %>

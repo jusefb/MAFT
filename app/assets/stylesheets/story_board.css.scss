@@ -17,7 +17,7 @@ h1{
 }
 
 #sbo-container{
-  font-size: 12px;
+  font-size: 0.8em;
   margin-top: 10px;
   width: 100%;
 
@@ -42,6 +42,24 @@ h1{
 
   .sbo-edit-from {
     display: none;
+
+    .edit-row{
+      margin: 0;
+
+      label{
+        margin: 0;
+        font-weight: bold;
+        font-size: 0.9em;
+      }
+
+      select, input, textarea{
+        margin: 0;
+      }
+
+      .custom.dropdown{
+        margin: 0;
+      }
+    }
   }
 
   .edit-row{

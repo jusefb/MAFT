@@ -92,17 +92,25 @@ describe ProjectController do
     end
 
     describe "returns a list of all Users" do
-
-      it "assigns a list of Users to @users" do
-        users = [
+      before :each do
+        @users = [
             create(:user, id: 1, email: 'test@test.com'),
             create(:user, id: 2, email: 'test2@test.com')
         ]
-        get :edit, id: @project
-        expect(assigns(:users)).to eq users
       end
 
-      it "filters out the users that have already been added"
+      it "assigns a list of Users to @users" do
+        get :edit, id: @project
+        expect(assigns(:users)).to eq @users
+      end
+
+      it "filters out the users that have already been added" do
+        @user = User.find(1)
+        @project.users << @user
+        get :edit, id: @project
+
+        expect(assigns(:users)).to eq @users
+      end
     end
 
   end

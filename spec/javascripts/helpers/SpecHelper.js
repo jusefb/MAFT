@@ -28,18 +28,18 @@ beforeEach(function () {
     };
 });
 
-$(function(){
-    var jsFilesToCover = ['StoryBoardCollection', 'StoryBoardRoute', 'StoryBoardNewObjView', 'StoryBoardEditObjView', 'StoryBoardHomeView'];
-    //var jsFilesToCover = ['StoryBoardHomeView'];
-    var headlast = $('head').children().last();
-    $('script[src*="blanket.min.js"]').remove();
-
-    $('<script src="/__spec__/helpers/blanket.min.js" data-cover-adapter="/__spec__/helpers/jasmine-blanket.js"></script>');
-    _.each(jsFilesToCover, function(file){
-        var el = $('script[src*="' + file + '.js"]');
-        var src = el.attr('src');
-        el.remove();
-
-        $('<script type="text/javascript" src="' + src + '" data-cover></script>').insertAfter(headlast);
-    });
-});
+//$(function(){
+//    var jsFilesToCover = ['StoryBoardCollection', 'StoryBoardRoute', 'StoryBoardNewObjView', 'StoryBoardEditObjView', 'StoryBoardHomeView'];
+//    //var jsFilesToCover = ['StoryBoardHomeView'];
+//    var headlast = $('head').children().last();
+//    $('script[src*="blanket.min.js"]').remove();
+//
+//    $('<script src="/__spec__/helpers/blanket.min.js" data-cover-adapter="/__spec__/helpers/jasmine-blanket.js"></script>');
+//    _.each(jsFilesToCover, function(file){
+//        var el = $('script[src*="' + file + '.js"]');
+//        var src = el.attr('src');
+//        el.remove();
+//
+//        $('<script type="text/javascript" src="' + src + '" data-cover></script>').insertAfter(headlast);
+//    });
+//});

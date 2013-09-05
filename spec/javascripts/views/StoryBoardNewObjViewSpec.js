@@ -31,21 +31,22 @@ describe("StoryBoard new object view", function () {
         var testContainer = null;
 
         beforeEach(function(){
-            testContainer = $('<div id="sbo-form-container"></div>');
+            setFixtures('<div id="sbo-form-container"><div id="sbo-form"></div></div>');
             var testTemplate = this.fixtures.StoryBoardNewObjTemplate
             spyOn(ViewHelpers.prototype, 'getTemplate').andReturn(testTemplate);
+
             sboNew = new StoryBoardNewObjView({
-              $el: testContainer
+              el: '#sbo-form-container'
            });
         });
 
         afterEach(function(){
-            testContainer.remove();
         });
 
         it("Populates the 'new_story_board' object template with form objects", function () {
+
             sboNew.render();
-            expect(sboNew.$el).toHaveHtml(this.fixtures.StoryBoardNewObjTemplate);
+            expect(sboNew.$el.find('#sbo-form')).toHaveHtml(this.fixtures.StoryBoardNewObjTemplate);
         });
 
         it("It calls the underscore template method with the model parameter", function () {
@@ -75,11 +76,11 @@ describe("StoryBoard new object view", function () {
 
     describe("Create StoryBoard object", function(){
         beforeEach(function(){
-            testContainer = $('<div id="sbo-form-container"></div>');
+            setFixtures('<div id="sbo-form-container"><div id="sbo-form"></div></div>');
             var testTemplate = this.fixtures.StoryBoardNewObjTemplate
             spyOn(ViewHelpers.prototype, 'getTemplate').andReturn(testTemplate);
             sboNew = new StoryBoardNewObjView({
-                $el: testContainer,
+                el: '#sbo-form-container',
                 collection: new StoryBoardCollection(this.fixtures.StoryBoardCollection)
             });
             sboNew.render();
@@ -97,6 +98,7 @@ describe("StoryBoard new object view", function () {
         });
 
         it("Adds the created model to the StoryBoardObject collection using form values", function(){
+            debugger
             sboNew.createObject();
             expect(sboNew.model.get("title")).toBeDefined();
         });
@@ -111,7 +113,7 @@ describe("StoryBoard new object view", function () {
             var saveModelSpy = spyOn($, 'ajax').andCallFake(function(params){
                 params.success();
             });
-            var hideSpy = spyOn($.fn, 'hide');
+            var hideSpy = spyOn(sboNew, 'closeForm');
 
             sboNew.createObject();
 

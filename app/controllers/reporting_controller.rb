@@ -1,5 +1,11 @@
 class ReportingController < ApplicationController
   def index
+    @projects = []
+    projects = Project.all()
+    projects.each do |p|
+      @projects.push([p.title, p.id])
+    end
+
     render :index
   end
 

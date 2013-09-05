@@ -58,7 +58,9 @@ var StoryBoardEditObjView = Backbone.View.extend({
         this.$el.find('div.edit-form').unbind().remove();
 
         var form = this.$el.find('#sbo-edit-form-' + this.model.get('id'));
-        form.html(html).fadeIn();
+        form.html(html);
+        form.foundation('forms');
+        form.fadeIn();
 
         this.viewHelpers.resizeStageContainers();
         this.viewHelpers.renderDates();
