@@ -1920,3 +1920,330 @@ Compiled custom.modernizr.js  (0ms)  (pid 27126)
 Compiled foundation.min.js  (1ms)  (pid 27126)
 Compiled main.js  (0ms)  (pid 27126)
 Compiled application.js  (4604ms)  (pid 27126)
+Compiled foundation_and_overrides.css  (12396ms)  (pid 27403)
+Compiled forms.css  (9ms)  (pid 27403)
+Compiled foundation_icons_accessibility/sass/_settings.css  (21ms)  (pid 27403)
+Compiled foundation_icons_accessibility/sass/accessibility_foundicons.css  (242ms)  (pid 27403)
+Compiled foundation_icons_accessibility/sass/accessibility_foundicons_ie7.css  (115ms)  (pid 27403)
+Compiled foundation_icons_accessibility/stylesheets/accessibility_foundicons.css  (0ms)  (pid 27403)
+Compiled foundation_icons_accessibility/stylesheets/accessibility_foundicons_ie7.css  (0ms)  (pid 27403)
+Compiled foundation_icons_general/sass/_settings.css  (39ms)  (pid 27403)
+Compiled foundation_icons_general/sass/general_foundicons.css  (159ms)  (pid 27403)
+Compiled foundation_icons_general/sass/general_foundicons_ie7.css  (132ms)  (pid 27403)
+Compiled foundation_icons_general/stylesheets/general_foundicons.css  (0ms)  (pid 27403)
+Compiled foundation_icons_general/stylesheets/general_foundicons_ie7.css  (0ms)  (pid 27403)
+Compiled foundation_icons_social/sass/_settings.css  (46ms)  (pid 27403)
+Compiled foundation_icons_social/sass/social_foundicons.css  (247ms)  (pid 27403)
+Compiled foundation_icons_social/sass/social_foundicons_ie7.css  (145ms)  (pid 27403)
+Compiled foundation_icons_social/stylesheets/social_foundicons.css  (1ms)  (pid 27403)
+Compiled foundation_icons_social/stylesheets/social_foundicons_ie7.css  (0ms)  (pid 27403)
+Compiled foundation_and_overrides.css  (5482ms)  (pid 27126)
+Compiled home.css  (5191ms)  (pid 27403)
+Compiled project.css  (2ms)  (pid 27403)
+Compiled reporting.css  (4ms)  (pid 27403)
+Compiled story_board.css  (139ms)  (pid 27403)
+Compiled tdd.css  (12ms)  (pid 27403)
+Compiled user.css  (7ms)  (pid 27403)
+Compiled application.css  (20381ms)  (pid 27403)
+Compiled home.css  (5808ms)  (pid 27126)
+Compiled application.css  (11585ms)  (pid 27126)
+Compiled vendor/custom.modernizr.js  (0ms)  (pid 27403)
+Compiled vendor/zepto.js  (1ms)  (pid 27403)
+Compiled jquery.js  (56ms)  (pid 27403)
+Compiled jquery.ui.core.js  (0ms)  (pid 27403)
+Compiled jquery.ui.widget.js  (0ms)  (pid 27403)
+Compiled jquery.ui.accordion.js  (52ms)  (pid 27403)
+Compiled jquery.ui.position.js  (0ms)  (pid 27403)
+Compiled jquery.ui.menu.js  (21ms)  (pid 27403)
+Compiled jquery.ui.autocomplete.js  (145ms)  (pid 27403)
+Compiled jquery.ui.button.js  (15ms)  (pid 27403)
+Compiled jquery.ui.datepicker.js  (18ms)  (pid 27403)
+Compiled jquery.ui.mouse.js  (5ms)  (pid 27403)
+Compiled jquery.ui.draggable.js  (32ms)  (pid 27403)
+Compiled jquery.ui.resizable.js  (12ms)  (pid 27403)
+Compiled jquery.ui.dialog.js  (156ms)  (pid 27403)
+Compiled jquery.ui.droppable.js  (18ms)  (pid 27403)
+Compiled jquery.ui.effect.js  (2ms)  (pid 27403)
+Compiled jquery.ui.effect-blind.js  (40ms)  (pid 27403)
+Compiled jquery.ui.effect-bounce.js  (2ms)  (pid 27403)
+Compiled jquery.ui.effect-clip.js  (3ms)  (pid 27403)
+Compiled jquery.ui.effect-drop.js  (5ms)  (pid 27403)
+Compiled jquery.ui.effect-explode.js  (13ms)  (pid 27403)
+Compiled jquery.ui.effect-fade.js  (3ms)  (pid 27403)
+Compiled jquery.ui.effect-fold.js  (6ms)  (pid 27403)
+Compiled jquery.ui.effect-highlight.js  (8ms)  (pid 27403)
+Compiled jquery.ui.effect-pulsate.js  (2ms)  (pid 27403)
+Compiled jquery.ui.effect-scale.js  (4ms)  (pid 27403)
+Compiled jquery.ui.effect-shake.js  (4ms)  (pid 27403)
+Compiled jquery.ui.effect-slide.js  (3ms)  (pid 27403)
+Compiled jquery.ui.effect-transfer.js  (3ms)  (pid 27403)
+Compiled jquery.ui.progressbar.js  (4ms)  (pid 27403)
+Compiled jquery.ui.selectable.js  (8ms)  (pid 27403)
+Compiled jquery.ui.slider.js  (22ms)  (pid 27403)
+Compiled jquery.ui.sortable.js  (7ms)  (pid 27403)
+Compiled jquery.ui.spinner.js  (7ms)  (pid 27403)
+Compiled jquery.ui.tabs.js  (4ms)  (pid 27403)
+Compiled jquery.ui.tooltip.js  (9ms)  (pid 27403)
+Compiled jquery.ui.all.js  (1637ms)  (pid 27403)
+Compiled backbone/lodash.min.js  (0ms)  (pid 27403)
+Compiled backbone/backbone.js  (1ms)  (pid 27403)
+Compiled moment.min.js  (0ms)  (pid 27403)
+Compiled utilities/view_helpers.js  (0ms)  (pid 27403)
+Compiled models/StoryBoardObject.js  (0ms)  (pid 27403)
+Compiled collections/StoryBoardCollection.js  (0ms)  (pid 27403)
+Compiled views/ReportingView.js  (0ms)  (pid 27403)
+Compiled views/StoryBoardEditObjView.js  (0ms)  (pid 27403)
+Compiled views/StoryBoardHomeView.js  (0ms)  (pid 27403)
+Compiled views/StoryBoardNewObjView.js  (0ms)  (pid 27403)
+Compiled views/UsersHomeView.js  (0ms)  (pid 27403)
+Compiled routes/StoryBoardRoute.js  (3ms)  (pid 27403)
+Compiled custom.modernizr.js  (0ms)  (pid 27403)
+Compiled foundation.min.js  (1ms)  (pid 27403)
+Compiled main.js  (0ms)  (pid 27403)
+Compiled application.js  (2245ms)  (pid 27403)
+Compiled foundation_and_overrides.css  (6165ms)  (pid 27403)
+Compiled forms.css  (89ms)  (pid 27403)
+Compiled foundation_icons_accessibility/sass/_settings.css  (67ms)  (pid 27403)
+Compiled foundation_icons_accessibility/sass/accessibility_foundicons.css  (118ms)  (pid 27403)
+Compiled foundation_icons_accessibility/sass/accessibility_foundicons_ie7.css  (112ms)  (pid 27403)
+Compiled foundation_icons_accessibility/stylesheets/accessibility_foundicons.css  (0ms)  (pid 27403)
+Compiled foundation_icons_accessibility/stylesheets/accessibility_foundicons_ie7.css  (0ms)  (pid 27403)
+Compiled foundation_icons_general/sass/_settings.css  (72ms)  (pid 27403)
+Compiled foundation_icons_general/sass/general_foundicons.css  (121ms)  (pid 27403)
+Compiled foundation_icons_general/sass/general_foundicons_ie7.css  (109ms)  (pid 27403)
+Compiled foundation_icons_general/stylesheets/general_foundicons.css  (5ms)  (pid 27403)
+Compiled foundation_icons_general/stylesheets/general_foundicons_ie7.css  (0ms)  (pid 27403)
+Compiled foundation_icons_social/sass/_settings.css  (37ms)  (pid 27403)
+Compiled foundation_icons_social/sass/social_foundicons.css  (172ms)  (pid 27403)
+Compiled foundation_icons_social/sass/social_foundicons_ie7.css  (106ms)  (pid 27403)
+Compiled foundation_icons_social/stylesheets/social_foundicons.css  (0ms)  (pid 27403)
+Compiled foundation_icons_social/stylesheets/social_foundicons_ie7.css  (0ms)  (pid 27403)
+Compiled home.css  (3192ms)  (pid 27403)
+Compiled project.css  (6ms)  (pid 27403)
+Compiled reporting.css  (6ms)  (pid 27403)
+Compiled story_board.css  (207ms)  (pid 27403)
+Compiled tdd.css  (10ms)  (pid 27403)
+Compiled user.css  (7ms)  (pid 27403)
+Compiled application.css  (11578ms)  (pid 27403)
+Compiled vendor/custom.modernizr.js  (0ms)  (pid 27403)
+Compiled vendor/zepto.js  (2ms)  (pid 27403)
+Started GET "/" for 127.0.0.1 at 2013-09-08 17:31:50 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_main_show.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered menus/_main_menu.erb (2.2ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+Started GET "/assets/vendor/custom.modernizr.js" for 127.0.0.1 at 2013-09-08 17:31:50 +0100
+Served asset /vendor/custom.modernizr.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/custom.modernizr.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-8242b5c989cc74b3bb4b14caa890040f.css" for 127.0.0.1 at 2013-09-08 17:31:50 +0100
+Served asset /application-8242b5c989cc74b3bb4b14caa890040f.css - 304 Not Modified (0ms)
+Started GET "/assets/application-e43978e70dd1fb224716ecf6d47fae05.js" for 127.0.0.1 at 2013-09-08 17:31:50 +0100
+Served asset /application-e43978e70dd1fb224716ecf6d47fae05.js - 304 Not Modified (1ms)
+Started GET "/assets/maft_logo_new-a35e0416ead76717f1a4c5847af5d7dd.png" for 127.0.0.1 at 2013-09-08 17:31:50 +0100
+Served asset /maft_logo_new-a35e0416ead76717f1a4c5847af5d7dd.png - 304 Not Modified (0ms)
+Started GET "/assets/home-screehshot-2-2093a48af08c2321a038d2a5b55cd690.png" for 127.0.0.1 at 2013-09-08 17:31:50 +0100
+Served asset /home-screehshot-2-2093a48af08c2321a038d2a5b55cd690.png - 304 Not Modified (0ms)
+Started GET "/assets/home-screehshot-1-e82036b294d45cc0a3edfa45c6437515.png" for 127.0.0.1 at 2013-09-08 17:31:51 +0100
+Served asset /home-screehshot-1-e82036b294d45cc0a3edfa45c6437515.png - 304 Not Modified (0ms)
+Started GET "/fonts/general_foundicons.woff" for 127.0.0.1 at 2013-09-08 17:31:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/fonts/general_foundicons.woff"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/fonts/social_foundicons.woff" for 127.0.0.1 at 2013-09-08 17:31:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/fonts/social_foundicons.woff"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/fonts/general_foundicons.ttf" for 127.0.0.1 at 2013-09-08 17:31:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/fonts/general_foundicons.ttf"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/fonts/social_foundicons.ttf" for 127.0.0.1 at 2013-09-08 17:31:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/fonts/social_foundicons.ttf"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/fonts/general_foundicons.svg" for 127.0.0.1 at 2013-09-08 17:31:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/fonts/general_foundicons.svg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/fonts/social_foundicons.svg" for 127.0.0.1 at 2013-09-08 17:31:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/fonts/social_foundicons.svg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+

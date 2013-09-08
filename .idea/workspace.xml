@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7ad0a53d-8c1f-4e0e-bc23-075f83936f76" name="744687-46782719 As a user I want to be able to access the story board of the project from the projects page" comment="" />
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377550196316" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378641450422" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378641483260" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -117,7 +118,7 @@
     <file path="/foundation_and_overrides.scss" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378055668153" ignored="false" />
     <file path="/jscoverage.html" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376824164834" ignored="false" />
     <file path="/jsTestDriver.conf" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376841122973" ignored="false" />
-    <file path="/production.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376841593434" ignored="false" />
+    <file path="/production.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378658012809" ignored="false" />
     <file path="/jasmine-blanket.js" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376859019316" ignored="false" />
     <file path="/reporting_controller_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377116657521" ignored="false" />
     <file path="/user_roles.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377122835687" ignored="false" />
@@ -197,7 +198,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="706" selection-end="706" vertical-scroll-proportion="0.66101694">
+            <state line="17" column="31" selection-start="638" selection-end="638" vertical-scroll-proportion="0.45762712">
               <folding />
             </state>
           </provider>
@@ -289,7 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/StoryBoardRoute.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_display.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardEditObjView.js" />
@@ -305,6 +305,7 @@
         <option value="$PROJECT_DIR$/spec/javascripts/helpers/fixtures.js" />
         <option value="$PROJECT_DIR$/spec/javascripts/views/StoryBoardNewObjViewSpec.js" />
         <option value="dbtable:/3dfd47b0/010e3565-be2a-49d7-acd2-90bbb09eefbd/..projects_users" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -1353,7 +1354,11 @@
       <created>1378641464198</created>
       <updated>1378641464198</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Merge branch 'master' of https://github.com/jusefb/MAFT&#10;&#10;Conflicts:&#10;&#9;.idea/MAFT.iml&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/workspace.xml&#10;&#9;Gemfile&#10;&#9;Gemfile.lock&#10;&#9;app/controllers/application_controller.rb&#10;&#9;config/database.yml&#10;&#9;coverage/.last_run.json&#10;&#9;log/development.log&#10;&#9;log/production.log&#10;&#9;log/test.log&#10;">
+      <created>1378641488502</created>
+      <updated>1378641488502</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -1640,7 +1645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="706" selection-end="706" vertical-scroll-proportion="0.66101694">
+        <state line="17" column="31" selection-start="638" selection-end="638" vertical-scroll-proportion="0.45762712">
           <folding />
         </state>
       </provider>
