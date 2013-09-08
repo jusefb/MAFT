@@ -2247,3 +2247,5 @@ ActionController::RoutingError (No route matches [GET] "/fonts/social_foundicons
   /Users/jusef/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml

@@ -20,6 +20,9 @@ MAFT::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  # This is to fix the issue with images not precompiling
+  config.assets.initialize_on_precompile = false
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 
