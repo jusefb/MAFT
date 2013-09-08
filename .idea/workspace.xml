@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/user_role_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/helpers/SpecHelper.js" afterPath="$PROJECT_DIR$/spec/javascripts/helpers/SpecHelper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardEditObjView.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardEditObjView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/javascripts/views/StoryBoardNewObjViewSpec.js" afterPath="$PROJECT_DIR$/spec/javascripts/views/StoryBoardNewObjViewSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reporting/index.html.erb" afterPath="$PROJECT_DIR$/app/views/reporting/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/project_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/project_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/reporting_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/reporting_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/story_board.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/story_board.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/story_board_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/story_board_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_display.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_display.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test.log" afterPath="$PROJECT_DIR$/log/test.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/utilities/view_helpers.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/utilities/view_helpers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7ad0a53d-8c1f-4e0e-bc23-075f83936f76" name="744687-46782719 As a user I want to be able to access the story board of the project from the projects page" comment="" />
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377550196316" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378405071555" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378633362629" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -140,6 +124,8 @@
     <file path="/_links.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377555523795" ignored="false" />
     <file path="/main_show.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378035152704" ignored="false" />
     <file path="/_main_show.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378337834766" ignored="false" />
+    <file path="/dummy.sql" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378635283935" ignored="false" />
+    <file path="/a.sql" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378635283935" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,8 +134,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MAFT@All_specs_in__spec.coverage" NAME="All specs in: spec Coverage Results" MODIFIED="1377379623682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MAFT@reporting_controller_spec.coverage" NAME="reporting_controller_spec Coverage Results" MODIFIED="1377117128992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MAFT@All_specs_in__spec.coverage" NAME="All specs in: spec Coverage Results" MODIFIED="1377379623682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MAFT@project_controller_spec.coverage" NAME="project_controller_spec Coverage Results" MODIFIED="1377118294361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -170,10 +156,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StoryBoardNewObjViewSpec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StoryBoardNewObjViewSpec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/javascripts/views/StoryBoardNewObjViewSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="26" selection-start="3845" selection-end="3845" vertical-scroll-proportion="0.3079179">
+            <state line="111" column="26" selection-start="3845" selection-end="3845" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/010e3565-be2a-49d7-acd2-90bbb09eefbd" pinned="false" current="false" current-in-tab="false">
+        <entry file="uml://DATABASE/010e3565-be2a-49d7-acd2-90bbb09eefbd">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>010e3565-be2a-49d7-acd2-90bbb09eefbd</OriginalElement>
+              <nodes>
+                <node x="520.0" y="406.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:users_user_roles</node>
+                <node x="206.0" y="658.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:sqlite_sequence</node>
+                <node x="440.0" y="0.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:users</node>
+                <node x="421.0" y="658.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:schema_migrations</node>
+                <node x="300.0" y="406.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:user_roles</node>
+                <node x="0.0" y="658.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:projects_users</node>
+                <node x="0.0" y="0.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:story_board_objects</node>
+                <node x="0.0" y="406.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:projects</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.6455089820359281" x="361.7996289424861" y="342.7996289424861" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/812b02d7-9965-4bbd-8cc1-db718397be70.schema:production.public" pinned="false" current="true" current-in-tab="true">
+        <entry file="uml://DATABASE/812b02d7-9965-4bbd-8cc1-db718397be70.schema:production.public">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>812b02d7-9965-4bbd-8cc1-db718397be70.schema:production.public</OriginalElement>
+              <nodes>
+                <node x="806.0" y="0.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.story_board_objects_id_seq</node>
+                <node x="0.0" y="406.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles_id_seq</node>
+                <node x="418.0" y="406.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles_users_id_seq</node>
+                <node x="836.0" y="406.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.users_id_seq</node>
+                <node x="220.0" y="996.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects_users</node>
+                <node x="0.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects_users_id_seq</node>
+                <node x="0.0" y="996.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles_users</node>
+                <node x="836.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects</node>
+                <node x="0.0" y="0.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.story_board_objects</node>
+                <node x="1109.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles</node>
+                <node x="413.0" y="0.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.users</node>
+                <node x="418.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects_id_seq</node>
+                <node x="426.0" y="996.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.schema_migrations</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.4716981132075472" x="629.3199999999999" y="313.5" />
+              <SelectedNodes>
+                <node>812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.story_board_objects</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects_users" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/3dfd47b0/010e3565-be2a-49d7-acd2-90bbb09eefbd/..projects_users">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,7 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/story_board.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/routes/StoryBoardRoute.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_display.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/story_board_object_form.html" />
@@ -260,6 +338,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/StoryBoardNewObjView.js" />
         <option value="$PROJECT_DIR$/spec/javascripts/helpers/fixtures.js" />
         <option value="$PROJECT_DIR$/spec/javascripts/views/StoryBoardNewObjViewSpec.js" />
+        <option value="dbtable:/3dfd47b0/010e3565-be2a-49d7-acd2-90bbb09eefbd/..projects_users" />
       </list>
     </option>
   </component>
@@ -302,23 +381,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAFT" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAFT" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -452,7 +514,39 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="db">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MAFT">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="config">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MAFT">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="config">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="environments">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -491,22 +585,39 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAFT" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MAFT" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="102" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="104" />
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="spork.debugging.info.shown" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="103" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="103" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
-    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="113" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="903" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="901" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="903" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="109" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="105" />
     <property name="Database.TableEditor.Splitter" value="0.8697917" />
@@ -524,9 +635,9 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="options.searchVisible" value="true" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -719,6 +830,13 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="MAFT" />
@@ -744,13 +862,6 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="BROWSER_URL" VALUE="http://0.0.0.0:3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -1266,7 +1377,11 @@
       <created>1378337898599</created>
       <updated>1378337898599</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Merge branch 'master' of https://github.com/jusefb/MAFT&#10;&#10;Conflicts:&#10;&#9;.idea/MAFT.iml&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/workspace.xml&#10;&#9;Gemfile&#10;&#9;Gemfile.lock&#10;&#9;app/controllers/application_controller.rb&#10;&#9;config/database.yml&#10;&#9;coverage/.last_run.json&#10;&#9;log/development.log&#10;&#9;log/production.log&#10;&#9;log/test.log&#10;">
+      <created>1378422147704</created>
+      <updated>1378422147704</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -1304,18 +1419,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="22" width="1296" height="694" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28380635" sideWeight="0.52934897" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36348408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31719533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248" sideWeight="0.5759599" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1784" sideWeight="0.5759599" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2545169" sideWeight="0.71524286" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24" sideWeight="0.6160267" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.244" sideWeight="0.6160267" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44020796" sideWeight="0.5554963" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20424195" sideWeight="0.6113903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24207012" sideWeight="0.49960724" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3839733" sideWeight="0.5333857" order="2" side_tool="false" content_ui="tabs" x="462" y="75" width="704" height="398" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3839733" sideWeight="0.5333857" order="2" side_tool="false" content_ui="tabs" x="462" y="75" width="704" height="398" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4657763" sideWeight="0.4666143" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32387313" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1323,6 +1437,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31719533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2621035" sideWeight="0.49270666" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.6126878" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1410,70 +1525,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="54" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/story_board_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/reporting_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/story_board_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/3dfd47b0/010e3565-be2a-49d7-acd2-90bbb09eefbd/..story_board_objects">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/user_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="32" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/user_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/project_controller.rb">
@@ -1485,16 +1554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/project_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="56" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/javascripts/helpers/SpecHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="149" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="106" column="56" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/javascripts/views/StoryBoardEditObjViewSpec.js">
@@ -1520,8 +1580,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/javascripts/views/StoryBoardNewObjViewSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="26" selection-start="3845" selection-end="3845" vertical-scroll-proportion="0.3079179">
+        <state line="111" column="26" selection-start="3845" selection-end="3845" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/javascripts/helpers/SpecHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="149" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/010e3565-be2a-49d7-acd2-90bbb09eefbd">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>010e3565-be2a-49d7-acd2-90bbb09eefbd</OriginalElement>
+          <nodes>
+            <node x="520.0" y="406.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:users_user_roles</node>
+            <node x="206.0" y="658.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:sqlite_sequence</node>
+            <node x="440.0" y="0.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:users</node>
+            <node x="421.0" y="658.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:schema_migrations</node>
+            <node x="300.0" y="406.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:user_roles</node>
+            <node x="0.0" y="658.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:projects_users</node>
+            <node x="0.0" y="0.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:story_board_objects</node>
+            <node x="0.0" y="406.0">010e3565-be2a-49d7-acd2-90bbb09eefbd.table:projects</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6455089820359281" x="361.7996289424861" y="342.7996289424861" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/3dfd47b0/010e3565-be2a-49d7-acd2-90bbb09eefbd/..projects_users">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/812b02d7-9965-4bbd-8cc1-db718397be70.schema:production.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>812b02d7-9965-4bbd-8cc1-db718397be70.schema:production.public</OriginalElement>
+          <nodes>
+            <node x="806.0" y="0.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.story_board_objects_id_seq</node>
+            <node x="0.0" y="406.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles_id_seq</node>
+            <node x="418.0" y="406.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles_users_id_seq</node>
+            <node x="836.0" y="406.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.users_id_seq</node>
+            <node x="220.0" y="996.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects_users</node>
+            <node x="0.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects_users_id_seq</node>
+            <node x="0.0" y="996.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles_users</node>
+            <node x="836.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects</node>
+            <node x="0.0" y="0.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.story_board_objects</node>
+            <node x="1109.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.user_roles</node>
+            <node x="413.0" y="0.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.users</node>
+            <node x="418.0" y="701.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.projects_id_seq</node>
+            <node x="426.0" y="996.0">812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.schema_migrations</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.4716981132075472" x="629.3199999999999" y="313.5" />
+          <SelectedNodes>
+            <node>812b02d7-9965-4bbd-8cc1-db718397be70.table:production.public.story_board_objects</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
