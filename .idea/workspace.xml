@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7ad0a53d-8c1f-4e0e-bc23-075f83936f76" name="744687-46782719 As a user I want to be able to access the story board of the project from the projects page" comment="" />
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377550196316" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378667130595" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378668647932" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -186,10 +187,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="32" selection-start="636" selection-end="636" vertical-scroll-proportion="0.7075472">
+            <state line="21" column="32" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,10 +205,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+            <state line="11" column="22" selection-start="545" selection-end="545" vertical-scroll-proportion="0.5188679">
               <folding />
             </state>
           </provider>
@@ -283,10 +284,10 @@
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -535,7 +536,7 @@
       <recent name="$PROJECT_DIR$/vendor/assets/javascripts/foundation/vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Production: MAFT">
+  <component name="RunManager" selected="Rake.assets:clean">
     <configuration default="false" name="jasmine" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="MAFT" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1138,8 +1139,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.assets:clean" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.assets:clean" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.assets:precompile" />
         <item index="2" class="java.lang.String" itemvalue="Rake.jasmine" />
         <item index="3" class="java.lang.String" itemvalue="RSpec.ProjectController GET 'edit' returns a list of all Users filters out the users that have already been added" />
         <item index="4" class="java.lang.String" itemvalue="RSpec.ProjectController GET 'edit' returns a list of all Users" />
@@ -1301,7 +1302,11 @@
       <created>1378667149177</created>
       <updated>1378667149177</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Merge branch 'master' of https://github.com/jusefb/MAFT&#10;&#10;Conflicts:&#10;&#9;.idea/MAFT.iml&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/workspace.xml&#10;&#9;Gemfile&#10;&#9;Gemfile.lock&#10;&#9;app/controllers/application_controller.rb&#10;&#9;config/database.yml&#10;&#9;coverage/.last_run.json&#10;&#9;log/development.log&#10;&#9;log/production.log&#10;&#9;log/test.log&#10;">
+      <created>1378668653958</created>
+      <updated>1378668653958</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -1339,7 +1344,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="22" width="1296" height="694" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2621035" sideWeight="0.49270666" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28380635" sideWeight="0.52934897" order="7" side_tool="false" content_ui="tabs" />
@@ -1350,7 +1355,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44020796" sideWeight="0.5554963" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20424195" sideWeight="0.6113903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24207012" sideWeight="0.49960724" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3839733" sideWeight="0.5333857" order="2" side_tool="false" content_ui="tabs" x="462" y="75" width="704" height="398" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3839733" sideWeight="0.5333857" order="2" side_tool="false" content_ui="tabs" x="462" y="75" width="704" height="398" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4657763" sideWeight="0.4666143" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32387313" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1570,9 +1575,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+        <state line="7" column="49" selection-start="300" selection-end="300" vertical-scroll-proportion="-1.1538461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="32" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1584,13 +1596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="49" selection-start="300" selection-end="300" vertical-scroll-proportion="-1.1538461">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1598,9 +1603,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="636" selection-end="636" vertical-scroll-proportion="0.7075472">
+        <state line="11" column="22" selection-start="545" selection-end="545" vertical-scroll-proportion="0.5188679">
           <folding />
         </state>
       </provider>
