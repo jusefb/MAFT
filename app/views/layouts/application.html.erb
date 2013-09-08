@@ -19,7 +19,7 @@
 
   <title><%= content_for?(:title) ? yield(:title) : "MAFT Management Application for TDD" %></title>
 
-  <%= stylesheet_link_tag "application" %>
+  <%= stylesheet_link_tag "application", :media => "all"  %>
   <%= stylesheet_link_tag "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" %>
   <%= yield :head_section %>
   <%= javascript_include_tag "vendor/custom.modernizr" %>
