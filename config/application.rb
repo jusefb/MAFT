@@ -65,6 +65,12 @@ module MAFT
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    # Add the fonts path
+    #config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    #config.assets.paths << Rails.root.join("app", "assets", "images")
+    #config.assets.paths << Rails.root.join("app", "assets", "javascripts")
+    #config.assets.paths << Rails.root.join("app", "assets", "stylesheets")
+
     config.generators do |g|
       g.test_framework :rspec,
                        :fixtures => true,
