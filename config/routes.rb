@@ -40,7 +40,9 @@ MAFT::Application.routes.draw do
   get 'tdd/index', to: 'tdd#index', as: 'tdd_index'
   get 'tdd/view_tdd_process', to: 'tdd#view_tdd_process', as: 'view_tdd_process'
   get 'tdd/render_svg_image', to: 'tdd#render_svg_image'
-  get 'tdd/jscoverage', to: 'tdd#jscoverage'
+  get 'tdd/vew_app_tests', to: 'tdd#vew_app_tests', as: 'vew_app_tests'
+  get 'tdd/render_ruby_tests', to: 'tdd#render_ruby_tests', as: 'render_ruby_tests'
+  get 'tdd/render_js_tests', to: 'tdd#render_js_tests', as: 'render_js_tests'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

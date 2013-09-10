@@ -1,0 +1,21 @@
+<div class="page-content">
+  <div class="section-container vertical-tabs" data-section="vertical-tabs">
+    <section>
+      <p class="title" data-section-title><a href="javascript:void(0)" id="redner-ruby-tests">Ruby tests</a></p>
+      <div class="content" data-section-content>
+        <iframe id="ruby-tests" src="<%= render_ruby_tests_path %>" data-url="<%= render_ruby_tests_path %>" width="100%" height="600px">
+        </iframe>
+      </div>
+    </section>
+    <section>
+      <p class="title" data-section-title><a href="javascript:void(0)" id="redner-js-tests">JavaScript Tests</a></p>
+      <div class="content" data-section-content>
+        <iframe id="js-tests" src="<%= render_js_tests_path %>" data-url="<%= render_js_tests_path %>" width="100%" height="600px">
+        </iframe>
+      </div>
+    </section>
+  </div>
+</div>
+<% content_for :javascript_section do%>
+    <%= javascript_include_tag "tdd" %>
+<% end %>

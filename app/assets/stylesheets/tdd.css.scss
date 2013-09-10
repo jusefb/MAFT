@@ -3,14 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .tdd-info-tiles{
   li{
-    vertical-align: top;
-    min-height: 161px;
+    p {
+      height: 65px;
+    }
+
+    h5{
+      vertical-align: top;
+    }
   }
-  a {
-    text-decoration: none;
-    color: #000000;
-  }
-  a:hover{
-    color: #000000;
+
+}
+
+#tdd-process-obj{
+  svg{
+  margin-left: auto;
+  margin-right: auto;
   }
 }
