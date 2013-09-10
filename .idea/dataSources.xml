@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1468599978">
+  <component name="DataSourceManagerImpl" format="xml" hash="3162141783">
     <data-source source="LOCAL" name="Rails MAFT: test" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="7fc39c5e-a53f-4bc5-9746-90e0dae2723f">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
@@ -25,19 +25,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails MAFT: production" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="d60d6f6a-c0fd-40cc-af8e-ceb86cf36cdd">
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\JUSEF\Dropbox\Web_Development\Ruby\Projects\MAFT\db\production.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Rails MAFT: production" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC3g (build 1002)" uuid="812b02d7-9965-4bbd-8cc1-db718397be70">
+    <data-source source="LOCAL" name="Rails MAFT: production" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC3g (build 1002)" uuid="60489329-077d-41d2-8401-3fd64a00966d">
       <identifier-quote-string>&quot;</identifier-quote-string>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/production</jdbc-url>
@@ -46,7 +34,7 @@
           <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>jar://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar!/</url>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
         </library>
       </libraries>
     </data-source>
