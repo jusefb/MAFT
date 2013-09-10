@@ -19,11 +19,11 @@ class TddController < ApplicationController
   end
 
   def render_ruby_tests
-    render file: 'app/views/tdd/ruby_test.html', layout: false
+    render file: 'app/views/tdd/ruby_test.html', layout: false, format: 'html'
   end
 
   def render_js_tests
-    render file: 'app/views/tdd/js_tests.html', layout: false
+    render file: 'app/views/tdd/js_tests.html', layout: false, format: 'html'
   end
 
 end
