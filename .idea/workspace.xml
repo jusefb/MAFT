@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tdd_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tdd_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -11,7 +10,7 @@
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378712186165" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378834472994" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378838615172" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -112,7 +111,7 @@
     <file path="/ReportingView.js" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376655796848" ignored="false" />
     <file path="/reporting_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378413341157" ignored="false" />
     <file path="/tdd_info_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376656741526" ignored="false" />
-    <file path="/tdd_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378838591782" ignored="false" />
+    <file path="/tdd_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378839141136" ignored="false" />
     <file path="/tdd.css.scss" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378815218333" ignored="false" />
     <file path="/view_tdd_process.html.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378815592854" ignored="false" />
     <file path="/application.css.scss" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376830841174" ignored="false" />
@@ -175,7 +174,7 @@
       <file leaf-file-name="tdd_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/tdd_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="660" selection-end="660" vertical-scroll-proportion="0.84639496">
+            <state line="29" column="24" selection-start="788" selection-end="788" vertical-scroll-proportion="0.7810219">
               <folding />
             </state>
           </provider>
@@ -199,8 +198,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js_tests.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tdd/js_tests.html">
+      <file leaf-file-name="render_js_tests.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tdd/render_js_tests.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -1638,7 +1637,11 @@
       <created>1378834476550</created>
       <updated>1378834476551</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Merge branch 'master' of https://github.com/jusefb/MAFT&#10;&#10;Conflicts:&#10;&#9;.idea/MAFT.iml&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/workspace.xml&#10;&#9;Gemfile&#10;&#9;Gemfile.lock&#10;&#9;app/controllers/application_controller.rb&#10;&#9;config/database.yml&#10;&#9;coverage/.last_run.json&#10;&#9;log/development.log&#10;&#9;log/production.log&#10;&#9;log/test.log&#10;">
+      <created>1378838630300</created>
+      <updated>1378838630301</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -1688,8 +1691,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25709516" sideWeight="0.49270666" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36348408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2545169" sideWeight="0.71524286" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2696" sideWeight="0.61769617" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38230383" sideWeight="0.6928" order="2" side_tool="false" content_ui="tabs" x="462" y="75" width="704" height="398" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2696" sideWeight="0.6828047" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38230383" sideWeight="0.6928" order="2" side_tool="false" content_ui="tabs" x="462" y="75" width="704" height="398" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38230383" sideWeight="0.3072" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1886,7 +1889,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tdd/js_tests.html">
+    <entry file="file://$PROJECT_DIR$/app/views/tdd/render_js_tests.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1895,7 +1898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tdd_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="660" selection-end="660" vertical-scroll-proportion="0.84639496">
+        <state line="29" column="24" selection-start="788" selection-end="788" vertical-scroll-proportion="0.7810219">
           <folding />
         </state>
       </provider>

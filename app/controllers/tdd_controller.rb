@@ -19,13 +19,15 @@ class TddController < ApplicationController
   end
 
   def render_ruby_tests
-    response.headers['Content-Type'] = 'text/html'
-    render file: 'app/views/tdd/ruby_test.html', layout: false, format: 'html'
+    #response.headers['Content-Type'] = 'text/html'
+    #render file: 'app/views/tdd/ruby_test', layout: false, format: 'html'
+    render layout: false
   end
 
   def render_js_tests
-    response.headers['Content-Type'] = 'text/html'
-    render file: 'app/views/tdd/js_tests.html', layout: false, format: 'html'
+    #response.headers['Content-Type'] = 'text/html'
+    #render file: 'app/views/tdd/js_tests.html', layout: false, format: 'html'
+    render layout: false
   end
 
 end
