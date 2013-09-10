@@ -1,5 +1,5 @@
 class TddController < ApplicationController
-  skip_before_filter :index
+  before_filter :authenticate_user!, except: ['index', 'view_tdd_process', 'render_svg_image', 'vew_app_tests', 'render_ruby_tests', 'render_js_tests']
 
   def index
 
