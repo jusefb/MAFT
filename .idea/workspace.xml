@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tdd_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tdd_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -10,7 +11,7 @@
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378712186165" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378832993310" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378834472994" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -111,7 +112,7 @@
     <file path="/ReportingView.js" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376655796848" ignored="false" />
     <file path="/reporting_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378413341157" ignored="false" />
     <file path="/tdd_info_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376656741526" ignored="false" />
-    <file path="/tdd_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378834425879" ignored="false" />
+    <file path="/tdd_controller.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378838591782" ignored="false" />
     <file path="/tdd.css.scss" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378815218333" ignored="false" />
     <file path="/view_tdd_process.html.erb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378815592854" ignored="false" />
     <file path="/application.css.scss" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376830841174" ignored="false" />
@@ -174,7 +175,7 @@
       <file leaf-file-name="tdd_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/tdd_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="77" selection-start="637" selection-end="637" vertical-scroll-proportion="0.6583072">
+            <state line="26" column="49" selection-start="660" selection-end="660" vertical-scroll-proportion="0.84639496">
               <folding />
             </state>
           </provider>
@@ -1633,7 +1634,11 @@
       <created>1378832996803</created>
       <updated>1378832996803</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Merge branch 'master' of https://github.com/jusefb/MAFT&#10;&#10;Conflicts:&#10;&#9;.idea/MAFT.iml&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/workspace.xml&#10;&#9;Gemfile&#10;&#9;Gemfile.lock&#10;&#9;app/controllers/application_controller.rb&#10;&#9;config/database.yml&#10;&#9;coverage/.last_run.json&#10;&#9;log/development.log&#10;&#9;log/production.log&#10;&#9;log/test.log&#10;">
+      <created>1378834476550</created>
+      <updated>1378834476551</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -1890,7 +1895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tdd_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="77" selection-start="637" selection-end="637" vertical-scroll-proportion="0.6583072">
+        <state line="26" column="49" selection-start="660" selection-end="660" vertical-scroll-proportion="0.84639496">
           <folding />
         </state>
       </provider>
