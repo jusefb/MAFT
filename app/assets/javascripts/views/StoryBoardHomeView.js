@@ -57,7 +57,7 @@ var StoryBoardHomeView = Backbone.View.extend({
 
         //get current model data
         var thisModelId = currentEl.data('objid');
-        var thisModelOrder = currentEl.data('obj_order');
+        var thisModelOrder = currentEl.data('order');
         var model = this.collection.get(thisModelId);
         var thisModelStage = model.get('stage');
 
@@ -66,9 +66,9 @@ var StoryBoardHomeView = Backbone.View.extend({
         var nextElements = currentEl.nextAll();
         var prevEl = $(prevElements[0])
         var nextEl = $(nextElements[0]);
-        var prevOrder = prevEl.length > 0 ? prevEl.data('obj_order') : null;
-        var nextOrder = nextEl.length > 0 ? nextEl.data('obj_order') : null;
-
+        var prevOrder = prevEl.length > 0 ? prevEl.data('order') : null;
+        var nextOrder = nextEl.length > 0 ? nextEl.data('order') : null;
+        debugger
         //perform sorting up
         if (nextOrder > thisModelOrder) {
             this.changeElOrder(model, prevElements, 'down');
@@ -89,6 +89,7 @@ var StoryBoardHomeView = Backbone.View.extend({
         var newOrder = elements.length + 1;
 
         $.each(elements, function (i, el) {
+            debugger
             var newOrder = 0;
             var elId = $(el).data('objid');
             var modelToUpdate = cv.collection.get(elId);
@@ -128,8 +129,9 @@ var StoryBoardHomeView = Backbone.View.extend({
                     var stage = el.data('stage');
                     var modelId = draggableEl.data('objid');
                     var model = cv.collection.get(modelId);
+                    var order = cv.$el.find('#' + stage).find('li.sbo-stage-row').length + 1;
                     model.set({
-                        'obj_order': 1,
+                        'obj_order': order,
                         'stage': stage
                     });
                     model.save({}, {
@@ -139,6 +141,7 @@ var StoryBoardHomeView = Backbone.View.extend({
                             Backbone.history.navigate('', {trigger: true});
                         }
                     });
+
                     return false;
                 }
             }

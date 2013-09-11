@@ -6,7 +6,7 @@ StoryB.init = function(){
     this.projectId = $('#project-id').val();
     this.views = [];
 
-    $(document).on('click','#sb-content a', function(ev){
+    $(document).on('click','#main-content.sbo-content a', function(ev){
         ev.preventDefault();
         var elem = $(this);
         var href = elem.attr('href');

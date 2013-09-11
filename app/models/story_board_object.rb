@@ -27,7 +27,7 @@ class StoryBoardObject < ActiveRecord::Base
         self.stage = 'Done'
       when 'Started'
         self.start_date = Time.now
-        self.stage = 'Backlog'
+        self.stage = 'Backlog' if(self.stage != 'Current')
       when 'Not Started'
         self.start_date = nil
         #set the stage back to backlog if the tsk was marked as done
@@ -39,7 +39,7 @@ class StoryBoardObject < ActiveRecord::Base
     case self.stage
       when 'Current'
         self.marked_as_current_date = Time.now
-      when 'Started'
+      when 'Backlog' || 'Future'
         self.marked_as_current_date = nil
     end
   end
