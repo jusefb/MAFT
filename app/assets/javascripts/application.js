@@ -25,7 +25,6 @@
  = require foundation.min
  = require main
  = require reporting
- = require story_board
  = require tdd
  = require test
  = require user

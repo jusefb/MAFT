@@ -29,11 +29,11 @@ MAFT::Application.routes.draw do
   ####
 
   #Story Board routes
-  match 'story_board/update_stages', :to => 'story_board#update_stages'
-  match 'story_board/reorder', :to => 'story_board#reorder'
-  match 'story_board/index/:id(/*other)', :to => 'story_board#index#id'
-  match 'story_board/get_project_tasks/:id', :to => 'story_board#get_project_tasks#id'
-  post 'story_board/get_form_objects', :to => 'story_board#get_form_objects'
+  match 'story_board/update_stages', to: 'story_board#update_stages'
+  match 'story_board/reorder', to: 'story_board#reorder'
+  match 'story_board/index/:id(/*other)', to: 'story_board#index#id'
+  match 'story_board/get_project_tasks/:id', to: 'story_board#get_project_tasks#id'
+  post 'story_board/get_form_objects', to: 'story_board#get_form_objects'
   resources :story_board
 
   #TDD inof Module routes

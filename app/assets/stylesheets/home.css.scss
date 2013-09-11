@@ -172,6 +172,19 @@ body{
   }
 }
 
+.slideshow-wrapper{
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding: 5px;
+
+  .home-slide{
+    img{
+    min-height: 309px;
+    }
+  }
+}
+
 @media only screen and (max-width: 770px) {
   #main-nav-menu{
     height: 160px;

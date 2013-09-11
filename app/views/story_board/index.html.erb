@@ -1,4 +1,4 @@
-<div id="main-content">
+<div id="sb-content">
 <h1>Story Board for <%=  @project.title %></h1>
 <input type="hidden" id="project-id" value="<%= @project.id %>" />
 <div id="sbo-controls-container">
@@ -28,4 +28,7 @@
       <div id="sbo-form" class="lead">
       </div>
     </div>
+<% end %>
+<% content_for :javascript_section do %>
+    <%= javascript_include_tag "story_board" %>
 <% end %>
