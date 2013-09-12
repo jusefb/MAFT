@@ -48,7 +48,7 @@ MAFT::Application.configure do
 
   # Precompile additional assets (application.js, application.css.scss, and all non-JS/CSS are already added)
   #config.assets.precompile += %w( jqplot/*.js, jqplot/*.scss, story_board.js )
-  config.assets.precompile += ['jqplot/*.js', 'jqplot/*.css', 'story_board.js']
+  config.assets.precompile += ['jqplot/*.js', 'jqplot/*.css', 'story_board.js', 'reporting.js']
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false

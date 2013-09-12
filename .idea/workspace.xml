@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa8a663-17a6-4029-95dd-3a0409d43086" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7ad0a53d-8c1f-4e0e-bc23-075f83936f76" name="744687-46782719 As a user I want to be able to access the story board of the project from the projects page" comment="" />
@@ -9,7 +11,7 @@
     <ignored path="MAFT.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378712186165" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378971189198" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378971202173" ignored="false" />
     <file path="/project_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1369082499265" ignored="false" />
     <file path="/projects.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1374834515193" ignored="false" />
     <file path="/project.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1375387939956" ignored="false" />
@@ -117,7 +119,7 @@
     <file path="/foundation_and_overrides.scss" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378925510995" ignored="false" />
     <file path="/jscoverage.html" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376824164834" ignored="false" />
     <file path="/jsTestDriver.conf" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378824128791" ignored="false" />
-    <file path="/production.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378970684164" ignored="false" />
+    <file path="/production.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1378972033986" ignored="false" />
     <file path="/jasmine-blanket.js" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1376859019316" ignored="false" />
     <file path="/reporting_controller_spec.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377116657521" ignored="false" />
     <file path="/user_roles.rb" changelist="9fa8a663-17a6-4029-95dd-3a0409d43086" time="1377122835687" ignored="false" />
@@ -227,7 +229,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="1" selection-start="1894" selection-end="1972" vertical-scroll-proportion="0.52014655">
+            <state line="50" column="134" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.52014655">
               <folding />
             </state>
           </provider>
@@ -1912,7 +1914,11 @@
       <created>1378971198010</created>
       <updated>1378971198010</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Merge branch 'master' of https://github.com/jusefb/MAFT&#10;&#10;Conflicts:&#10;&#9;.idea/MAFT.iml&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/workspace.xml&#10;&#9;Gemfile&#10;&#9;Gemfile.lock&#10;&#9;app/controllers/application_controller.rb&#10;&#9;config/database.yml&#10;&#9;coverage/.last_run.json&#10;&#9;log/development.log&#10;&#9;log/production.log&#10;&#9;log/test.log&#10;">
+      <created>1378971205356</created>
+      <updated>1378971205357</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -2159,7 +2165,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="1" selection-start="1894" selection-end="1972" vertical-scroll-proportion="0.52014655">
+        <state line="50" column="134" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.52014655">
           <folding />
         </state>
       </provider>
